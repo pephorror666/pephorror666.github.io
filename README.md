@@ -166,7 +166,8 @@
         const DRIVE_FILE_ID = "1OmiF_L21Dugwx55XhCIbWFjU6r91s8nA";
         // URL directa para descarga de archivos CSV en Drive
         //const DEFAULT_CSV_URL = `https://docs.google.com/spreadsheets/d/${DRIVE_FILE_ID}/export?format=csv`;
-        const DEFAULT_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVhJfDZD6TJKW5Vf2AvM-mabsM42c7voy7FJjQCs8edFr4gUXdVhl9-hqJ2FYQ24LKRtKRdu37lToI/pub?output=csv';
+        //const DEFAULT_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQVhJfDZD6TJKW5Vf2AvM-mabsM42c7voy7FJjQCs8edFr4gUXdVhl9-hqJ2FYQ24LKRtKRdu37lToI/pub?output=csv';
+        const DEFAULT_CSV_URL = 'https://docs.google.com/spreadsheets/d/1KM6QaAFo8AYVJQyi8b8IJ6XNAwv24aJ7qmrf8XSUbUs/edit?gid=1525832840#gid=1525832840';
         
         const UTM_ZONE_BY_CA = {
             "01 - Andalucía": 30, "02 - Aragón": 30, "04 - Illes Balears": 31,
