@@ -1,0 +1,1839 @@
+﻿Coordenada UTM X;Coordenada UTM Y;Nivel de Tensión (kV);Comunidad Autónoma;Nombre Subestación;Provincia;Municipio
+535771,67;4074262,07;66;01 - Andalucía;AGUADULC;Almería;Roquetas de Mar
+535771,67;4074262,07;20;01 - Andalucía;AGUADULC;Almería;Roquetas de Mar
+575906,01;4135997,4;66;01 - Andalucía;ALBOX;Almería;Albox
+575906,01;4135997,4;25;01 - Andalucía;ALBOX;Almería;Albox
+503257,52;4091485,03;66;01 - Andalucía;ALCOLEA;Almería;Alcolea
+503257,52;4091485,03;20;01 - Andalucía;ALCOLEA;Almería;Alcolea
+550658,46;4077243,59;132;01 - Andalucía;ANDARAX;Almería;Almería
+550658,46;4077243,59;66;01 - Andalucía;ANDARAX;Almería;Almería
+550658,46;4077243,59;20;01 - Andalucía;ANDARAX;Almería;Almería
+546841,66;4078401,93;66;01 - Andalucía;BELEN;Almería;Almería
+546841,66;4078401,93;20;01 - Andalucía;BELEN;Almería;Almería
+547587,76;4084860,19;132;01 - Andalucía;BENAHADU;Almería;Benahadux
+547587,76;4084860,19;66;01 - Andalucía;BENAHADU;Almería;Benahadux
+547587,76;4084860,19;20;01 - Andalucía;BENAHADU;Almería;Benahadux
+506827,46;4076325,54;66;01 - Andalucía;BERJA;Almería;Berja
+506827,46;4076325,54;20;01 - Andalucía;BERJA;Almería;Berja
+567252,5;4135903,71;66;01 - Andalucía;CANTORIA;Almería;Cantoria
+597120,19;4092843,61;132;01 - Andalucía;CARBONER;Almería;Carboneras
+597120,19;4092843,61;20;01 - Andalucía;CARBONER;Almería;Carboneras
+528430,08;4072234,8;66;01 - Andalucía;COSARIO;Almería;Mojonera, La
+528430,08;4072234,8;20;01 - Andalucía;COSARIO;Almería;Mojonera, La
+521012,47;4064606,76;66;01 - Andalucía;CUMBRES;Almería;Ejido, El
+521012,47;4064606,76;20;01 - Andalucía;CUMBRES;Almería;Ejido, El
+551301,31;4074626,68;66;01 - Andalucía;DESALADO;Almería;Almería
+514561,93;4070051,68;66;01 - Andalucía;EJIDO;Almería;Ejido, El
+514561,93;4070051,68;20;01 - Andalucía;EJIDO;Almería;Ejido, El
+576346,86;4093418,73;132;01 - Andalucía;EMBALSE;Almería;Níjar
+533131,94;4084986,83;66;01 - Andalucía;ENIX;Almería;Enix
+533131,94;4084986,83;20;01 - Andalucía;ENIX;Almería;Enix
+564134,71;4135034,06;66;01 - Andalucía;FINES;Almería;Fines
+564134,71;4135034,06;25;01 - Andalucía;FINES;Almería;Fines
+566883,22;4101577,74;132;01 - Andalucía;GRUPOTEC;Almería;Turrillas
+592238,49;4136499,92;66;01 - Andalucía;H_OVERA;Almería;Huércal-Overa
+592238,49;4136499,92;25;01 - Andalucía;H_OVERA;Almería;Huércal-Overa
+597363,78;4091626,22;132;01 - Andalucía;HIBERICO;Almería;Carboneras
+579790,89;4167682,03;25;01 - Andalucía;LOSVELEZ;Almería;Vélez-Rubio
+573662,52;4096924,77;132;01 - Andalucía;LUCAINEN;Almería;Lucainena de las Torres
+603420,83;4112594,88;132;01 - Andalucía;MOJACAR;Almería;Mojácar
+603420,83;4112594,88;25;01 - Andalucía;MOJACAR;Almería;Mojácar
+550135,84;4079816,3;132;01 - Andalucía;MOLINOS;Almería;Almería
+550135,84;4079816,3;20;01 - Andalucía;MOLINOS;Almería;Almería
+546952,93;4087540,24;132;01 - Andalucía;NARANJOS;Almería;Benahadux
+546952,93;4087540,24;66;01 - Andalucía;NARANJOS;Almería;Benahadux
+546952,93;4087540,24;25;01 - Andalucía;NARANJOS;Almería;Benahadux
+574797,37;4085788,28;132;01 - Andalucía;PIPACES;Almería;Níjar
+574797,37;4085788,28;20;01 - Andalucía;PIPACES;Almería;Níjar
+532097,24;4064551,12;66;01 - Andalucía;PLAYA_SE;Almería;Roquetas de Mar
+532097,24;4064551,12;20;01 - Andalucía;PLAYA_SE;Almería;Roquetas de Mar
+606723,84;4124819,36;66;01 - Andalucía;PORTILLO;Almería;Cuevas del Almanzora
+549665,09;4075455,37;66;01 - Andalucía;S_TOMAS;Almería;Almería
+549665,09;4075455,37;20;01 - Andalucía;S_TOMAS;Almería;Almería
+538374,95;4141234,98;132;01 - Andalucía;SERON;Almería;Serón
+575058,77;4106359,04;132;01 - Andalucía;SORBAS;Almería;Sorbas
+616822,81;4138597,43;132;01 - Andalucía;TERREROS;Almería;Pulpí
+616822,81;4138597,43;25;01 - Andalucía;TERREROS;Almería;Pulpí
+517485,07;4071482,52;66;01 - Andalucía;TOMILLAR;Almería;Ejido, El
+517485,07;4071482,52;20;01 - Andalucía;TOMILLAR;Almería;Ejido, El
+549114,39;4080329,92;66;01 - Andalucía;TORRECAR;Almería;Almería
+549114,39;4080329,92;20;01 - Andalucía;TORRECAR;Almería;Almería
+559674,45;4079523,23;132;01 - Andalucía;TOYO;Almería;Almería
+559674,45;4079523,23;20;01 - Andalucía;TOYO;Almería;Almería
+567199,53;4097882,87;132;01 - Andalucía;TURRILLA;Almería;Turrillas
+598746,22;4123686,37;132;01 - Andalucía;VERA;Almería;Vera
+598746,22;4123686,37;66;01 - Andalucía;VERA;Almería;Vera
+598746,22;4123686,37;25;01 - Andalucía;VERA;Almería;Vera
+609517,66;4124211,58;66;01 - Andalucía;VILLARIC;Almería;Cuevas del Almanzora
+609517,66;4124211,58;25;01 - Andalucía;VILLARIC;Almería;Cuevas del Almanzora
+224460,2;4068472,99;66;01 - Andalucía;ABELLO;Cádiz;Jerez de la Frontera
+223340,42;4065908,25;66;01 - Andalucía;ABIERTAS;Cádiz;Jerez de la Frontera
+223340,42;4065908,25;15;01 - Andalucía;ABIERTAS;Cádiz;Jerez de la Frontera
+224025,81;4069288,82;66;01 - Andalucía;AGROALIM;Cádiz;Jerez de la Frontera
+224025,81;4069288,82;15;01 - Andalucía;AGROALIM;Cádiz;Jerez de la Frontera
+289998,63;4013346,47;66;01 - Andalucía;ALCAIDES;Cádiz;San Roque
+289998,63;4013346,47;20;01 - Andalucía;ALCAIDES;Cádiz;San Roque
+285094,55;4006884,88;66;01 - Andalucía;ALGECIRA;Cádiz;San Roque
+285094,55;4006884,88;15;01 - Andalucía;ALGECIRA;Cádiz;San Roque
+284645,08;4083664,84;66;01 - Andalucía;ALGODONA;Cádiz;Algodonales
+284645,08;4083664,84;20;01 - Andalucía;ALGODONA;Cádiz;Algodonales
+205782,07;4070351,52;66;01 - Andalucía;ALIJAR;Cádiz;Jerez de la Frontera
+247867,49;4070740,81;66;01 - Andalucía;ARCOS;Cádiz;Arcos de la Frontera
+247867,49;4070740,81;15;01 - Andalucía;ARCOS;Cádiz;Arcos de la Frontera
+217652,88;4066024,75;66;01 - Andalucía;AREASUR;Cádiz;Jerez de la Frontera
+217652,88;4066024,75;15;01 - Andalucía;AREASUR;Cádiz;Jerez de la Frontera
+198307,96;4060313,07;66;01 - Andalucía;ARVINA;Cádiz;Rota
+198307,96;4060313,07;15;01 - Andalucía;ARVINA;Cádiz;Rota
+245793,23;4001220,77;66;01 - Andalucía;ATLANTER;Cádiz;Tarifa
+245793,23;4001220,77;20;01 - Andalucía;ATLANTER;Cádiz;Tarifa
+212532,2;4040591,98;66;01 - Andalucía;BAHIASUR;Cádiz;San Fernando
+212532,2;4040591,98;20;01 - Andalucía;BAHIASUR;Cádiz;San Fernando
+239666,01;4060323,72;66;01 - Andalucía;BARCAFLR;Cádiz;Jerez de la Frontera
+239666,01;4060323,72;15;01 - Andalucía;BARCAFLR;Cádiz;Jerez de la Frontera
+282360,75;4007123,9;20;01 - Andalucía;BARRIOS;Cádiz;Barrios, Los
+218161,78;4025998,83;66;01 - Andalucía;BARROSA;Cádiz;Conil de la Frontera
+218161,78;4025998,83;20;01 - Andalucía;BARROSA;Cádiz;Conil de la Frontera
+253456,91;4075238,38;66;01 - Andalucía;BORNOS;Cádiz;Arcos de la Frontera
+253456,91;4075238,38;20;01 - Andalucía;BORNOS;Cádiz;Arcos de la Frontera
+253456,91;4075238,38;15;01 - Andalucía;BORNOS;Cádiz;Arcos de la Frontera
+275191,35;4071234,6;66;01 - Andalucía;BOSQUE;Cádiz;Bosque, El
+275191,35;4071234,6;20;01 - Andalucía;BOSQUE;Cádiz;Bosque, El
+207558,4;4044886,18;132;01 - Andalucía;CADIZ;Cádiz;Cádiz
+279539,31;4010543,81;66;01 - Andalucía;CANUELO;Cádiz;Barrios, Los
+220971,3;4057072,11;66;01 - Andalucía;CARTUJA;Cádiz;Jerez de la Frontera
+220971,3;4057072,11;15;01 - Andalucía;CARTUJA;Cádiz;Jerez de la Frontera
+218886,26;4033918,24;66;01 - Andalucía;CHICLANA;Cádiz;Chiclana de la Frontera
+218886,26;4033918,24;20;01 - Andalucía;CHICLANA;Cádiz;Chiclana de la Frontera
+196651,99;4070539,83;66;01 - Andalucía;CHIPIONA;Cádiz;Chipiona
+196651,99;4070539,83;15;01 - Andalucía;CHIPIONA;Cádiz;Chipiona
+224745,22;4020492,76;66;01 - Andalucía;CONIL;Cádiz;Conil de la Frontera
+224745,22;4020492,76;20;01 - Andalucía;CONIL;Cádiz;Conil de la Frontera
+207373,82;4043327,37;66;01 - Andalucía;CORTADUR;Cádiz;Cádiz
+286458,55;4005703,54;66;01 - Andalucía;CRINAVIS;Cádiz;San Roque
+286458,55;4005703,54;20;01 - Andalucía;CRINAVIS;Cádiz;San Roque
+264861;3990502,46;66;01 - Andalucía;CUBILLO;Cádiz;Tarifa
+264861;3990502,46;20;01 - Andalucía;CUBILLO;Cádiz;Tarifa
+283700,48;4009410,04;66;01 - Andalucía;EASTMAN;Cádiz;San Roque
+220439,66;4061203,29;66;01 - Andalucía;EBRO;Cádiz;Jerez de la Frontera
+278764,57;4001860,01;66;01 - Andalucía;ESTRECHO;Cádiz;Algeciras
+278764,57;4001860,01;15;01 - Andalucía;ESTRECHO;Cádiz;Algeciras
+278275,97;4005660,82;66;01 - Andalucía;FRESNO;Cádiz;Barrios, Los
+278275,97;4005660,82;15;01 - Andalucía;FRESNO;Cádiz;Barrios, Los
+278846,48;3998874,7;66;01 - Andalucía;GETARES;Cádiz;Algeciras
+278846,48;3998874,7;20;01 - Andalucía;GETARES;Cádiz;Algeciras
+278846,48;3998874,7;15;01 - Andalucía;GETARES;Cádiz;Algeciras
+250404,01;4061888,84;66;01 - Andalucía;GUADALCA;Cádiz;Arcos de la Frontera
+250404,01;4061888,84;20;01 - Andalucía;GUADALCA;Cádiz;Arcos de la Frontera
+208288,58;4060755,13;66;01 - Andalucía;HINOJERA;Cádiz;Puerto de Santa María, El
+208288,58;4060755,13;15;01 - Andalucía;HINOJERA;Cádiz;Puerto de Santa María, El
+271042,8;4060295,14;66;01 - Andalucía;HURONES;Cádiz;San José del Valle
+271042,8;4060295,14;15;01 - Andalucía;HURONES;Cádiz;San José del Valle
+281252,67;4000335,77;66;01 - Andalucía;ISLAVERD;Cádiz;Algeciras
+281252,67;4000335,77;15;01 - Andalucía;ISLAVERD;Cádiz;Algeciras
+220941,65;4064531,88;66;01 - Andalucía;JEREZFRO;Cádiz;Jerez de la Frontera
+220941,65;4064531,88;15;01 - Andalucía;JEREZFRO;Cádiz;Jerez de la Frontera
+269088,84;3991684,8;66;01 - Andalucía;KWTARIFA;Cádiz;Tarifa
+289492,79;4015212,93;66;01 - Andalucía;LASMESAS;Cádiz;San Roque
+289492,79;4015212,93;20;01 - Andalucía;LASMESAS;Cádiz;San Roque
+219959,03;4062594,43;66;01 - Andalucía;LOSNEGRO;Cádiz;Jerez de la Frontera
+219959,03;4062594,43;15;01 - Andalucía;LOSNEGRO;Cádiz;Jerez de la Frontera
+232542,6;4061913,01;132;01 - Andalucía;MAJADILL;Cádiz;Jerez de la Frontera
+224770,52;4041579,15;66;01 - Andalucía;MARQUESA;Cádiz;Puerto Real
+210399,56;4045972,25;66;01 - Andalucía;MATAGORD;Cádiz;Puerto Real
+210399,56;4045972,25;20;01 - Andalucía;MATAGORD;Cádiz;Puerto Real
+237714,08;4039800,9;66;01 - Andalucía;MEDINA_S;Cádiz;Medina-Sidonia
+237714,08;4039800,9;15;01 - Andalucía;MEDINA_S;Cádiz;Medina-Sidonia
+278077,77;4004691,22;66;01 - Andalucía;MENACHA;Cádiz;Algeciras
+278077,77;4004691,22;15;01 - Andalucía;MENACHA;Cádiz;Algeciras
+281690,14;4012771,78;66;01 - Andalucía;MERCANCI;Cádiz;San Roque
+281690,14;4012771,78;15;01 - Andalucía;MERCANCI;Cádiz;San Roque
+219690,84;4066994,99;66;01 - Andalucía;MONTEALT;Cádiz;Jerez de la Frontera
+219690,84;4066994,99;15;01 - Andalucía;MONTEALT;Cádiz;Jerez de la Frontera
+228582,58;4066950,31;66;01 - Andalucía;MONTECAS;Cádiz;Jerez de la Frontera
+228582,58;4066950,31;15;01 - Andalucía;MONTECAS;Cádiz;Jerez de la Frontera
+300665,52;4089769,21;66;01 - Andalucía;OLVERA;Cádiz;Olvera
+300665,52;4089769,21;33;01 - Andalucía;OLVERA;Cádiz;Olvera
+283067,21;4009356,18;66;01 - Andalucía;OXIGENO;Cádiz;San Roque
+266893,12;3993945,58;66;01 - Andalucía;PESUR;Cádiz;Tarifa
+283223,76;4014171,94;66;01 - Andalucía;PINARREY;Cádiz;San Roque
+209365,64;4056270,38;66;01 - Andalucía;PLATERO;Cádiz;Puerto de Santa María, El
+209365,64;4056270,38;15;01 - Andalucía;PLATERO;Cádiz;Puerto de Santa María, El
+217400,79;4046092,55;132;01 - Andalucía;PTO_REAL;Cádiz;Puerto Real
+217400,79;4046092,55;66;01 - Andalucía;PTO_REAL;Cádiz;Puerto Real
+217400,79;4046092,55;20;01 - Andalucía;PTO_REAL;Cádiz;Puerto Real
+204986,2;4063405,77;66;01 - Andalucía;PTO_SMAR;Cádiz;Puerto de Santa María, El
+201789,95;4072251,72;66;01 - Andalucía;REMCAUDA;Cádiz;Sanlúcar de Barrameda
+201789,95;4072251,72;15;01 - Andalucía;REMCAUDA;Cádiz;Sanlúcar de Barrameda
+196168,88;4064499,69;66;01 - Andalucía;ROTA;Cádiz;Rota
+196168,88;4064499,69;15;01 - Andalucía;ROTA;Cádiz;Rota
+202343,57;4074319,19;66;01 - Andalucía;S_BARRAM;Cádiz;Sanlúcar de Barrameda
+202343,57;4074319,19;15;01 - Andalucía;S_BARRAM;Cádiz;Sanlúcar de Barrameda
+217118,07;4064246,31;66;01 - Andalucía;S_DOMING;Cádiz;Jerez de la Frontera
+217118,07;4064246,31;15;01 - Andalucía;S_DOMING;Cádiz;Jerez de la Frontera
+214286,18;4041642,74;66;01 - Andalucía;S_FERNAN;Cádiz;San Fernando
+214286,18;4041642,74;20;01 - Andalucía;S_FERNAN;Cádiz;San Fernando
+281537,94;4010173,25;66;01 - Andalucía;S_ROQUE;Cádiz;San Roque
+281537,94;4010173,25;15;01 - Andalucía;S_ROQUE;Cádiz;San Roque
+214786,74;4055490,42;66;01 - Andalucía;SALINAS;Cádiz;Puerto de Santa María, El
+214786,74;4055490,42;15;01 - Andalucía;SALINAS;Cádiz;Puerto de Santa María, El
+292925,08;4019293,81;66;01 - Andalucía;SOTOGRAN;Cádiz;San Roque
+292925,08;4019293,81;20;01 - Andalucía;SOTOGRAN;Cádiz;San Roque
+246485,74;4066493,87;66;01 - Andalucía;TABLELLI;Cádiz;Arcos de la Frontera
+211530,69;4039149,28;66;01 - Andalucía;TIROJANE;Cádiz;San Fernando
+211530,69;4039149,28;20;01 - Andalucía;TIROJANE;Cádiz;San Fernando
+211521,19;4046351,91;66;01 - Andalucía;TROCADER;Cádiz;Puerto Real
+211521,19;4046351,91;20;01 - Andalucía;TROCADER;Cádiz;Puerto Real
+280118,39;4063766,73;66;01 - Andalucía;UBRIQUE;Cádiz;Benaocaz
+280118,39;4063766,73;20;01 - Andalucía;UBRIQUE;Cádiz;Benaocaz
+212068,2;4054083,92;66;01 - Andalucía;VALDELAG;Cádiz;Puerto de Santa María, El
+212068,2;4054083,92;15;01 - Andalucía;VALDELAG;Cádiz;Puerto de Santa María, El
+213065,22;4057595,33;66;01 - Andalucía;VALENCIA;Cádiz;Puerto de Santa María, El
+213065,22;4057595,33;15;01 - Andalucía;VALENCIA;Cádiz;Puerto de Santa María, El
+233043,84;4017255,45;66;01 - Andalucía;VEJER;Cádiz;Vejer de la Frontera
+233043,84;4017255,45;20;01 - Andalucía;VEJER;Cádiz;Vejer de la Frontera
+263154,21;4082162,56;66;01 - Andalucía;VILLMART;Cádiz;Villamartín
+263154,21;4082162,56;20;01 - Andalucía;VILLMART;Cádiz;Villamartín
+263154,21;4082162,56;15;01 - Andalucía;VILLMART;Cádiz;Villamartín
+231569,84;4020934,3;66;01 - Andalucía;ZUMAJOS;Cádiz;Vejer de la Frontera
+373421,56;4208988,68;66;01 - Andalucía;ARENOSO;Córdoba;Montoro
+383797,49;4163847,59;132;01 - Andalucía;BAENA;Córdoba;Baena
+383797,49;4163847,59;25;01 - Andalucía;BAENA;Córdoba;Baena
+359687,61;4198998,88;66;01 - Andalucía;CANSINOS;Córdoba;Córdoba
+359687,61;4198998,88;20;01 - Andalucía;CANSINOS;Córdoba;Córdoba
+384188,08;4237062,42;66;01 - Andalucía;CARDENAS;Córdoba;Cardeña
+330368,18;4172016,76;66;01 - Andalucía;CARLOTA;Córdoba;Carlota, La
+330368,18;4172016,76;15;01 - Andalucía;CARLOTA;Córdoba;Carlota, La
+368209,66;4203059,21;66;01 - Andalucía;CARPIO;Córdoba;Carpio, El
+368209,66;4203059,21;25;01 - Andalucía;CARPIO;Córdoba;Carpio, El
+340591,22;4191622,86;132;01 - Andalucía;CASILLAS;Córdoba;Córdoba
+340591,22;4191622,86;66;01 - Andalucía;CASILLAS;Córdoba;Córdoba
+340591,22;4191622,86;20;01 - Andalucía;CASILLAS;Córdoba;Córdoba
+345418,93;4196433,11;66;01 - Andalucía;CEPANSA;Córdoba;Córdoba
+345418,93;4196433,11;20;01 - Andalucía;CEPANSA;Córdoba;Córdoba
+345132,72;4137353,48;66;01 - Andalucía;CORDBILL;Córdoba;Puente Genil
+345132,72;4137353,48;25;01 - Andalucía;CORDBILL;Córdoba;Puente Genil
+343496,79;4195684,96;66;01 - Andalucía;CRUZJUAR;Córdoba;Córdoba
+343496,79;4195684,96;20;01 - Andalucía;CRUZJUAR;Córdoba;Córdoba
+340210,91;4247023,96;132;01 - Andalucía;DANIEL_T;Córdoba;Pozoblanco
+367737,86;4148134,27;132;01 - Andalucía;EGABRENS;Córdoba;Cabra
+360803,72;4168194,5;132;01 - Andalucía;ESPEJO;Córdoba;Espejo
+360803,72;4168194,5;66;01 - Andalucía;ESPEJO;Córdoba;Espejo
+360803,72;4168194,5;25;01 - Andalucía;ESPEJO;Córdoba;Espejo
+347303,04;4135924,75;132;01 - Andalucía;GENILCAB;Córdoba;Puente Genil
+342192,84;4194684;66;01 - Andalucía;GRANCAPI;Córdoba;Córdoba
+342192,84;4194684;20;01 - Andalucía;GRANCAPI;Córdoba;Córdoba
+313947,39;4262081,22;66;01 - Andalucía;HINOJOSA;Córdoba;Hinojosa del Duque
+313947,39;4262081,22;20;01 - Andalucía;HINOJOSA;Córdoba;Hinojosa del Duque
+340350,82;4196005,49;66;01 - Andalucía;HUERTFIG;Córdoba;Córdoba
+340350,82;4196005,49;20;01 - Andalucía;HUERTFIG;Córdoba;Córdoba
+352842,76;4129007,23;66;01 - Andalucía;JAUJA;Córdoba;Lucena
+352842,76;4129007,23;25;01 - Andalucía;JAUJA;Córdoba;Lucena
+349693,42;4197959,22;132;01 - Andalucía;LANCHA;Córdoba;Córdoba
+349693,42;4197959,22;66;01 - Andalucía;LANCHA;Córdoba;Córdoba
+349693,42;4197959,22;20;01 - Andalucía;LANCHA;Córdoba;Córdoba
+369121,72;4143132,13;132;01 - Andalucía;LUCENA;Córdoba;Lucena
+369121,72;4143132,13;66;01 - Andalucía;LUCENA;Córdoba;Lucena
+369121,72;4143132,13;25;01 - Andalucía;LUCENA;Córdoba;Lucena
+326137,37;4189358,41;66;01 - Andalucía;MOCHOS;Córdoba;Almodóvar del Río
+326137,37;4189358,41;15;01 - Andalucía;MOCHOS;Córdoba;Almodóvar del Río
+351991,22;4163382,55;66;01 - Andalucía;MONTILLA;Córdoba;Montilla
+351991,22;4163382,55;25;01 - Andalucía;MONTILLA;Córdoba;Montilla
+351991,22;4163382,55;15;01 - Andalucía;MONTILLA;Córdoba;Montilla
+305820,92;4184779,65;132;01 - Andalucía;MORATALL;Córdoba;Hornachuelos
+340706,52;4193875,16;66;01 - Andalucía;OUTOKUMP;Córdoba;Córdoba
+369479,51;4202940,05;132;01 - Andalucía;PABELLON;Córdoba;Carpio, El
+298476,74;4179514,64;66;01 - Andalucía;PALMARIO;Córdoba;Hornachuelos
+298476,74;4179514,64;15;01 - Andalucía;PALMARIO;Córdoba;Hornachuelos
+365936,93;4139456,29;66;01 - Andalucía;PALOMAS;Córdoba;Lucena
+365936,93;4139456,29;25;01 - Andalucía;PALOMAS;Córdoba;Lucena
+339482,64;4146576,25;132;01 - Andalucía;PATAMULO;Córdoba;Puente Genil
+300943,12;4240956,31;66;01 - Andalucía;PENARROY;Córdoba;Peñarroya-Pueblonuevo
+300943,12;4240956,31;20;01 - Andalucía;PENARROY;Córdoba;Peñarroya-Pueblonuevo
+300943,12;4240956,31;15;01 - Andalucía;PENARROY;Córdoba;Peñarroya-Pueblonuevo
+340907,27;4194780,15;66;01 - Andalucía;PONIENTE;Córdoba;Córdoba
+340907,27;4194780,15;20;01 - Andalucía;PONIENTE;Córdoba;Córdoba
+315142,71;4186580,16;132;01 - Andalucía;POSADAS;Córdoba;Posadas
+315142,71;4186580,16;66;01 - Andalucía;POSADAS;Córdoba;Posadas
+315142,71;4186580,16;15;01 - Andalucía;POSADAS;Córdoba;Posadas
+394322,74;4143587,4;66;01 - Andalucía;PRIEGO;Córdoba;Priego de Córdoba
+394322,74;4143587,4;25;01 - Andalucía;PRIEGO;Córdoba;Priego de Córdoba
+349691,22;4146992,34;66;01 - Andalucía;PROCERAN;Córdoba;Aguilar de la Frontera
+349691,22;4146992,34;15;01 - Andalucía;PROCERAN;Córdoba;Aguilar de la Frontera
+330615,15;4219872,78;132;01 - Andalucía;PTE_NUEV;Córdoba;Espiel
+330615,15;4219872,78;66;01 - Andalucía;PTE_NUEV;Córdoba;Espiel
+330615,15;4219872,78;20;01 - Andalucía;PTE_NUEV;Córdoba;Espiel
+311442,64;4186057,4;132;01 - Andalucía;RIVERO;Córdoba;Posadas
+345686,55;4193981,44;66;01 - Andalucía;SANTUARI;Córdoba;Córdoba
+345686,55;4193981,44;20;01 - Andalucía;SANTUARI;Córdoba;Córdoba
+325102,93;4248888,18;66;01 - Andalucía;SOLDADO;Córdoba;Villanueva del Duque
+325102,93;4248888,18;20;01 - Andalucía;SOLDADO;Córdoba;Villanueva del Duque
+356902,46;4202148,5;66;01 - Andalucía;SRAFAELN;Córdoba;Córdoba
+343204,99;4191181,79;66;01 - Andalucía;TORRECIL;Córdoba;Córdoba
+343204,99;4191181,79;20;01 - Andalucía;TORRECIL;Córdoba;Córdoba
+360408,97;4122255,92;66;01 - Andalucía;VETEJAR;Córdoba;Palenciana
+360408,97;4122255,92;25;01 - Andalucía;VETEJAR;Córdoba;Palenciana
+384740,78;4205409,53;66;01 - Andalucía;VILLARIO;Córdoba;Villa del Río
+384740,78;4205409,53;25;01 - Andalucía;VILLARIO;Córdoba;Villa del Río
+359519,91;4202123,53;66;01 - Andalucía;VILLFRAN;Córdoba;Villafranca de Córdoba
+331733,93;4190927,77;66;01 - Andalucía;VIRRUBIA;Córdoba;Córdoba
+331733,93;4190927,77;20;01 - Andalucía;VIRRUBIA;Córdoba;Córdoba
+331733,93;4190927,77;15;01 - Andalucía;VIRRUBIA;Córdoba;Córdoba
+357096,52;4243421,74;66;01 - Andalucía;VVACORDO;Córdoba;Villanueva de Córdoba
+357096,52;4243421,74;20;01 - Andalucía;VVACORDO;Córdoba;Villanueva de Córdoba
+492078,67;4131615,81;66;01 - Andalucía;ACCITANA;Granada;Guadix
+492078,67;4131615,81;20;01 - Andalucía;ACCITANA;Granada;Guadix
+493947,67;4119509,3;66;01 - Andalucía;ALDEIRE;Granada;Aldeire
+493947,67;4119509,3;20;01 - Andalucía;ALDEIRE;Granada;Aldeire
+411800,18;4095185,28;66;01 - Andalucía;ALHAMA;Granada;Alhama de Granada
+411800,18;4095185,28;20;01 - Andalucía;ALHAMA;Granada;Alhama de Granada
+438159,01;4068870,49;66;01 - Andalucía;ALMUNECA;Granada;Almuñécar
+438159,01;4068870,49;20;01 - Andalucía;ALMUNECA;Granada;Almuñécar
+438138,13;4120077,49;66;01 - Andalucía;ATARFE;Granada;Atarfe
+438138,13;4120077,49;20;01 - Andalucía;ATARFE;Granada;Atarfe
+521328,06;4149809,36;132;01 - Andalucía;BAZA;Granada;Baza
+521328,06;4149809,36;66;01 - Andalucía;BAZA;Granada;Baza
+521328,06;4149809,36;20;01 - Andalucía;BAZA;Granada;Baza
+447808,71;4113657,81;66;01 - Andalucía;BOMBA;Granada;Granada
+447808,71;4113657,81;20;01 - Andalucía;BOMBA;Granada;Granada
+444896,45;4114597;66;01 - Andalucía;CAMINORO;Granada;Granada
+444896,45;4114597;20;01 - Andalucía;CAMINORO;Granada;Granada
+445981,61;4111132,07;66;01 - Andalucía;CAMPUS;Granada;Armilla
+445981,61;4111132,07;20;01 - Andalucía;CAMPUS;Granada;Armilla
+457041,64;4112714,62;20;01 - Andalucía;CANALES;Granada;Pinos Genil
+435606,03;4124844,99;132;01 - Andalucía;CAPARACE;Granada;Atarfe
+451549,1;4065161,3;66;01 - Andalucía;CELULOSA;Granada;Motril
+451549,1;4065161,3;20;01 - Andalucía;CELULOSA;Granada;Motril
+467138,92;4085266,76;66;01 - Andalucía;CH.DUQUE;Granada;Carataunas
+462976,52;4066109,53;66;01 - Andalucía;CONJURO;Granada;Gualchos
+477094,02;4131556,98;66;01 - Andalucía;DARRO;Granada;Darro
+477094,02;4131556,98;20;01 - Andalucía;DARRO;Granada;Darro
+450518,48;4095960,98;66;01 - Andalucía;DURCAL;Granada;Dúrcal
+450518,48;4095960,98;20;01 - Andalucía;DURCAL;Granada;Dúrcal
+448858,17;4116820,49;132;01 - Andalucía;FARGUE;Granada;Granada
+448858,17;4116820,49;66;01 - Andalucía;FARGUE;Granada;Granada
+448858,17;4116820,49;20;01 - Andalucía;FARGUE;Granada;Granada
+440460,57;4111293,26;66;01 - Andalucía;GABIAS;Granada;Gabias, Las
+440460,57;4111293,26;20;01 - Andalucía;GABIAS;Granada;Gabias, Las
+443573,99;4114808,57;66;01 - Andalucía;GRELVA;Granada;Granada
+488493,11;4129117,13;66;01 - Andalucía;GUADIX;Granada;Guadix
+488493,11;4129117,13;20;01 - Andalucía;GUADIX;Granada;Guadix
+466311,74;4065924,65;66;01 - Andalucía;GUALCHOS;Granada;Gualchos
+466311,74;4065924,65;20;01 - Andalucía;GUALCHOS;Granada;Gualchos
+540214,03;4183486,89;66;01 - Andalucía;HUESCAR;Granada;Huéscar
+540214,03;4183486,89;20;01 - Andalucía;HUESCAR;Granada;Huéscar
+453842,56;4077308,78;66;01 - Andalucía;IZBOR;Granada;Vélez de Benaudalla
+452890,24;4137239,79;66;01 - Andalucía;IZNALLOZ;Granada;Iznalloz
+452890,24;4137239,79;20;01 - Andalucía;IZNALLOZ;Granada;Iznalloz
+514693,34;4159510,98;132;01 - Andalucía;JABALCON;Granada;Zújar
+514693,34;4159510,98;20;01 - Andalucía;JABALCON;Granada;Zújar
+442556,7;4121289,8;66;01 - Andalucía;JUNCARIL;Granada;Albolote
+442556,7;4121289,8;20;01 - Andalucía;JUNCARIL;Granada;Albolote
+450801,65;4090853,15;66;01 - Andalucía;LECRIN;Granada;Nigüelas
+395755,05;4115741,05;132;01 - Andalucía;LOJA;Granada;Loja
+395755,05;4115741,05;66;01 - Andalucía;LOJA;Granada;Loja
+395755,05;4115741,05;20;01 - Andalucía;LOJA;Granada;Loja
+451618,89;4065303,91;132;01 - Andalucía;MOTRIL;Granada;Motril
+451618,89;4065303,91;66;01 - Andalucía;MOTRIL;Granada;Motril
+462476,32;4083290,25;132;01 - Andalucía;ORGIVA;Granada;Órgiva
+462476,32;4083290,25;66;01 - Andalucía;ORGIVA;Granada;Órgiva
+462476,32;4083290,25;20;01 - Andalucía;ORGIVA;Granada;Órgiva
+444977,83;4104605,29;66;01 - Andalucía;OTURA;Granada;Villa de Otura
+444977,83;4104605,29;20;01 - Andalucía;OTURA;Granada;Villa de Otura
+467732,75;4088469,66;66;01 - Andalucía;PAMPANEI;Granada;Pampaneira
+467732,75;4088469,66;20;01 - Andalucía;PAMPANEI;Granada;Pampaneira
+409807,27;4121222,07;132;01 - Andalucía;PETRA;Granada;Villanueva Mesía
+409807,27;4121222,07;20;01 - Andalucía;PETRA;Granada;Villanueva Mesía
+479233,67;4150743,44;66;01 - Andalucía;PMARTINE;Granada;Pedro Martínez
+479233,67;4150743,44;20;01 - Andalucía;PMARTINE;Granada;Pedro Martínez
+464323,34;4105430,74;66;01 - Andalucía;PRADOLLA;Granada;Monachil
+464323,34;4105430,74;20;01 - Andalucía;PRADOLLA;Granada;Monachil
+445841,11;4119120,93;66;01 - Andalucía;PULIANAS;Granada;Pulianas
+445841,11;4119120,93;20;01 - Andalucía;PULIANAS;Granada;Pulianas
+446844,26;4115639,95;66;01 - Andalucía;S_ANTONI;Granada;Granada
+446844,26;4115639,95;20;01 - Andalucía;S_ANTONI;Granada;Granada
+450668,51;4066802,08;66;01 - Andalucía;S_ISABEL;Granada;Motril
+450668,51;4066802,08;20;01 - Andalucía;S_ISABEL;Granada;Motril
+434524,5;4115495,85;66;01 - Andalucía;SANTA_FE;Granada;Santa Fe
+434524,5;4115495,85;20;01 - Andalucía;SANTA_FE;Granada;Santa Fe
+432693,59;4122401,98;66;01 - Andalucía;SIERRASU;Granada;Pinos Puente
+432693,59;4122401,98;20;01 - Andalucía;SIERRASU;Granada;Pinos Puente
+453820,96;4085898,45;66;01 - Andalucía;TABLATE;Granada;Pinar, El
+453820,96;4085898,45;20;01 - Andalucía;TABLATE;Granada;Pinar, El
+438667,61;4094141,85;132;01 - Andalucía;VALCAIRE;Granada;Padul
+447332,88;4111010,47;66;01 - Andalucía;ZAIDIN;Granada;Granada
+447332,88;4111010,47;20;01 - Andalucía;ZAIDIN;Granada;Granada
+185786,01;4131012,64;66;01 - Andalucía;ALMONTE;Huelva;Almonte
+185786,01;4131012,64;15;01 - Andalucía;ALMONTE;Huelva;Almonte
+158053,15;4136488,7;66;01 - Andalucía;ALQUERIA;Huelva;Huelva
+158053,15;4136488,7;15;01 - Andalucía;ALQUERIA;Huelva;Huelva
+111296,93;4128222;66;01 - Andalucía;AYAMONTE;Huelva;Ayamonte
+111296,93;4128222;15;01 - Andalucía;AYAMONTE;Huelva;Ayamonte
+142516,41;4125716,03;66;01 - Andalucía;BOTA;Huelva;Punta Umbría
+142516,41;4125716,03;15;01 - Andalucía;BOTA;Huelva;Punta Umbría
+158182,29;4173966,91;66;01 - Andalucía;CALANAS;Huelva;Calañas
+158182,29;4173966,91;15;01 - Andalucía;CALANAS;Huelva;Calañas
+135584,76;4136102,08;66;01 - Andalucía;CARTAYA;Huelva;Cartaya
+135584,76;4136102,08;15;01 - Andalucía;CARTAYA;Huelva;Cartaya
+149967,72;4126180,4;50;01 - Andalucía;COLON;Huelva;Huelva
+149967,72;4126180,4;15;01 - Andalucía;COLON;Huelva;Huelva
+127041,8;4137252,2;66;01 - Andalucía;COSTALUZ;Huelva;Lepe
+184539,39;4180936,6;132;01 - Andalucía;DEHESA;Huelva;Minas de Riotinto
+184539,39;4180936,6;66;01 - Andalucía;DEHESA;Huelva;Minas de Riotinto
+184539,39;4180936,6;15;01 - Andalucía;DEHESA;Huelva;Minas de Riotinto
+160713,73;4134657,95;66;01 - Andalucía;GALARIN;Huelva;Moguer
+160713,73;4134657,95;15;01 - Andalucía;GALARIN;Huelva;Moguer
+148836,57;4143678,56;66;01 - Andalucía;GIBRLEON;Huelva;Gibraleón
+148836,57;4143678,56;15;01 - Andalucía;GIBRLEON;Huelva;Gibraleón
+105681,74;4163573,27;132;01 - Andalucía;GRANADO;Huelva;Granado, El
+118125,28;4131668,48;66;01 - Andalucía;ISLA_CRI;Huelva;Isla Cristina
+118125,28;4131668,48;15;01 - Andalucía;ISLA_CRI;Huelva;Isla Cristina
+126786,58;4131054,71;66;01 - Andalucía;LEPE;Huelva;Lepe
+126786,58;4131054,71;15;01 - Andalucía;LEPE;Huelva;Lepe
+127310,33;4137810,44;66;01 - Andalucía;MACHOS;Huelva;Lepe
+183068,32;4102257,85;66;01 - Andalucía;MATALASC;Huelva;Almonte
+183068,32;4102257,85;15;01 - Andalucía;MATALASC;Huelva;Almonte
+161265,09;4117361,39;66;01 - Andalucía;MAZAGON;Huelva;Moguer
+161265,09;4117361,39;15;01 - Andalucía;MAZAGON;Huelva;Moguer
+158454,42;4131364,44;66;01 - Andalucía;MOGUER;Huelva;Moguer
+158454,42;4131364,44;15;01 - Andalucía;MOGUER;Huelva;Moguer
+189463,17;4198303,91;66;01 - Andalucía;MOLEONA;Huelva;Aracena
+189463,17;4198303,91;15;01 - Andalucía;MOLEONA;Huelva;Aracena
+146368,49;4134532,58;66;01 - Andalucía;N_CORRAL;Huelva;Aljaraque
+146368,49;4134532,58;15;01 - Andalucía;N_CORRAL;Huelva;Aljaraque
+108750,08;4131296,42;66;01 - Andalucía;NENERNOV;Huelva;Ayamonte
+175184,29;4140882,4;66;01 - Andalucía;NIEBLA;Huelva;Niebla
+175184,29;4140882,4;15;01 - Andalucía;NIEBLA;Huelva;Niebla
+150634,16;4137775,36;66;01 - Andalucía;ODIEL;Huelva;Huelva
+152052,15;4135385,12;66;01 - Andalucía;ONUBA;Huelva;Huelva
+152052,15;4135385,12;20;01 - Andalucía;ONUBA;Huelva;Huelva
+185612,63;4142982,33;66;01 - Andalucía;PALMACON;Huelva;Palma del Condado, La
+185612,63;4142982,33;15;01 - Andalucía;PALMACON;Huelva;Palma del Condado, La
+205353,95;4205900,43;66;01 - Andalucía;PRESUR;Huelva;Cala
+108767,75;4132550,58;66;01 - Andalucía;PTE_ESUR;Huelva;Ayamonte
+108767,75;4132550,58;15;01 - Andalucía;PTE_ESUR;Huelva;Ayamonte
+168209,62;4204647,54;66;01 - Andalucía;REPILADO;Huelva;Jabugo
+168209,62;4204647,54;15;01 - Andalucía;REPILADO;Huelva;Jabugo
+189701,08;4116588,25;66;01 - Andalucía;ROCIO;Huelva;Almonte
+189701,08;4116588,25;15;01 - Andalucía;ROCIO;Huelva;Almonte
+152488,32;4131756;66;01 - Andalucía;ROMERALE;Huelva;Huelva
+152488,32;4131756;15;01 - Andalucía;ROMERALE;Huelva;Huelva
+158210,52;4136265,15;66;01 - Andalucía;S_JUAN_P;Huelva;Huelva
+158210,52;4136265,15;15;01 - Andalucía;S_JUAN_P;Huelva;Huelva
+138197,09;4168821,18;66;01 - Andalucía;THARSIS;Huelva;Alosno
+138197,09;4168821,18;15;01 - Andalucía;THARSIS;Huelva;Alosno
+150020,21;4130021,31;66;01 - Andalucía;TITAN;Huelva;Huelva
+150020,21;4130021,31;15;01 - Andalucía;TITAN;Huelva;Huelva
+153459,94;4123195,89;66;01 - Andalucía;TORREARE;Huelva;Palos de la Frontera
+153459,94;4123195,89;20;01 - Andalucía;TORREARE;Huelva;Palos de la Frontera
+153459,94;4123195,89;15;01 - Andalucía;TORREARE;Huelva;Palos de la Frontera
+155164,04;4145559,77;66;01 - Andalucía;V_CARMEN;Huelva;Gibraleón
+417159,58;4145500,48;66;01 - Andalucía;ALC_REAL;Jaén;Alcalá la Real
+417159,58;4145500,48;20;01 - Andalucía;ALC_REAL;Jaén;Alcalá la Real
+404450,1;4159184,62;132;01 - Andalucía;ALCAUDET;Jaén;Alcaudete
+404450,1;4159184,62;25;01 - Andalucía;ALCAUDET;Jaén;Alcaudete
+412513,72;4211073,22;132;01 - Andalucía;ANDUJAR;Jaén;Andújar
+412513,72;4211073,22;66;01 - Andalucía;ANDUJAR;Jaén;Andújar
+412513,72;4211073,22;25;01 - Andalucía;ANDUJAR;Jaén;Andújar
+432204,17;4217739,17;66;01 - Andalucía;BAILEN;Jaén;Bailén
+432204,17;4217739,17;25;01 - Andalucía;BAILEN;Jaén;Bailén
+431165,8;4180628,18;132;01 - Andalucía;CALVARIO;Jaén;Jaén
+431165,8;4180628,18;66;01 - Andalucía;CALVARIO;Jaén;Jaén
+431165,8;4180628,18;20;01 - Andalucía;CALVARIO;Jaén;Jaén
+443430,24;4155829,63;66;01 - Andalucía;CAMPILLO;Jaén;Campillo de Arenas
+443430,24;4155829,63;20;01 - Andalucía;CAMPILLO;Jaén;Campillo de Arenas
+447164,51;4236880,54;66;01 - Andalucía;CAROLINA;Jaén;Carolina, La
+447164,51;4236880,54;25;01 - Andalucía;CAROLINA;Jaén;Carolina, La
+425179,08;4214266,13;66;01 - Andalucía;CUBANA;Jaén;Villanueva de la Reina
+472539,28;4197505,95;132;01 - Andalucía;D_ALDONZ;Jaén;Úbeda
+472539,28;4197505,95;25;01 - Andalucía;D_ALDONZ;Jaén;Úbeda
+412983,8;4224572,55;66;01 - Andalucía;ENCINARE;Jaén;Andújar
+412983,8;4224572,55;20;01 - Andalucía;ENCINARE;Jaén;Andújar
+430826,11;4199938,44;132;01 - Andalucía;GEOLIT;Jaén;Mengíbar
+430826,11;4199938,44;20;01 - Andalucía;GEOLIT;Jaén;Mengíbar
+437226,16;4223089,75;132;01 - Andalucía;GUADIEL;Jaén;Guarromán
+437226,16;4223089,75;25;01 - Andalucía;GUADIEL;Jaén;Guarromán
+507471,61;4246090,17;132;01 - Andalucía;GUADMENA;Jaén;Segura de la Sierra
+507471,61;4246090,17;25;01 - Andalucía;GUADMENA;Jaén;Segura de la Sierra
+407264,46;4209319,79;66;01 - Andalucía;KOIPE;Jaén;Andújar
+432581,09;4181619,09;66;01 - Andalucía;LAGUNILL;Jaén;Jaén
+432581,09;4181619,09;20;01 - Andalucía;LAGUNILL;Jaén;Jaén
+446332,4;4218023,78;132;01 - Andalucía;LINAREJO;Jaén;Linares
+446332,4;4218023,78;25;01 - Andalucía;LINAREJO;Jaén;Linares
+446332,4;4218023,78;20;01 - Andalucía;LINAREJO;Jaén;Linares
+443577,88;4215066,35;132;01 - Andalucía;LINARES;Jaén;Linares
+443577,88;4215066,35;25;01 - Andalucía;LINARES;Jaén;Linares
+443577,88;4215066,35;20;01 - Andalucía;LINARES;Jaén;Linares
+448135,1;4211672,06;132;01 - Andalucía;LITRA;Jaén;Linares
+448135,1;4211672,06;25;01 - Andalucía;LITRA;Jaén;Linares
+445097,53;4181556,86;66;01 - Andalucía;MANCHARE;Jaén;Mancha Real
+445097,53;4181556,86;20;01 - Andalucía;MANCHARE;Jaén;Mancha Real
+395812,63;4213095,9;66;01 - Andalucía;MARMOLEJ;Jaén;Marmolejo
+414010,07;4176077,46;132;01 - Andalucía;MARTOS;Jaén;Martos
+414010,07;4176077,46;25;01 - Andalucía;MARTOS;Jaén;Martos
+422173,44;4144871,93;66;01 - Andalucía;MAZUELOS;Jaén;Alcalá la Real
+422173,44;4144871,93;20;01 - Andalucía;MAZUELOS;Jaén;Alcalá la Real
+430448,57;4204474,5;132;01 - Andalucía;MENGIBAR;Jaén;Mengíbar
+430448,57;4204474,5;25;01 - Andalucía;MENGIBAR;Jaén;Mengíbar
+429459,97;4183835,16;132;01 - Andalucía;OLIVARES;Jaén;Jaén
+429459,97;4183835,16;66;01 - Andalucía;OLIVARES;Jaén;Jaén
+429459,97;4183835,16;20;01 - Andalucía;OLIVARES;Jaén;Jaén
+463722,87;4195963,54;132;01 - Andalucía;PEDROMAR;Jaén;Baeza
+463722,87;4195963,54;25;01 - Andalucía;PEDROMAR;Jaén;Baeza
+408604,54;4211143,7;66;01 - Andalucía;PTA_MADR;Jaén;Andújar
+408604,54;4211143,7;20;01 - Andalucía;PTA_MADR;Jaén;Andújar
+453363,79;4199045,7;132;01 - Andalucía;PTE_OBIS;Jaén;Baeza
+453363,79;4199045,7;25;01 - Andalucía;PTE_OBIS;Jaén;Baeza
+512904,39;4245872,15;132;01 - Andalucía;PUENTE_G;Jaén;Puente de Génave
+512904,39;4245872,15;25;01 - Andalucía;PUENTE_G;Jaén;Puente de Génave
+504172,34;4171845,23;132;01 - Andalucía;PZ_ALCON;Jaén;Pozo Alcón
+504172,34;4171845,23;20;01 - Andalucía;PZ_ALCON;Jaén;Pozo Alcón
+492451,22;4190635,38;132;01 - Andalucía;QUESADA;Jaén;Quesada
+492451,22;4190635,38;20;01 - Andalucía;QUESADA;Jaén;Quesada
+528326,59;4240974,28;132;01 - Andalucía;SIERRAS;Jaén;Orcera
+528326,59;4240974,28;25;01 - Andalucía;SIERRAS;Jaén;Orcera
+448162,52;4212895,15;132;01 - Andalucía;TRADEMA;Jaén;Linares
+517779,46;4225227,36;132;01 - Andalucía;TRANCO;Jaén;Villanueva del Arzobispo
+517779,46;4225227,36;25;01 - Andalucía;TRANCO;Jaén;Villanueva del Arzobispo
+465770,58;4208473,23;132;01 - Andalucía;UBEDA;Jaén;Úbeda
+465770,58;4208473,23;25;01 - Andalucía;UBEDA;Jaén;Úbeda
+430735,21;4185370,18;132;01 - Andalucía;V_COSTAL;Jaén;Jaén
+430735,21;4185370,18;20;01 - Andalucía;V_COSTAL;Jaén;Jaén
+418651,29;4180071,23;132;01 - Andalucía;VALDIVIE;Jaén;Torredonjimeno
+418651,29;4180071,23;25;01 - Andalucía;VALDIVIE;Jaén;Torredonjimeno
+430676,8;4181339,69;66;01 - Andalucía;VICTORIA;Jaén;Jaén
+430676,8;4181339,69;20;01 - Andalucía;VICTORIA;Jaén;Jaén
+454508,13;4230191,33;66;01 - Andalucía;VILCHES;Jaén;Vilches
+454508,13;4230191,33;25;01 - Andalucía;VILCHES;Jaén;Vilches
+500064,18;4223623,49;132;01 - Andalucía;VVAARZOB;Jaén;Villanueva del Arzobispo
+500064,18;4223623,49;25;01 - Andalucía;VVAARZOB;Jaén;Villanueva del Arzobispo
+346450,28;4085273,83;66;01 - Andalucía;ABDALAJI;Málaga;Álora
+370600,43;4115265,83;66;01 - Andalucía;ALGAIDA;Málaga;Villanueva de Algaidas
+370600,43;4115265,83;20;01 - Andalucía;ALGAIDA;Málaga;Villanueva de Algaidas
+359235,63;4057869,8;66;01 - Andalucía;ALHAURIN;Málaga;Alhaurín de la Torre
+359235,63;4057869,8;20;01 - Andalucía;ALHAURIN;Málaga;Alhaurín de la Torre
+361002,69;4101804,4;66;01 - Andalucía;ANTEQUER;Málaga;Antequera
+361002,69;4101804,4;20;01 - Andalucía;ANTEQUER;Málaga;Antequera
+371904,18;4105511,59;132;01 - Andalucía;ARCHIDON;Málaga;Archidona
+371904,18;4105511,59;66;01 - Andalucía;ARCHIDON;Málaga;Archidona
+371904,18;4105511,59;20;01 - Andalucía;ARCHIDON;Málaga;Archidona
+400836,87;4067769,02;66;01 - Andalucía;AXARQUIA;Málaga;Vélez-Málaga
+400836,87;4067769,02;20;01 - Andalucía;AXARQUIA;Málaga;Vélez-Málaga
+316589,81;4043003,5;66;01 - Andalucía;BENAHAVI;Málaga;Benahavís
+360286,93;4052282,28;66;01 - Andalucía;BENALMAD;Málaga;Benalmádena
+360286,93;4052282,28;20;01 - Andalucía;BENALMAD;Málaga;Benalmádena
+345781,76;4099773,32;66;01 - Andalucía;BOBADILL;Málaga;Antequera
+287127,45;4046336,15;66;01 - Andalucía;BUITRERA;Málaga;Cortes de la Frontera
+287127,45;4046336,15;20;01 - Andalucía;BUITRERA;Málaga;Cortes de la Frontera
+362159,02;4066614,22;66;01 - Andalucía;CAMPANIL;Málaga;Málaga
+362159,02;4066614,22;20;01 - Andalucía;CAMPANIL;Málaga;Málaga
+300919,7;4031225,58;66;01 - Andalucía;CASARES;Málaga;Casares
+300919,7;4031225,58;20;01 - Andalucía;CASARES;Málaga;Casares
+373361,56;4084869,28;132;01 - Andalucía;CBERMEJA;Málaga;Casabermeja
+373361,56;4084869,28;20;01 - Andalucía;CBERMEJA;Málaga;Casabermeja
+381094,18;4064741,53;66;01 - Andalucía;CEMCALA;Málaga;Málaga
+372794,35;4065292,79;66;01 - Andalucía;CENTRO;Málaga;Málaga
+372794,35;4065292,79;20;01 - Andalucía;CENTRO;Málaga;Málaga
+372777,02;4066649,19;66;01 - Andalucía;CIUDAD_J;Málaga;Málaga
+372777,02;4066649,19;20;01 - Andalucía;CIUDAD_J;Málaga;Málaga
+366924,87;4057044,18;66;01 - Andalucía;CIZANA;Málaga;Málaga
+366924,87;4057044,18;20;01 - Andalucía;CIZANA;Málaga;Málaga
+348289,47;4041418,71;66;01 - Andalucía;CJOCOLOR;Málaga;Mijas
+348289,47;4041418,71;20;01 - Andalucía;CJOCOLOR;Málaga;Mijas
+284567,23;4041598,87;66;01 - Andalucía;CORCHADO;Málaga;Gaucín
+284567,23;4041598,87;15;01 - Andalucía;CORCHADO;Málaga;Gaucín
+333502,95;4043569,08;66;01 - Andalucía;COSTASOL;Málaga;Marbella
+333502,95;4043569,08;20;01 - Andalucía;COSTASOL;Málaga;Marbella
+325640,65;4042537,48;66;01 - Andalucía;DECOSOL;Málaga;Marbella
+325640,65;4042537,48;20;01 - Andalucía;DECOSOL;Málaga;Marbella
+341521,34;4040733,48;66;01 - Andalucía;ELVIRIA;Málaga;Marbella
+341521,34;4040733,48;20;01 - Andalucía;ELVIRIA;Málaga;Marbella
+305588,45;4033520,78;66;01 - Andalucía;ESTEPONA;Málaga;Estepona
+305588,45;4033520,78;20;01 - Andalucía;ESTEPONA;Málaga;Estepona
+354196,16;4046232,09;66;01 - Andalucía;FUENGIRO;Málaga;Fuengirola
+354196,16;4046232,09;20;01 - Andalucía;FUENGIRO;Málaga;Fuengirola
+340138,84;4089605,67;66;01 - Andalucía;GUADALTE;Málaga;Campillos
+348297,2;4109523,18;66;01 - Andalucía;HUMILLAD;Málaga;Fuente de Piedra
+348297,2;4109523,18;25;01 - Andalucía;HUMILLAD;Málaga;Fuente de Piedra
+377023,53;4126225,41;132;01 - Andalucía;IZNAJAR;Málaga;Cuevas de San Marcos
+317575,45;4040632,29;66;01 - Andalucía;JARALILL;Málaga;Benahavís
+317575,45;4040632,29;20;01 - Andalucía;JARALILL;Málaga;Benahavís
+364970,99;4054865,45;66;01 - Andalucía;MANANTIA;Málaga;Torremolinos
+364970,99;4054865,45;20;01 - Andalucía;MANANTIA;Málaga;Torremolinos
+296465,16;4024681,7;66;01 - Andalucía;MANILVA;Málaga;Manilva
+296465,16;4024681,7;20;01 - Andalucía;MANILVA;Málaga;Manilva
+330400,1;4043064,51;66;01 - Andalucía;MARBELLA;Málaga;Marbella
+330400,1;4043064,51;20;01 - Andalucía;MARBELLA;Málaga;Marbella
+363556,35;4053021,53;66;01 - Andalucía;MARYSOL;Málaga;Torremolinos
+363556,35;4053021,53;20;01 - Andalucía;MARYSOL;Málaga;Torremolinos
+353060,69;4043798,2;66;01 - Andalucía;MIJAS;Málaga;Mijas
+353060,69;4043798,2;20;01 - Andalucía;MIJAS;Málaga;Mijas
+378623,38;4065512,9;66;01 - Andalucía;MIRAFLOR;Málaga;Málaga
+378623,38;4065512,9;20;01 - Andalucía;MIRAFLOR;Málaga;Málaga
+351862,54;4108661,41;66;01 - Andalucía;MOLLINA;Málaga;Mollina
+351862,54;4108661,41;20;01 - Andalucía;MOLLINA;Málaga;Mollina
+376012,35;4067537,91;66;01 - Andalucía;MONTES;Málaga;Málaga
+376012,35;4067537,91;20;01 - Andalucía;MONTES;Málaga;Málaga
+421848,2;4069083,4;132;01 - Andalucía;NERJA;Málaga;Nerja
+421848,2;4069083,4;66;01 - Andalucía;NERJA;Málaga;Nerja
+421848,2;4069083,4;20;01 - Andalucía;NERJA;Málaga;Nerja
+323548;4041031,67;66;01 - Andalucía;NUEVANDA;Málaga;Marbella
+323548;4041031,67;20;01 - Andalucía;NUEVANDA;Málaga;Marbella
+342220,74;4086907,51;66;01 - Andalucía;NUEVCHOR;Málaga;Álora
+309034,81;4068931,53;66;01 - Andalucía;NUEVROND;Málaga;Ronda
+309034,81;4068931,53;20;01 - Andalucía;NUEVROND;Málaga;Ronda
+315272,07;4037471,78;66;01 - Andalucía;PARAISO;Málaga;Estepona
+315272,07;4037471,78;20;01 - Andalucía;PARAISO;Málaga;Estepona
+346753,36;4080835,16;66;01 - Andalucía;PAREDONE;Málaga;Álora
+346753,36;4080835,16;20;01 - Andalucía;PAREDONE;Málaga;Álora
+372455,65;4064659,1;66;01 - Andalucía;PERCHEL;Málaga;Málaga
+372455,65;4064659,1;20;01 - Andalucía;PERCHEL;Málaga;Málaga
+369001,48;4062000,71;66;01 - Andalucía;POLIGONO;Málaga;Málaga
+369001,48;4062000,71;20;01 - Andalucía;POLIGONO;Málaga;Málaga
+347950,5;4101787,17;66;01 - Andalucía;PTO_SECO;Málaga;Antequera
+347950,5;4101787,17;20;01 - Andalucía;PTO_SECO;Málaga;Antequera
+368527,1;4065830,14;132;01 - Andalucía;RAMOS;Málaga;Málaga
+368527,1;4065830,14;66;01 - Andalucía;RAMOS;Málaga;Málaga
+368527,1;4065830,14;20;01 - Andalucía;RAMOS;Málaga;Málaga
+388588,55;4064652,91;132;01 - Andalucía;RINCO_V;Málaga;Rincón de la Victoria
+388588,55;4064652,91;20;01 - Andalucía;RINCO_V;Málaga;Rincón de la Victoria
+306207,1;4068517,41;66;01 - Andalucía;RONDA;Málaga;Ronda
+306207,1;4068517,41;20;01 - Andalucía;RONDA;Málaga;Ronda
+373141,89;4112742,18;132;01 - Andalucía;S_ARCAS;Málaga;Archidona
+370463,42;4060813,43;66;01 - Andalucía;S_SEBAST;Málaga;Málaga
+370463,42;4060813,43;20;01 - Andalucía;S_SEBAST;Málaga;Málaga
+331663,48;4063703,71;66;01 - Andalucía;SAUGUSTO;Málaga;Tolox
+331663,48;4063703,71;20;01 - Andalucía;SAUGUSTO;Málaga;Tolox
+371386,12;4064643,34;66;01 - Andalucía;SECUNDAR;Málaga;Málaga
+371386,12;4064643,34;20;01 - Andalucía;SECUNDAR;Málaga;Málaga
+369393,38;4064073,24;66;01 - Andalucía;SRAFAEL;Málaga;Málaga
+369393,38;4064073,24;20;01 - Andalucía;SRAFAEL;Málaga;Málaga
+357052,46;4049715,45;66;01 - Andalucía;TORREBLA;Málaga;Fuengirola
+357052,46;4049715,45;20;01 - Andalucía;TORREBLA;Málaga;Fuengirola
+402067,78;4067248,62;66;01 - Andalucía;TORREMAR;Málaga;Vélez-Málaga
+402067,78;4067248,62;20;01 - Andalucía;TORREMAR;Málaga;Vélez-Málaga
+415144,75;4067110,76;132;01 - Andalucía;TORROX;Málaga;Torrox
+415144,75;4067110,76;20;01 - Andalucía;TORROX;Málaga;Torrox
+367514,33;4064357,89;66;01 - Andalucía;UNIVERSI;Málaga;Málaga
+367514,33;4064357,89;20;01 - Andalucía;UNIVERSI;Málaga;Málaga
+303671,71;4032570,69;66;01 - Andalucía;V_ROMANO;Málaga;Estepona
+303671,71;4032570,69;20;01 - Andalucía;V_ROMANO;Málaga;Estepona
+347889,27;4062811,28;66;01 - Andalucía;VILLFRAG;Málaga;Alhaurín el Grande
+347889,27;4062811,28;20;01 - Andalucía;VILLFRAG;Málaga;Alhaurín el Grande
+366577,12;4062976,3;66;01 - Andalucía;VISOS;Málaga;Málaga
+366577,12;4062976,3;20;01 - Andalucía;VISOS;Málaga;Málaga
+244693;4147652,05;132;01 - Andalucía;AEROPUER;Sevilla;Rinconada, La
+244693;4147652,05;15;01 - Andalucía;AEROPUER;Sevilla;Rinconada, La
+245107,68;4158784,32;66;01 - Andalucía;AGRIBETI;Sevilla;Brenes
+245107,68;4158784,32;15;01 - Andalucía;AGRIBETI;Sevilla;Brenes
+249905,02;4136016,66;132;01 - Andalucía;AGUILA;Sevilla;Alcalá de Guadaíra
+249905,02;4136016,66;15;01 - Andalucía;AGUILA;Sevilla;Alcalá de Guadaíra
+234695,08;4144651,26;66;01 - Andalucía;ALAMILLO;Sevilla;Sevilla
+234695,08;4144651,26;20;01 - Andalucía;ALAMILLO;Sevilla;Sevilla
+245616,89;4138352,74;132;01 - Andalucía;ALCAGUAD;Sevilla;Alcalá de Guadaíra
+245616,89;4138352,74;15;01 - Andalucía;ALCAGUAD;Sevilla;Alcalá de Guadaíra
+237099,37;4156428,59;66;01 - Andalucía;ALCALRIO;Sevilla;Alcalá del Río
+237099,37;4156428,59;15;01 - Andalucía;ALCALRIO;Sevilla;Alcalá del Río
+264331,73;4167232,77;132;01 - Andalucía;ALCOLRIO;Sevilla;Alcolea del Río
+264331,73;4167232,77;66;01 - Andalucía;ALCOLRIO;Sevilla;Alcolea del Río
+264331,73;4167232,77;15;01 - Andalucía;ALCOLRIO;Sevilla;Alcolea del Río
+247114,54;4141564,29;132;01 - Andalucía;ALCORES;Sevilla;Alcalá de Guadaíra
+247114,54;4141564,29;66;01 - Andalucía;ALCORES;Sevilla;Alcalá de Guadaíra
+247114,54;4141564,29;15;01 - Andalucía;ALCORES;Sevilla;Alcalá de Guadaíra
+225843,43;4137571,91;66;01 - Andalucía;ALJARAFE;Sevilla;Bollullos de la Mitación
+225843,43;4137571,91;15;01 - Andalucía;ALJARAFE;Sevilla;Bollullos de la Mitación
+239002,35;4141814,96;66;01 - Andalucía;AMATE;Sevilla;Sevilla
+239002,35;4141814,96;15;01 - Andalucía;AMATE;Sevilla;Sevilla
+274216,63;4128078,05;66;01 - Andalucía;ARAHAL;Sevilla;Paradas
+274216,63;4128078,05;15;01 - Andalucía;ARAHAL;Sevilla;Paradas
+244481,99;4138702,16;66;01 - Andalucía;ARGON;Sevilla;Alcalá de Guadaíra
+234159,17;4142142,43;66;01 - Andalucía;ARJONA;Sevilla;Sevilla
+234159,17;4142142,43;20;01 - Andalucía;ARJONA;Sevilla;Sevilla
+214582,2;4156311,21;132;01 - Andalucía;AZNALCOL;Sevilla;Aznalcóllar
+214582,2;4156311,21;15;01 - Andalucía;AZNALCOL;Sevilla;Aznalcóllar
+269091,91;4119103,64;66;01 - Andalucía;BASMORON;Sevilla;Arahal
+218531,32;4158443,95;132;01 - Andalucía;BERROCAL;Sevilla;Gerena
+221518,04;4138664,34;66;01 - Andalucía;BOLLULLM;Sevilla;Bollullos de la Mitación
+221518,04;4138664,34;15;01 - Andalucía;BOLLULLM;Sevilla;Bollullos de la Mitación
+227405,53;4138213,37;66;01 - Andalucía;BORMUJOS;Sevilla;Bormujos
+227405,53;4138213,37;15;01 - Andalucía;BORMUJOS;Sevilla;Bormujos
+237345,23;4096552,33;66;01 - Andalucía;CABEZAS;Sevilla;Cabezas de San Juan, Las
+237345,23;4096552,33;15;01 - Andalucía;CABEZAS;Sevilla;Cabezas de San Juan, Las
+223612,45;4173645,7;132;01 - Andalucía;CALA;Sevilla;Guillena
+223612,45;4173645,7;15;01 - Andalucía;CALA;Sevilla;Guillena
+237948,68;4144601,75;132;01 - Andalucía;CALONGE;Sevilla;Sevilla
+237948,68;4144601,75;20;01 - Andalucía;CALONGE;Sevilla;Sevilla
+241109,38;4152706,23;132;01 - Andalucía;CANAMO;Sevilla;Rinconada, La
+241109,38;4152706,23;15;01 - Andalucía;CANAMO;Sevilla;Rinconada, La
+251764,79;4164175,7;66;01 - Andalucía;CANTILLA;Sevilla;Cantillana
+251764,79;4164175,7;15;01 - Andalucía;CANTILLA;Sevilla;Cantillana
+255134,61;4140795,13;66;01 - Andalucía;CANTOSAL;Sevilla;Mairena del Alcor
+255134,61;4140795,13;15;01 - Andalucía;CANTOSAL;Sevilla;Mairena del Alcor
+230842,54;4142452,62;66;01 - Andalucía;CARAMBOL;Sevilla;Camas
+230842,54;4142452,62;15;01 - Andalucía;CARAMBOL;Sevilla;Camas
+265887,29;4150986,38;66;01 - Andalucía;CARMONA;Sevilla;Carmona
+265887,29;4150986,38;15;01 - Andalucía;CARMONA;Sevilla;Carmona
+233313,3;4142625,4;66;01 - Andalucía;CENTENAR;Sevilla;Sevilla
+233313,3;4142625,4;20;01 - Andalucía;CENTENAR;Sevilla;Sevilla
+269086,81;4124596,43;66;01 - Andalucía;CLH_ARAH;Sevilla;Arahal
+266446,01;4107906,57;66;01 - Andalucía;CORONIL;Sevilla;Coronil, El
+266446,01;4107906,57;15;01 - Andalucía;CORONIL;Sevilla;Coronil, El
+236913,11;4146707,11;132;01 - Andalucía;CROSS_SJ;Sevilla;Sevilla
+236913,11;4146707,11;20;01 - Andalucía;CROSS_SJ;Sevilla;Sevilla
+237968,58;4142021,05;66;01 - Andalucía;CRUZCAMP;Sevilla;Sevilla
+237968,58;4142021,05;20;01 - Andalucía;CRUZCAMP;Sevilla;Sevilla
+237968,58;4142021,05;15;01 - Andalucía;CRUZCAMP;Sevilla;Sevilla
+228648,93;4083556,79;66;01 - Andalucía;CUERVO;Sevilla;Cuervo de Sevilla, El
+228648,93;4083556,79;15;01 - Andalucía;CUERVO;Sevilla;Cuervo de Sevilla, El
+234968,98;4142552,74;66;01 - Andalucía;CUNA;Sevilla;Sevilla
+242458,09;4131916,3;132;01 - Andalucía;DOSHMNAS;Sevilla;Alcalá de Guadaíra
+242458,09;4131916,3;66;01 - Andalucía;DOSHMNAS;Sevilla;Alcalá de Guadaíra
+242458,09;4131916,3;15;01 - Andalucía;DOSHMNAS;Sevilla;Alcalá de Guadaíra
+247780,8;4125892,64;66;01 - Andalucía;DRODRIGO;Sevilla;Alcalá de Guadaíra
+244761,24;4143936,19;132;01 - Andalucía;EADSCASA;Sevilla;Sevilla
+317717,12;4157320,64;66;01 - Andalucía;ECIJA;Sevilla;Écija
+317717,12;4157320,64;25;01 - Andalucía;ECIJA;Sevilla;Écija
+235897,27;4145344,78;132;01 - Andalucía;EMPALME;Sevilla;Sevilla
+235897,27;4145344,78;66;01 - Andalucía;EMPALME;Sevilla;Sevilla
+235897,27;4145344,78;20;01 - Andalucía;EMPALME;Sevilla;Sevilla
+235897,27;4145344,78;15;01 - Andalucía;EMPALME;Sevilla;Sevilla
+236481,9;4140818,21;66;01 - Andalucía;ENRAMADI;Sevilla;Sevilla
+236481,9;4140818,21;20;01 - Andalucía;ENRAMADI;Sevilla;Sevilla
+239028,82;4133845,76;15;01 - Andalucía;ENTRENUC;Sevilla;Dos Hermanas
+243347,23;4139628,18;66;01 - Andalucía;ESPALDIL;Sevilla;Alcalá de Guadaíra
+243347,23;4139628,18;15;01 - Andalucía;ESPALDIL;Sevilla;Alcalá de Guadaíra
+333966,97;4129674,39;66;01 - Andalucía;ESTEPA;Sevilla;Estepa
+333966,97;4129674,39;25;01 - Andalucía;ESTEPA;Sevilla;Estepa
+227298,75;4091828,4;66;01 - Andalucía;FONTANAL;Sevilla;Lebrija
+227298,75;4091828,4;15;01 - Andalucía;FONTANAL;Sevilla;Lebrija
+235313,91;4132798,79;66;01 - Andalucía;FUENTE_R;Sevilla;Dos Hermanas
+235313,91;4132798,79;15;01 - Andalucía;FUENTE_R;Sevilla;Dos Hermanas
+227676,2;4156474,47;132;01 - Andalucía;FUNDICIO;Sevilla;Guillena
+227676,2;4156474,47;15;01 - Andalucía;FUNDICIO;Sevilla;Guillena
+286758,37;4176245,21;132;01 - Andalucía;GRULLAS;Sevilla;Peñaflor
+234953,8;4136533,28;66;01 - Andalucía;GUADAIRA;Sevilla;Sevilla
+234953,8;4136533,28;15;01 - Andalucía;GUADAIRA;Sevilla;Sevilla
+226642,69;4169952,86;132;01 - Andalucía;GUILLENA;Sevilla;Guillena
+246540,94;4141838,29;132;01 - Andalucía;HEINEKEN;Sevilla;Sevilla
+212781,04;4140564,13;66;01 - Andalucía;HUEVAR;Sevilla;Benacazón
+212781,04;4140564,13;15;01 - Andalucía;HUEVAR;Sevilla;Benacazón
+323417,13;4153863,71;66;01 - Andalucía;HUMOSOS;Sevilla;Écija
+237529,69;4139688,47;66;01 - Andalucía;HYTASA;Sevilla;Sevilla
+237529,69;4139688,47;20;01 - Andalucía;HYTASA;Sevilla;Sevilla
+332305,26;4147370,72;66;01 - Andalucía;I_REDOND;Sevilla;Écija
+332305,26;4147370,72;25;01 - Andalucía;I_REDOND;Sevilla;Écija
+221050,15;4117360,78;66;01 - Andalucía;ISLAS;Sevilla;Isla Mayor
+221050,15;4117360,78;15;01 - Andalucía;ISLAS;Sevilla;Isla Mayor
+229398,06;4150751,24;132;01 - Andalucía;ITALICA;Sevilla;Salteras
+229398,06;4150751,24;15;01 - Andalucía;ITALICA;Sevilla;Salteras
+228786,4;4135850,62;66;01 - Andalucía;LAMINILL;Sevilla;Mairena del Aljarafe
+228786,4;4135850,62;15;01 - Andalucía;LAMINILL;Sevilla;Mairena del Aljarafe
+226810,82;4095354,75;66;01 - Andalucía;LEBRIJA;Sevilla;Lebrija
+226810,82;4095354,75;20;01 - Andalucía;LEBRIJA;Sevilla;Lebrija
+276387,06;4171533,42;66;01 - Andalucía;LORA;Sevilla;Lora del Río
+276387,06;4171533,42;15;01 - Andalucía;LORA;Sevilla;Lora del Río
+284405,11;4133461,76;66;01 - Andalucía;MARCHENA;Sevilla;Marchena
+284405,11;4133461,76;15;01 - Andalucía;MARCHENA;Sevilla;Marchena
+230094,59;4107174,15;66;01 - Andalucía;MARISMAS;Sevilla;Cabezas de San Juan, Las
+230094,59;4107174,15;15;01 - Andalucía;MARISMAS;Sevilla;Cabezas de San Juan, Las
+294132,66;4158970,7;66;01 - Andalucía;MONCLOVA;Sevilla;Fuentes de Andalucía
+294132,66;4158970,7;25;01 - Andalucía;MONCLOVA;Sevilla;Fuentes de Andalucía
+251189,46;4121269,07;66;01 - Andalucía;MORERA;Sevilla;Utrera
+251189,46;4121269,07;15;01 - Andalucía;MORERA;Sevilla;Utrera
+281695,14;4112427,63;66;01 - Andalucía;MORON;Sevilla;Morón de la Frontera
+281695,14;4112427,63;15;01 - Andalucía;MORON;Sevilla;Morón de la Frontera
+238028,67;4142905,16;20;01 - Andalucía;MV_KANSA;Sevilla;Sevilla
+237900,6;4140741,76;66;01 - Andalucía;NERVION;Sevilla;Sevilla
+237900,6;4140741,76;20;01 - Andalucía;NERVION;Sevilla;Sevilla
+245241,59;4134681,87;132;01 - Andalucía;OROMANA;Sevilla;Alcalá de Guadaíra
+245241,59;4134681,87;15;01 - Andalucía;OROMANA;Sevilla;Alcalá de Guadaíra
+235946,87;4142793,68;66;01 - Andalucía;OSARIO;Sevilla;Sevilla
+235946,87;4142793,68;20;01 - Andalucía;OSARIO;Sevilla;Sevilla
+312312,2;4122528,59;66;01 - Andalucía;OSUNA;Sevilla;Osuna
+312312,2;4122528,59;25;01 - Andalucía;OSUNA;Sevilla;Osuna
+243869,44;4111805,28;132;01 - Andalucía;PALACIOS;Sevilla;Palacios y Villafranca, Los
+243869,44;4111805,28;66;01 - Andalucía;PALACIOS;Sevilla;Palacios y Villafranca, Los
+243869,44;4111805,28;15;01 - Andalucía;PALACIOS;Sevilla;Palacios y Villafranca, Los
+245775,15;4140362,35;66;01 - Andalucía;PALILLOS;Sevilla;Alcalá de Guadaíra
+245775,15;4140362,35;15;01 - Andalucía;PALILLOS;Sevilla;Alcalá de Guadaíra
+235596,27;4136785,38;66;01 - Andalucía;PALMALTA;Sevilla;Sevilla
+235596,27;4136785,38;20;01 - Andalucía;PALMALTA;Sevilla;Sevilla
+237098,45;4138508,25;66;01 - Andalucía;PALMERA;Sevilla;Sevilla
+237098,45;4138508,25;20;01 - Andalucía;PALMERA;Sevilla;Sevilla
+237098,45;4138508,25;15;01 - Andalucía;PALMERA;Sevilla;Sevilla
+229797,8;4133945,29;66;01 - Andalucía;PALOMARE;Sevilla;Palomares del Río
+229797,8;4133945,29;15;01 - Andalucía;PALOMARE;Sevilla;Palomares del Río
+247294,74;4147313,28;132;01 - Andalucía;PARQ_AER;Sevilla;Rinconada, La
+247294,74;4147313,28;20;01 - Andalucía;PARQ_AER;Sevilla;Rinconada, La
+206742,68;4132686,22;66;01 - Andalucía;PILAS;Sevilla;Pilas
+206742,68;4132686,22;15;01 - Andalucía;PILAS;Sevilla;Pilas
+242375,89;4200573,58;132;01 - Andalucía;PINTADO;Sevilla;Cazalla de la Sierra
+242375,89;4200573,58;66;01 - Andalucía;PINTADO;Sevilla;Cazalla de la Sierra
+242375,89;4200573,58;15;01 - Andalucía;PINTADO;Sevilla;Cazalla de la Sierra
+246305,98;4138288,66;66;01 - Andalucía;POLO;Sevilla;Alcalá de Guadaíra
+246305,98;4138288,66;15;01 - Andalucía;POLO;Sevilla;Alcalá de Guadaíra
+238524,17;4137807,42;66;01 - Andalucía;QUINTOS;Sevilla;Sevilla
+238524,17;4137807,42;15;01 - Andalucía;QUINTOS;Sevilla;Sevilla
+235728,12;4141665,16;66;01 - Andalucía;RASTRO;Sevilla;Sevilla
+235728,12;4141665,16;20;01 - Andalucía;RASTRO;Sevilla;Sevilla
+233146,32;4141138,77;66;01 - Andalucía;REMEDIOS;Sevilla;Sevilla
+233146,32;4141138,77;20;01 - Andalucía;REMEDIOS;Sevilla;Sevilla
+239110,01;4151431,4;132;01 - Andalucía;RINCONAD;Sevilla;Rinconada, La
+239110,01;4151431,4;15;01 - Andalucía;RINCONAD;Sevilla;Rinconada, La
+342564,72;4119606,75;66;01 - Andalucía;RODAANDA;Sevilla;Roda de Andalucía, La
+342564,72;4119606,75;25;01 - Andalucía;RODAANDA;Sevilla;Roda de Andalucía, La
+265433,7;4154467,09;66;01 - Andalucía;ROMERAL;Sevilla;Carmona
+265433,7;4154467,09;15;01 - Andalucía;ROMERAL;Sevilla;Carmona
+227275,37;4160641,9;132;01 - Andalucía;RUTPLATA;Sevilla;Guillena
+227275,37;4160641,9;15;01 - Andalucía;RUTPLATA;Sevilla;Guillena
+240563,33;4142142,69;66;01 - Andalucía;S_ELVIRA;Sevilla;Sevilla
+240563,33;4142142,69;15;01 - Andalucía;S_ELVIRA;Sevilla;Sevilla
+240126,79;4152162,42;132;01 - Andalucía;S_JOSE;Sevilla;Rinconada, La
+266586,55;4208731,97;66;01 - Andalucía;S_NICOLA;Sevilla;San Nicolás del Puerto
+266586,55;4208731,97;15;01 - Andalucía;S_NICOLA;Sevilla;San Nicolás del Puerto
+237783,26;4142456,77;66;01 - Andalucía;S_PABLO;Sevilla;Sevilla
+223774,58;4149526,92;66;01 - Andalucía;SALTERAS;Sevilla;Salteras
+223774,58;4149526,92;15;01 - Andalucía;SALTERAS;Sevilla;Salteras
+216258,23;4143231,78;66;01 - Andalucía;SANLUC_M;Sevilla;Sanlúcar la Mayor
+216258,23;4143231,78;15;01 - Andalucía;SANLUC_M;Sevilla;Sanlúcar la Mayor
+231054,77;4146401,85;132;01 - Andalucía;SANTIPON;Sevilla;Valencina de la Concepción
+231054,77;4146401,85;66;01 - Andalucía;SANTIPON;Sevilla;Valencina de la Concepción
+231054,77;4146401,85;15;01 - Andalucía;SANTIPON;Sevilla;Valencina de la Concepción
+237166,97;4084805,77;132;01 - Andalucía;SEC_PELP;Sevilla;Lebrija
+275449,79;4171267,43;132;01 - Andalucía;SETEFILL;Sevilla;Lora del Río
+234358,18;4139709,13;66;01 - Andalucía;TABLADA;Sevilla;Sevilla
+234358,18;4139709,13;20;01 - Andalucía;TABLADA;Sevilla;Sevilla
+231553,43;4140967,98;66;01 - Andalucía;TOMARES;Sevilla;Tomares
+231553,43;4140967,98;15;01 - Andalucía;TOMARES;Sevilla;Tomares
+234086,71;4136371,16;66;01 - Andalucía;TORRECUE;Sevilla;Sevilla
+234086,71;4136371,16;20;01 - Andalucía;TORRECUE;Sevilla;Sevilla
+271674,94;4109894,64;66;01 - Andalucía;TORREJON;Sevilla;Morón de la Frontera
+271674,94;4109894,64;15;01 - Andalucía;TORREJON;Sevilla;Morón de la Frontera
+253947,92;4118967,21;66;01 - Andalucía;UTRERA;Sevilla;Utrera
+253947,92;4118967,21;15;01 - Andalucía;UTRERA;Sevilla;Utrera
+248523,83;4160011,85;132;01 - Andalucía;VALLEINF;Sevilla;Brenes
+241247,67;4127625,12;132;01 - Andalucía;VALME;Sevilla;Dos Hermanas
+241247,67;4127625,12;15;01 - Andalucía;VALME;Sevilla;Dos Hermanas
+314162,63;4164278,79;66;01 - Andalucía;VILLAR;Sevilla;Écija
+314162,63;4164278,79;25;01 - Andalucía;VILLAR;Sevilla;Écija
+308764,37;4155607,6;66;01 - Andalucía;VILLNREY;Sevilla;Écija
+308764,37;4155607,6;25;01 - Andalucía;VILLNREY;Sevilla;Écija
+259764,03;4142707,82;66;01 - Andalucía;VISO;Sevilla;Viso del Alcor, El
+259764,03;4142707,82;15;01 - Andalucía;VISO;Sevilla;Viso del Alcor, El
+230244,05;4139614,99;66;01 - Andalucía;ZAUDIN;Sevilla;Tomares
+230244,05;4139614,99;15;01 - Andalucía;ZAUDIN;Sevilla;Tomares
+721553,15;4662582,49;45;02 - Aragón;AEROP-HU;Huesca;Alcalá del Obispo
+721553,15;4662582,49;15;02 - Aragón;AEROP-HU;Huesca;Alcalá del Obispo
+698671,85;4657634,7;45;02 - Aragón;ALMUDEVAR;Huesca;Almudévar
+698671,85;4657634,7;15;02 - Aragón;ALMUDEVAR;Huesca;Almudévar
+783653,43;4631580,15;66;02 - Aragón;ALTORRICON;Huesca;Altorricón
+677657,27;4735388,87;45;02 - Aragón;ANSO;Huesca;Ansó
+677657,27;4735388,87;10;02 - Aragón;ANSO;Huesca;Ansó
+693728,95;4697557,99;45;02 - Aragón;ANZANIGO;Huesca;Caldearenas
+693728,95;4697557,99;15;02 - Aragón;ANZANIGO;Huesca;Caldearenas
+778194,05;4702984,17;110;02 - Aragón;ARGONE;Huesca;Foradada del Toscar
+761147,85;4646434,46;132;02 - Aragón;ARMENTERA;Huesca;Monzón
+761147,85;4646434,46;25;02 - Aragón;ARMENTERA;Huesca;Monzón
+726456,39;4738114,82;66;02 - Aragón;BAÑOS;Huesca;Panticosa
+750074,09;4650000,44;45;02 - Aragón;BERBEGAL;Huesca;Berbegal
+675213,59;4718864,04;45;02 - Aragón;BERDUN;Huesca;Canal de Berdún
+675213,59;4718864,04;10;02 - Aragón;BERDUN;Huesca;Canal de Berdún
+719756,06;4723418,77;132;02 - Aragón;BIESCAS;Huesca;Biescas
+719756,06;4723418,77;11;02 - Aragón;BIESCAS;Huesca;Biescas
+774282,28;4639139,09;110;02 - Aragón;BINEFAR;Huesca;Binéfar
+774282,28;4639139,09;25;02 - Aragón;BINEFAR;Huesca;Binéfar
+758030,26;4655297,39;110;02 - Aragón;BRILEN;Huesca;Barbastro
+703266,8;4735487,87;45;02 - Aragón;CANALROYA;Huesca;Canfranc
+703266,8;4735487,87;17;02 - Aragón;CANALROYA;Huesca;Canfranc
+702746,33;4739867,41;45;02 - Aragón;CANDANCHU;Huesca;Aisa
+702746,33;4739867,41;17;02 - Aragón;CANDANCHU;Huesca;Aisa
+799239,16;4653474,37;132;02 - Aragón;CANELLES;Huesca;Estopiñán del Castillo
+686307,56;4693445,34;45;02 - Aragón;CARCAVILLA;Huesca;Peñas de Riglos, Las
+686307,56;4693445,34;15;02 - Aragón;CARCAVILLA;Huesca;Peñas de Riglos, Las
+714231,27;4711871,62;45;02 - Aragón;CARTIRANA;Huesca;Sabiñánigo
+714231,27;4711871,62;15;02 - Aragón;CARTIRANA;Huesca;Sabiñánigo
+703273,9;4735234,12;132;02 - Aragón;CH_IP;Huesca;Canfranc
+703273,9;4735234,12;45;02 - Aragón;CH_IP;Huesca;Canfranc
+700977,58;4717623,77;45;02 - Aragón;CH_JACA;Huesca;Jaca
+715688,54;4706511,71;45;02 - Aragón;CH_SABIÑAN;Huesca;Sabiñánigo
+715688,54;4706511,71;15;02 - Aragón;CH_SABIÑAN;Huesca;Sabiñánigo
+764842,83;4646277,58;110;02 - Aragón;CINCA;Huesca;Monzón
+764842,83;4646277,58;25;02 - Aragón;CINCA;Huesca;Monzón
+767152,25;4666106,4;66;02 - Aragón;ENATE;Huesca;Grado, El
+808802,3;4692212,67;132;02 - Aragón;ESCALES;Huesca;Sopeira
+694560,11;4725783,84;45;02 - Aragón;ESPOSA;Huesca;Aisa
+694560,11;4725783,84;15;02 - Aragón;ESPOSA;Huesca;Aisa
+700480,25;4676509,38;132;02 - Aragón;ESQUEDAS;Huesca;Sotonera, La
+700480,25;4676509,38;15;02 - Aragón;ESQUEDAS;Huesca;Sotonera, La
+777217,43;4600892,72;110;02 - Aragón;FRAGA;Huesca;Fraga
+777217,43;4600892,72;25;02 - Aragón;FRAGA;Huesca;Fraga
+767129,12;4671840,48;66;02 - Aragón;GRADO1;Huesca;Grado, El
+767129,12;4671840,48;25;02 - Aragón;GRADO1;Huesca;Grado, El
+767101,86;4666452,77;66;02 - Aragón;GRADO2;Huesca;Grado, El
+716504,59;4645437,91;45;02 - Aragón;GRAÑEN;Huesca;Grañén
+716504,59;4645437,91;15;02 - Aragón;GRAÑEN;Huesca;Grañén
+683955,71;4733064,53;45;02 - Aragón;HECHO;Huesca;Valle de Hecho
+683955,71;4733064,53;10;02 - Aragón;HECHO;Huesca;Valle de Hecho
+715327,46;4669574,18;45;02 - Aragón;HUESCA_EST;Huesca;Huesca
+715327,46;4669574,18;15;02 - Aragón;HUESCA_EST;Huesca;Huesca
+715327,46;4669574,18;10;02 - Aragón;HUESCA_EST;Huesca;Huesca
+713502,15;4669111,2;132;02 - Aragón;HUESCA_NOR;Huesca;Huesca
+713502,15;4669111,2;45;02 - Aragón;HUESCA_NOR;Huesca;Huesca
+713502,15;4669111,2;10;02 - Aragón;HUESCA_NOR;Huesca;Huesca
+713884,45;4666833,34;45;02 - Aragón;HUESCA_SUR;Huesca;Huesca
+713884,45;4666833,34;10;02 - Aragón;HUESCA_SUR;Huesca;Huesca
+708929,79;4699510,35;45;02 - Aragón;JABARRELLA;Huesca;Caldearenas
+702041,07;4716566,08;45;02 - Aragón;JACA_NORTE;Huesca;Jaca
+702041,07;4716566,08;10;02 - Aragón;JACA_NORTE;Huesca;Jaca
+700620,1;4714833,43;132;02 - Aragón;JACA_SUR;Huesca;Jaca
+700620,1;4714833,43;45;02 - Aragón;JACA_SUR;Huesca;Jaca
+700620,1;4714833,43;10;02 - Aragón;JACA_SUR;Huesca;Jaca
+703028,78;4696946,35;45;02 - Aragón;JAVIERRELA;Huesca;Caldearenas
+703028,78;4696946,35;10;02 - Aragón;JAVIERRELA;Huesca;Caldearenas
+692077,91;4696054,18;45;02 - Aragón;LA_HIDRO;Huesca;Caldearenas
+692077,91;4696054,18;10;02 - Aragón;LA_HIDRO;Huesca;Caldearenas
+689672,16;4694820,69;45;02 - Aragón;LA_PEÑA;Huesca;Peñas de Riglos, Las
+689672,16;4694820,69;10;02 - Aragón;LA_PEÑA;Huesca;Peñas de Riglos, Las
+762586,26;4715034,37;132;02 - Aragón;LAFORTUNAD;Huesca;Tella-Sin
+762586,26;4715034,37;30;02 - Aragón;LAFORTUNAD;Huesca;Tella-Sin
+684998,93;4652373,1;45;02 - Aragón;LANIPIEL;Huesca;Gurrea de Gállego
+720565,11;4734169,7;132;02 - Aragón;LANUZA;Huesca;Panticosa
+758769,26;4710653,96;132;02 - Aragón;LASPUÑA;Huesca;Laspuña
+758769,26;4710653,96;110;02 - Aragón;LASPUÑA;Huesca;Laspuña
+758769,26;4710653,96;30;02 - Aragón;LASPUÑA;Huesca;Laspuña
+742877,92;4638062,46;45;02 - Aragón;LASTANOSA;Huesca;Sariñena
+742877,92;4638062,46;25;02 - Aragón;LASTANOSA;Huesca;Sariñena
+725238,99;4640237,61;132;02 - Aragón;MARCEN;Huesca;Lalueza
+725238,99;4640237,61;45;02 - Aragón;MARCEN;Huesca;Lalueza
+725238,99;4640237,61;15;02 - Aragón;MARCEN;Huesca;Lalueza
+751139,3;4598776,12;110;02 - Aragón;MONEGROS;Huesca;Candasnos
+751139,3;4598776,12;25;02 - Aragón;MONEGROS;Huesca;Candasnos
+714739,69;4691437,91;45;02 - Aragón;MONREPOS;Huesca;Caldearenas
+714739,69;4691437,91;15;02 - Aragón;MONREPOS;Huesca;Caldearenas
+763237,35;4647247,63;132;02 - Aragón;MONZON;Huesca;Monzón
+763237,35;4647247,63;66;02 - Aragón;MONZON;Huesca;Monzón
+763237,35;4647247,63;25;02 - Aragón;MONZON;Huesca;Monzón
+743049,03;4647430,05;45;02 - Aragón;PERALTA;Huesca;Peralta de Alcofea
+743049,03;4647430,05;25;02 - Aragón;PERALTA;Huesca;Peralta de Alcofea
+777063,15;4680686,77;110;02 - Aragón;PERARRUA;Huesca;Graus
+777063,15;4680686,77;25;02 - Aragón;PERARRUA;Huesca;Graus
+739149,56;4654456,88;45;02 - Aragón;PERTUSA;Huesca;Pertusa
+739149,56;4654456,88;25;02 - Aragón;PERTUSA;Huesca;Pertusa
+739149,56;4654456,88;10;02 - Aragón;PERTUSA;Huesca;Pertusa
+783340,66;4603595,38;110;02 - Aragón;PLFRAGA;Huesca;Fraga
+783340,66;4603595,38;25;02 - Aragón;PLFRAGA;Huesca;Fraga
+710442,36;4664333,14;132;02 - Aragón;PLHUS;Huesca;Huesca
+710442,36;4664333,14;45;02 - Aragón;PLHUS;Huesca;Huesca
+710442,36;4664333,14;15;02 - Aragón;PLHUS;Huesca;Huesca
+720582,45;4734210,88;66;02 - Aragón;PUEYO;Huesca;Panticosa
+725440,11;4640198,31;45;02 - Aragón;R_MARCEN;Huesca;Lalueza
+703698,93;4650143,33;45;02 - Aragón;R_TARDIENT;Huesca;Tardienta
+710649,01;4635053,19;132;02 - Aragón;ROBRES;Huesca;Robres
+797099,92;4642867,23;132;02 - Aragón;S.ANA;Huesca;Castillonroy
+717030,34;4710543,32;132;02 - Aragón;SABIÑANIGO;Huesca;Sabiñánigo
+717030,34;4710543,32;15;02 - Aragón;SABIÑANIGO;Huesca;Sabiñánigo
+718136,19;4738788,97;132;02 - Aragón;SALLENT;Huesca;Sallent de Gállego
+733630,05;4633768,98;45;02 - Aragón;SARIÑENA;Huesca;Sariñena
+733630,05;4633768,98;25;02 - Aragón;SARIÑENA;Huesca;Sariñena
+736522,12;4717064,46;45;02 - Aragón;SARVISE;Huesca;Broto
+736522,12;4717064,46;15;02 - Aragón;SARVISE;Huesca;Broto
+706786,76;4672711,38;132;02 - Aragón;SASO_PLANO;Huesca;Sotonera, La
+715563,39;4706720,23;45;02 - Aragón;SEC_SABIÑA;Huesca;Sabiñánigo
+782452,33;4708585,71;110;02 - Aragón;SEIRA;Huesca;Seira
+782452,33;4708585,71;25;02 - Aragón;SEIRA;Huesca;Seira
+758693,74;4647296,22;45;02 - Aragón;SELGUA;Huesca;Monzón
+758693,74;4647296,22;10;02 - Aragón;SELGUA;Huesca;Monzón
+806734,23;4717016,87;132;02 - Aragón;SENET;Huesca;Montanuy
+806734,23;4717016,87;25;02 - Aragón;SENET;Huesca;Montanuy
+774399,67;4639022,38;110;02 - Aragón;SOSAL;Huesca;Binéfar
+692575,17;4663960,21;45;02 - Aragón;SOTONERA;Huesca;Alcalá de Gurrea
+704892,12;4649387,26;45;02 - Aragón;TARDIENTA;Huesca;Tardienta
+704892,12;4649387,26;15;02 - Aragón;TARDIENTA;Huesca;Tardienta
+778629,4;4595431,3;110;02 - Aragón;TORRENTE;Huesca;Torrente de Cinca
+685863,32;4671555,55;45;02 - Aragón;VALDESPART;Huesca;Biscarrués
+702330,14;4729316,39;45;02 - Aragón;VILLANUA;Huesca;Villanúa
+702330,14;4729316,39;15;02 - Aragón;VILLANUA;Huesca;Villanúa
+710003,07;4665073,12;45;02 - Aragón;WALQA;Huesca;Huesca
+710003,07;4665073,12;15;02 - Aragón;WALQA;Huesca;Huesca
+708503,12;4555258,01;45;02 - Aragón;ALBALATE;Teruel;Albalate del Arzobispo
+708503,12;4555258,01;15;02 - Aragón;ALBALATE;Teruel;Albalate del Arzobispo
+695622,05;4471588,79;45;02 - Aragón;ALCA_SELVA;Teruel;Alcalá de la Selva
+695622,05;4471588,79;20;02 - Aragón;ALCA_SELVA;Teruel;Alcalá de la Selva
+739206,54;4550300,4;132;02 - Aragón;ALCAÑIZ;Teruel;Alcañiz
+739206,54;4550300,4;45;02 - Aragón;ALCAÑIZ;Teruel;Alcañiz
+739206,54;4550300,4;10;02 - Aragón;ALCAÑIZ;Teruel;Alcañiz
+720396,09;4530758,28;45;02 - Aragón;ALCORISA;Teruel;Alcorisa
+720396,09;4530758,28;15;02 - Aragón;ALCORISA;Teruel;Alcorisa
+696129,02;4506482,14;132;02 - Aragón;ALIAGA;Teruel;Aliaga
+696129,02;4506482,14;45;02 - Aragón;ALIAGA;Teruel;Aliaga
+696129,02;4506482,14;20;02 - Aragón;ALIAGA;Teruel;Aliaga
+715951,31;4538825,37;45;02 - Aragón;ANDORRA;Teruel;Andorra
+715951,31;4538825,37;15;02 - Aragón;ANDORRA;Teruel;Andorra
+709908,34;4573602,31;132;02 - Aragón;AZAILA;Teruel;Azaila
+709908,34;4573602,31;45;02 - Aragón;AZAILA;Teruel;Azaila
+709908,34;4573602,31;10;02 - Aragón;AZAILA;Teruel;Azaila
+644427,51;4530824,6;132;02 - Aragón;CALAMOCHA;Teruel;Calamocha
+644427,51;4530824,6;45;02 - Aragón;CALAMOCHA;Teruel;Calamocha
+644427,51;4530824,6;20;02 - Aragón;CALAMOCHA;Teruel;Calamocha
+733356,79;4536956,78;45;02 - Aragón;CALANDA;Teruel;Calanda
+733356,79;4536956,78;30;02 - Aragón;CALANDA;Teruel;Calanda
+733356,79;4536956,78;10;02 - Aragón;CALANDA;Teruel;Calanda
+679744,66;4520912,9;132;02 - Aragón;CASTIN_ROS;Teruel;Utrillas
+649153,01;4479911,04;132;02 - Aragón;CELLA;Teruel;Cella
+649153,01;4479911,04;45;02 - Aragón;CELLA;Teruel;Cella
+649153,01;4479911,04;20;02 - Aragón;CELLA;Teruel;Cella
+734050,12;4552090,88;132;02 - Aragón;CIUD_MOTOR;Teruel;Alcañiz
+734050,12;4552090,88;10;02 - Aragón;CIUD_MOTOR;Teruel;Alcañiz
+660182,41;4466479,02;45;02 - Aragón;CNF_TERUEL;Teruel;Teruel
+681568,21;4508266,35;132;02 - Aragón;CUEVAS_ALM;Teruel;Cuevas de Almudén
+661226,53;4467284,66;45;02 - Aragón;EL_CERRO;Teruel;Teruel
+661226,53;4467284,66;10;02 - Aragón;EL_CERRO;Teruel;Teruel
+685316,58;4518576,6;45;02 - Aragón;ESCUCHA;Teruel;Escucha
+685316,58;4518576,6;15;02 - Aragón;ESCUCHA;Teruel;Escucha
+684246,02;4518428,71;132;02 - Aragón;ESCUCHA_CT;Teruel;Escucha
+684246,02;4518428,71;45;02 - Aragón;ESCUCHA_CT;Teruel;Escucha
+699652,28;4525662,07;45;02 - Aragón;ESTERCUEL;Teruel;Estercuel
+699652,28;4525662,07;15;02 - Aragón;ESTERCUEL;Teruel;Estercuel
+661814,85;4465419,43;45;02 - Aragón;FUENFRESCA;Teruel;Teruel
+661814,85;4465419,43;10;02 - Aragón;FUENFRESCA;Teruel;Teruel
+716563,85;4561088,33;132;02 - Aragón;HIJAR;Teruel;Híjar
+709620,95;4542491,66;132;02 - Aragón;L_OPORTUNA;Teruel;Alloza
+709620,95;4542491,66;45;02 - Aragón;L_OPORTUNA;Teruel;Alloza
+709620,95;4542491,66;30;02 - Aragón;L_OPORTUNA;Teruel;Alloza
+708897,11;4564883,46;10;02 - Aragón;LA_CULTIA;Teruel;Híjar
+714141,48;4566750,42;45;02 - Aragón;LA_PUEBLA;Teruel;Puebla de Híjar, La
+714141,48;4566750,42;15;02 - Aragón;LA_PUEBLA;Teruel;Puebla de Híjar, La
+743810,7;4545483,17;45;02 - Aragón;LAS_HORCAS;Teruel;Alcañiz
+743810,7;4545483,17;10;02 - Aragón;LAS_HORCAS;Teruel;Alcañiz
+711926,73;4546625,77;132;02 - Aragón;LOS_ARCOS;Teruel;Andorra
+699955,12;4444784,61;20;02 - Aragón;LS_VILNVAS;Teruel;Olba
+677066,04;4523396,61;45;02 - Aragón;MARTIN_RIO;Teruel;Martín del Río
+677066,04;4523396,61;15;02 - Aragón;MARTIN_RIO;Teruel;Martín del Río
+740719,69;4548634,67;45;02 - Aragón;MOLI_MAYOR;Teruel;Alcañiz
+740719,69;4548634,67;10;02 - Aragón;MOLI_MAYOR;Teruel;Alcañiz
+639773,28;4515585,84;45;02 - Aragón;MONREAL;Teruel;Monreal del Campo
+639773,28;4515585,84;20;02 - Aragón;MONREAL;Teruel;Monreal del Campo
+671658,59;4461778,55;132;02 - Aragón;P_ESCANDON;Teruel;Puebla de Valverde, La
+718999,51;4541248,54;132;02 - Aragón;PEAN;Teruel;Andorra
+718999,51;4541248,54;15;02 - Aragón;PEAN;Teruel;Andorra
+714559,82;4540302,53;45;02 - Aragón;PI.ANDORRA;Teruel;Andorra
+714559,82;4540302,53;15;02 - Aragón;PI.ANDORRA;Teruel;Andorra
+656195,75;4471113,11;132;02 - Aragón;PLATEA;Teruel;Teruel
+656195,75;4471113,11;20;02 - Aragón;PLATEA;Teruel;Teruel
+676622,4;4454045,76;132;02 - Aragón;PUEBLA_VAL;Teruel;Puebla de Valverde, La
+676622,4;4454045,76;20;02 - Aragón;PUEBLA_VAL;Teruel;Puebla de Valverde, La
+734808,74;4542359,75;45;02 - Aragón;R_MONTORO;Teruel;Alcañiz
+734808,74;4542359,75;15;02 - Aragón;R_MONTORO;Teruel;Alcañiz
+641157,08;4490691,97;132;02 - Aragón;ST_EULALIA;Teruel;Santa Eulalia
+641157,08;4490691,97;20;02 - Aragón;ST_EULALIA;Teruel;Santa Eulalia
+661104,73;4468798,53;132;02 - Aragón;TERUEL;Teruel;Teruel
+661104,73;4468798,53;45;02 - Aragón;TERUEL;Teruel;Teruel
+661104,73;4468798,53;20;02 - Aragón;TERUEL;Teruel;Teruel
+661104,73;4468798,53;10;02 - Aragón;TERUEL;Teruel;Teruel
+639873,12;4515394,42;132;02 - Aragón;TOLLO;Teruel;Monreal del Campo
+679681,05;4520849,3;45;02 - Aragón;UTRILLAS;Teruel;Utrillas
+679681,05;4520849,3;15;02 - Aragón;UTRILLAS;Teruel;Utrillas
+766444,91;4530377,02;132;02 - Aragón;VALDERROBR;Teruel;Valderrobres
+766444,91;4530377,02;25;02 - Aragón;VALDERROBR;Teruel;Valderrobres
+693104,55;4444486,2;132;02 - Aragón;VENTA-AIRE;Teruel;Albentosa
+693104,55;4444486,2;20;02 - Aragón;VENTA-AIRE;Teruel;Albentosa
+654502,12;4456080,56;45;02 - Aragón;VILLEL;Teruel;Villel
+654502,12;4456080,56;20;02 - Aragón;VILLEL;Teruel;Villel
+700019,82;4575515,02;45;02 - Aragón;VINACEITE;Teruel;Vinaceite
+675798,19;4615124,79;45;02 - Aragón;ACTUR;Zaragoza;Zaragoza
+675798,19;4615124,79;10;02 - Aragón;ACTUR;Zaragoza;Zaragoza
+647164,08;4589462,51;45;02 - Aragón;ALFAMEN;Zaragoza;Alfamén
+647164,08;4589462,51;15;02 - Aragón;ALFAMEN;Zaragoza;Alfamén
+592203,81;4571605,05;45;02 - Aragón;ALHAMA;Zaragoza;Alhama de Aragón
+592203,81;4571605,05;15;02 - Aragón;ALHAMA;Zaragoza;Alhama de Aragón
+680351,06;4608489,81;45;02 - Aragón;ALUMALSA;Zaragoza;Zaragoza
+674138,69;4611924,98;45;02 - Aragón;ARAGONIA;Zaragoza;Zaragoza
+674138,69;4611924,98;10;02 - Aragón;ARAGONIA;Zaragoza;Zaragoza
+669545,88;4611392,85;132;02 - Aragón;ARCOSUR;Zaragoza;Zaragoza
+669545,88;4611392,85;15;02 - Aragón;ARCOSUR;Zaragoza;Zaragoza
+579952,94;4574078,22;45;02 - Aragón;ARIZA;Zaragoza;Ariza
+579952,94;4574078,22;15;02 - Aragón;ARIZA;Zaragoza;Ariza
+601122,39;4575467,55;45;02 - Aragón;ATECA;Zaragoza;Ateca
+601122,39;4575467,55;15;02 - Aragón;ATECA;Zaragoza;Ateca
+673503,41;4613993,41;45;02 - Aragón;AUGUSTA;Zaragoza;Zaragoza
+673503,41;4613993,41;15;02 - Aragón;AUGUSTA;Zaragoza;Zaragoza
+673503,41;4613993,41;10;02 - Aragón;AUGUSTA;Zaragoza;Zaragoza
+661418,22;4616408,1;45;02 - Aragón;BASE_AEREA;Zaragoza;Zaragoza
+688299,62;4574395,53;45;02 - Aragón;BELCHITE;Zaragoza;Belchite
+688299,62;4574395,53;15;02 - Aragón;BELCHITE;Zaragoza;Belchite
+623367,38;4632084,8;45;02 - Aragón;BORJA;Zaragoza;Borja
+623367,38;4632084,8;15;02 - Aragón;BORJA;Zaragoza;Borja
+663458,48;4598244,56;132;02 - Aragón;BOTORRITA;Zaragoza;Botorrita
+613606,12;4576461,09;132;02 - Aragón;CALATAYUD;Zaragoza;Calatayud
+613606,12;4576461,09;45;02 - Aragón;CALATAYUD;Zaragoza;Calatayud
+613606,12;4576461,09;15;02 - Aragón;CALATAYUD;Zaragoza;Calatayud
+669480,19;4609076,5;132;02 - Aragón;CAMPILLO;Zaragoza;Zaragoza
+647738,04;4578976,74;45;02 - Aragón;CARIÑENA;Zaragoza;Cariñena
+647738,04;4578976,74;15;02 - Aragón;CARIÑENA;Zaragoza;Cariñena
+679853,58;4606503,41;45;02 - Aragón;CARTUJOS;Zaragoza;Zaragoza
+679853,58;4606503,41;15;02 - Aragón;CARTUJOS;Zaragoza;Zaragoza
+673921,32;4610305,95;132;02 - Aragón;CASABLANCA;Zaragoza;Zaragoza
+673921,32;4610305,95;45;02 - Aragón;CASABLANCA;Zaragoza;Zaragoza
+673921,32;4610305,95;10;02 - Aragón;CASABLANCA;Zaragoza;Zaragoza
+746491,31;4570271,01;132;02 - Aragón;CASPE;Zaragoza;Caspe
+746491,31;4570271,01;66;02 - Aragón;CASPE;Zaragoza;Caspe
+746491,31;4570271,01;25;02 - Aragón;CASPE;Zaragoza;Caspe
+659418,75;4608008,88;132;02 - Aragón;CENTROVIA;Zaragoza;Muela, La
+659418,75;4608008,88;15;02 - Aragón;CENTROVIA;Zaragoza;Muela, La
+687529,65;4583333,22;132;02 - Aragón;CLARIANA;Zaragoza;Belchite
+687529,65;4583333,22;45;02 - Aragón;CLARIANA;Zaragoza;Belchite
+677904,96;4615271,88;45;02 - Aragón;COGULLADA;Zaragoza;Zaragoza
+677904,96;4615271,88;10;02 - Aragón;COGULLADA;Zaragoza;Zaragoza
+676180,24;4612543,43;45;02 - Aragón;COR_INGLES;Zaragoza;Zaragoza
+670914,86;4612116,29;45;02 - Aragón;CR_MADRID;Zaragoza;Zaragoza
+670914,86;4612116,29;15;02 - Aragón;CR_MADRID;Zaragoza;Zaragoza
+671811,52;4607198,02;45;02 - Aragón;CUARTE;Zaragoza;Zaragoza
+671811,52;4607198,02;15;02 - Aragón;CUARTE;Zaragoza;Zaragoza
+682374,11;4608685,24;45;02 - Aragón;D_CARTUJA;Zaragoza;Zaragoza
+634940,32;4553554,36;45;02 - Aragón;DAROCA;Zaragoza;Daroca
+634940,32;4553554,36;15;02 - Aragón;DAROCA;Zaragoza;Daroca
+672400,64;4609339,78;132;02 - Aragón;ECOCIUDAD;Zaragoza;Zaragoza
+672400,64;4609339,78;15;02 - Aragón;ECOCIUDAD;Zaragoza;Zaragoza
+653105,97;4663542,78;66;02 - Aragón;EJEA;Zaragoza;Ejea de los Caballeros
+653105,97;4663542,78;13;02 - Aragón;EJEA;Zaragoza;Ejea de los Caballeros
+689260,79;4603759,74;45;02 - Aragón;EL_BURGO;Zaragoza;Burgo de Ebro, El
+689260,79;4603759,74;10;02 - Aragón;EL_BURGO;Zaragoza;Burgo de Ebro, El
+624740,09;4587532,99;45;02 - Aragón;EL_FRASNO;Zaragoza;Frasno, El
+624740,09;4587532,99;15;02 - Aragón;EL_FRASNO;Zaragoza;Frasno, El
+675556,96;4614142,91;45;02 - Aragón;ELEV_AGUAS;Zaragoza;Zaragoza
+675556,96;4614142,91;10;02 - Aragón;ELEV_AGUAS;Zaragoza;Zaragoza
+616185,98;4584217,57;45;02 - Aragón;EMBID;Zaragoza;Calatayud
+650759,35;4623457,15;45;02 - Aragón;ENTRERRIOS;Zaragoza;Pedrola
+722562,06;4574945,12;132;02 - Aragón;ESCATRON;Zaragoza;Escatrón
+722562,06;4574945,12;110;02 - Aragón;ESCATRON;Zaragoza;Escatrón
+722562,06;4574945,12;25;02 - Aragón;ESCATRON;Zaragoza;Escatrón
+693600,8;4601646,68;45;02 - Aragón;ESPARTAL;Zaragoza;Burgo de Ebro, El
+693600,8;4601646,68;15;02 - Aragón;ESPARTAL;Zaragoza;Burgo de Ebro, El
+674847,17;4615959,66;132;02 - Aragón;EXPO;Zaragoza;Zaragoza
+674847,17;4615959,66;15;02 - Aragón;EXPO;Zaragoza;Zaragoza
+668182,65;4610245,2;45;02 - Aragón;F_MUESTRAS;Zaragoza;Zaragoza
+668182,65;4610245,2;15;02 - Aragón;F_MUESTRAS;Zaragoza;Zaragoza
+652621,48;4625025,94;45;02 - Aragón;FIGUERUELA;Zaragoza;Figueruelas
+652621,48;4625025,94;15;02 - Aragón;FIGUERUELA;Zaragoza;Figueruelas
+669169,47;4578169,79;132;02 - Aragón;FUENDETODO;Zaragoza;Fuendetodos
+697248,55;4598136,15;45;02 - Aragón;FUENTES;Zaragoza;Fuentes de Ebro
+697248,55;4598136,15;10;02 - Aragón;FUENTES;Zaragoza;Fuentes de Ebro
+679036,22;4616196,78;45;02 - Aragón;GALLEGO;Zaragoza;Zaragoza
+679036,22;4616196,78;10;02 - Aragón;GALLEGO;Zaragoza;Zaragoza
+639790,57;4635744,18;66;02 - Aragón;GALLUR;Zaragoza;Gallur
+639790,57;4635744,18;13;02 - Aragón;GALLUR;Zaragoza;Gallur
+711857,94;4589318,1;45;02 - Aragón;GELSA;Zaragoza;Gelsa
+711857,94;4589318,1;15;02 - Aragón;GELSA;Zaragoza;Gelsa
+683084,63;4614722,97;45;02 - Aragón;GLORIA;Zaragoza;Zaragoza
+683084,63;4614722,97;15;02 - Aragón;GLORIA;Zaragoza;Zaragoza
+683084,63;4614722,97;10;02 - Aragón;GLORIA;Zaragoza;Zaragoza
+674969,71;4611528,7;45;02 - Aragón;H_M_SERVET;Zaragoza;Zaragoza
+693384,38;4600802,5;45;02 - Aragón;HIGUERAL;Zaragoza;Burgo de Ebro, El
+677161,11;4612903,45;45;02 - Aragón;HUERVA;Zaragoza;Zaragoza
+677161,11;4612903,45;10;02 - Aragón;HUERVA;Zaragoza;Zaragoza
+676186,53;4612774,65;45;02 - Aragón;IBERCAJA;Zaragoza;Zaragoza
+615262,18;4598672,05;45;02 - Aragón;ILLUECA;Zaragoza;Illueca
+615262,18;4598672,05;15;02 - Aragón;ILLUECA;Zaragoza;Illueca
+679923,12;4615696,05;45;02 - Aragón;JARANDIN;Zaragoza;Zaragoza
+679923,12;4615696,05;10;02 - Aragón;JARANDIN;Zaragoza;Zaragoza
+675266,43;4617981,33;45;02 - Aragón;JUSLIBOL;Zaragoza;Zaragoza
+675266,43;4617981,33;15;02 - Aragón;JUSLIBOL;Zaragoza;Zaragoza
+636994,39;4594597,52;132;02 - Aragón;LA_ALMUNIA;Zaragoza;Almunia de Doña Godina, La
+636994,39;4594597,52;45;02 - Aragón;LA_ALMUNIA;Zaragoza;Almunia de Doña Godina, La
+636994,39;4594597,52;15;02 - Aragón;LA_ALMUNIA;Zaragoza;Almunia de Doña Godina, La
+661819,18;4622149,55;45;02 - Aragón;LA_JOYOSA;Zaragoza;Joyosa, La
+661819,18;4622149,55;15;02 - Aragón;LA_JOYOSA;Zaragoza;Joyosa, La
+640231,6;4632199,69;66;02 - Aragón;LA_LOTETA;Zaragoza;Boquiñeni
+659023,4;4605646,45;45;02 - Aragón;LA_MUELA;Zaragoza;Muela, La
+659023,4;4605646,45;15;02 - Aragón;LA_MUELA;Zaragoza;Muela, La
+675539,73;4608176,21;132;02 - Aragón;LA_PAZ;Zaragoza;Zaragoza
+675539,73;4608176,21;15;02 - Aragón;LA_PAZ;Zaragoza;Zaragoza
+684797,32;4682142,81;132;02 - Aragón;LA_RALLA;Zaragoza;Santa Eulalia de Gállego
+684797,32;4682142,81;45;02 - Aragón;LA_RALLA;Zaragoza;Santa Eulalia de Gállego
+716089,15;4577604,95;45;02 - Aragón;LA_ZAIDA;Zaragoza;Sástago
+716089,15;4577604,95;15;02 - Aragón;LA_ZAIDA;Zaragoza;Sástago
+608464,53;4635297,05;66;02 - Aragón;LANZAS_AGU;Zaragoza;Tarazona
+692537,72;4563246,62;45;02 - Aragón;LECERA;Zaragoza;Lécera
+692537,72;4563246,62;15;02 - Aragón;LECERA;Zaragoza;Lécera
+667699,15;4612675,86;45;02 - Aragón;LOGISTICA;Zaragoza;Zaragoza
+667699,15;4612675,86;15;02 - Aragón;LOGISTICA;Zaragoza;Zaragoza
+676978,43;4617673,06;132;02 - Aragón;LOS_LEONES;Zaragoza;Zaragoza
+676978,43;4617673,06;45;02 - Aragón;LOS_LEONES;Zaragoza;Zaragoza
+676978,43;4617673,06;10;02 - Aragón;LOS_LEONES;Zaragoza;Zaragoza
+655361,16;4595299,31;132;02 - Aragón;LS_VIENTOS;Zaragoza;Muel
+634584,67;4633990,34;66;02 - Aragón;MAGALLON;Zaragoza;Magallón
+634584,67;4633990,34;15;02 - Aragón;MAGALLON;Zaragoza;Magallón
+678623,07;4614646,04;45;02 - Aragón;MALLORCA;Zaragoza;Zaragoza
+678623,07;4614646,04;10;02 - Aragón;MALLORCA;Zaragoza;Zaragoza
+685967,84;4612901,5;132;02 - Aragón;MALPICA;Zaragoza;Puebla de Alfindén, La
+685967,84;4612901,5;45;02 - Aragón;MALPICA;Zaragoza;Puebla de Alfindén, La
+685967,84;4612901,5;15;02 - Aragón;MALPICA;Zaragoza;Puebla de Alfindén, La
+666598,5;4600030,02;45;02 - Aragón;MARIA_HUER;Zaragoza;María de Huerva
+666598,5;4600030,02;15;02 - Aragón;MARIA_HUER;Zaragoza;María de Huerva
+684258,22;4659144,7;45;02 - Aragón;MARRACOS;Zaragoza;Marracos
+684258,22;4659144,7;15;02 - Aragón;MARRACOS;Zaragoza;Marracos
+615194,94;4579153,46;45;02 - Aragón;MEDIAVEGA;Zaragoza;Calatayud
+615194,94;4579153,46;15;02 - Aragón;MEDIAVEGA;Zaragoza;Calatayud
+774078,94;4584890,72;66;02 - Aragón;MEQUINENZA;Zaragoza;Mequinenza
+774078,94;4584890,72;25;02 - Aragón;MEQUINENZA;Zaragoza;Mequinenza
+676744,55;4612472,33;132;02 - Aragón;MIRAFLORES;Zaragoza;Zaragoza
+676744,55;4612472,33;45;02 - Aragón;MIRAFLORES;Zaragoza;Zaragoza
+676744,55;4612472,33;10;02 - Aragón;MIRAFLORES;Zaragoza;Zaragoza
+668802,96;4617560,66;45;02 - Aragón;MONZALBARB;Zaragoza;Zaragoza
+668802,96;4617560,66;15;02 - Aragón;MONZALBARB;Zaragoza;Zaragoza
+626332,93;4592305,84;45;02 - Aragón;MORATA;Zaragoza;Morata de Jalón
+619528;4593558,17;45;02 - Aragón;MORES;Zaragoza;Morés
+619528;4593558,17;15;02 - Aragón;MORES;Zaragoza;Morés
+659373,9;4592396,38;45;02 - Aragón;MUEL;Zaragoza;Muel
+659373,9;4592396,38;15;02 - Aragón;MUEL;Zaragoza;Muel
+608189,45;4645400,93;66;02 - Aragón;NOVALLAS;Zaragoza;Novallas
+694048,98;4607332,13;45;02 - Aragón;NUEZ;Zaragoza;Alfajarín
+694048,98;4607332,13;15;02 - Aragón;NUEZ;Zaragoza;Alfajarín
+678541,43;4612106,42;45;02 - Aragón;OLIVERA;Zaragoza;Zaragoza
+678541,43;4612106,42;10;02 - Aragón;OLIVERA;Zaragoza;Zaragoza
+607284,76;4637952,89;66;02 - Aragón;P.TARAZONA;Zaragoza;Grisel
+607284,76;4637952,89;13;02 - Aragón;P.TARAZONA;Zaragoza;Grisel
+615367,9;4574944,45;132;02 - Aragón;PARACUEL;Zaragoza;Paracuellos de Jiloca
+676027,3;4612750,28;45;02 - Aragón;PARAISO;Zaragoza;Zaragoza
+676027,3;4612750,28;10;02 - Aragón;PARAISO;Zaragoza;Zaragoza
+687830,13;4621382,99;132;02 - Aragón;PEÑAFLOR;Zaragoza;Villamayor de Gállego
+644197,56;4606031,55;45;02 - Aragón;PI_EPILA;Zaragoza;Épila
+644197,56;4606031,55;15;02 - Aragón;PI_EPILA;Zaragoza;Épila
+699979,06;4597767,94;45;02 - Aragón;PI_FUENTES;Zaragoza;Fuentes de Ebro
+699979,06;4597767,94;15;02 - Aragón;PI_FUENTES;Zaragoza;Fuentes de Ebro
+707620,07;4596951,25;45;02 - Aragón;PINA;Zaragoza;Pina de Ebro
+707620,07;4596951,25;15;02 - Aragón;PINA;Zaragoza;Pina de Ebro
+658180,44;4594126,68;132;02 - Aragón;PITARCO;Zaragoza;Muel
+658180,44;4594126,68;45;02 - Aragón;PITARCO;Zaragoza;Muel
+658180,44;4594126,68;15;02 - Aragón;PITARCO;Zaragoza;Muel
+646889,32;4616713,52;45;02 - Aragón;PLASENCIA;Zaragoza;Plasencia de Jalón
+666813,86;4610632,17;132;02 - Aragón;PLAZA;Zaragoza;Zaragoza
+666813,86;4610632,17;45;02 - Aragón;PLAZA;Zaragoza;Zaragoza
+666813,86;4610632,17;15;02 - Aragón;PLAZA;Zaragoza;Zaragoza
+653561,8;4606115,96;132;02 - Aragón;PORTILLADA;Zaragoza;Muela, La
+675217,38;4613478,33;132;02 - Aragón;PORTILLO;Zaragoza;Zaragoza
+675217,38;4613478,33;45;02 - Aragón;PORTILLO;Zaragoza;Zaragoza
+675217,38;4613478,33;10;02 - Aragón;PORTILLO;Zaragoza;Zaragoza
+650577,69;4622074,83;45;02 - Aragón;PRADILLO;Zaragoza;Pedrola
+650577,69;4622074,83;15;02 - Aragón;PRADILLO;Zaragoza;Pedrola
+683904,66;4606568,61;45;02 - Aragón;PRYDES;Zaragoza;Zaragoza
+683904,66;4606568,61;10;02 - Aragón;PRYDES;Zaragoza;Zaragoza
+690263,69;4646936,02;45;02 - Aragón;PUILATOS;Zaragoza;Zuera
+690263,69;4646936,02;15;02 - Aragón;PUILATOS;Zaragoza;Zuera
+710446,92;4586897,25;45;02 - Aragón;QUINTO;Zaragoza;Quinto
+710446,92;4586897,25;15;02 - Aragón;QUINTO;Zaragoza;Quinto
+595808,52;4574614,78;45;02 - Aragón;R.BUBIERCA;Zaragoza;Bubierca
+645657,25;4632016,12;45;02 - Aragón;R_LUCENI;Zaragoza;Luceni
+667433,85;4610088,31;45;02 - Aragón;REN.F.MUES;Zaragoza;Zaragoza
+674144,47;4615124,61;45;02 - Aragón;RIOEBRO;Zaragoza;Zaragoza
+674144,47;4615124,61;15;02 - Aragón;RIOEBRO;Zaragoza;Zaragoza
+674324,04;4611546,93;45;02 - Aragón;ROMAREDA;Zaragoza;Zaragoza
+674324,04;4611546,93;10;02 - Aragón;ROMAREDA;Zaragoza;Zaragoza
+642581,42;4681283,15;66;02 - Aragón;SADABA;Zaragoza;Sádaba
+642581,42;4681283,15;13;02 - Aragón;SADABA;Zaragoza;Sádaba
+676678,38;4610868,02;45;02 - Aragón;SAGUNTO;Zaragoza;Zaragoza
+676678,38;4610868,02;10;02 - Aragón;SAGUNTO;Zaragoza;Zaragoza
+677494,36;4615342,26;45;02 - Aragón;SAICA_I;Zaragoza;Zaragoza
+680609,63;4604705,35;45;02 - Aragón;SAN_BRUNO;Zaragoza;Zaragoza
+680609,63;4604705,35;15;02 - Aragón;SAN_BRUNO;Zaragoza;Zaragoza
+684889,33;4631746,97;45;02 - Aragón;SAN_MATEO;Zaragoza;San Mateo de Gállego
+684889,33;4631746,97;15;02 - Aragón;SAN_MATEO;Zaragoza;San Mateo de Gállego
+720624,49;4577324,13;110;02 - Aragón;SASTAGO;Zaragoza;Sástago
+720624,49;4577324,13;30;02 - Aragón;SASTAGO;Zaragoza;Sástago
+675506,51;4573968,28;132;02 - Aragón;SEC.AZUARA;Zaragoza;Azuara
+685071,54;4613765,5;45;02 - Aragón;SEC_CABLEN;Zaragoza;Zaragoza
+650014,47;4601769,53;45;02 - Aragón;SEC_EPILA;Zaragoza;Épila
+605161,49;4639443,18;66;02 - Aragón;TARAZONA;Zaragoza;Tarazona
+605161,49;4639443,18;13;02 - Aragón;TARAZONA;Zaragoza;Tarazona
+644941,31;4643639,71;66;02 - Aragón;TAUSTE;Zaragoza;Tauste
+644941,31;4643639,71;13;02 - Aragón;TAUSTE;Zaragoza;Tauste
+678874,09;4607361,19;132;02 - Aragón;TORRERO;Zaragoza;Zaragoza
+678874,09;4607361,19;45;02 - Aragón;TORRERO;Zaragoza;Zaragoza
+678874,09;4607361,19;10;02 - Aragón;TORRERO;Zaragoza;Zaragoza
+607890,4;4631273,6;45;02 - Aragón;TRASMOZ;Zaragoza;Trasmoz
+607890,4;4631273,6;15;02 - Aragón;TRASMOZ;Zaragoza;Trasmoz
+682357,59;4606725,39;45;02 - Aragón;TUDOR;Zaragoza;Zaragoza
+673879,42;4612490;132;02 - Aragón;UNIVERSITA;Zaragoza;Zaragoza
+673879,42;4612490;45;02 - Aragón;UNIVERSITA;Zaragoza;Zaragoza
+673879,42;4612490;10;02 - Aragón;UNIVERSITA;Zaragoza;Zaragoza
+665166,69;4620029,64;45;02 - Aragón;UTEBO;Zaragoza;Zaragoza
+665166,69;4620029,64;15;02 - Aragón;UTEBO;Zaragoza;Zaragoza
+673697,48;4606473,84;132;02 - Aragón;VALDECON;Zaragoza;Cuarte de Huerva
+673697,48;4606473,84;15;02 - Aragón;VALDECON;Zaragoza;Cuarte de Huerva
+650711,84;4665051,15;66;02 - Aragón;VALDEFERRI;Zaragoza;Ejea de los Caballeros
+650711,84;4665051,15;13;02 - Aragón;VALDEFERRI;Zaragoza;Ejea de los Caballeros
+756119,75;4573559,04;132;02 - Aragón;VALDEPILAS;Zaragoza;Caspe
+756119,75;4573559,04;25;02 - Aragón;VALDEPILAS;Zaragoza;Caspe
+650899,3;4657828,67;66;02 - Aragón;VALENTIN;Zaragoza;Ejea de los Caballeros
+665977,75;4612343,39;45;02 - Aragón;VALENZUELA;Zaragoza;Zaragoza
+665977,75;4612343,39;15;02 - Aragón;VALENZUELA;Zaragoza;Zaragoza
+680206,54;4627325,91;132;02 - Aragón;VILLANUE_O;Zaragoza;Villanueva de Gállego
+680206,54;4627325,91;15;02 - Aragón;VILLANUE_O;Zaragoza;Villanueva de Gállego
+679024,35;4623385,92;132;02 - Aragón;VILLANUEVA;Zaragoza;Villanueva de Gállego
+679024,35;4623385,92;45;02 - Aragón;VILLANUEVA;Zaragoza;Villanueva de Gállego
+679024,35;4623385,92;15;02 - Aragón;VILLANUEVA;Zaragoza;Villanueva de Gállego
+679024,35;4623385,92;10;02 - Aragón;VILLANUEVA;Zaragoza;Villanueva de Gállego
+679538,74;4609932,82;45;02 - Aragón;ZARAGOZANA;Zaragoza;Zaragoza
+683397,92;4640454,78;45;02 - Aragón;ZUERA;Zaragoza;Zuera
+683397,92;4640454,78;15;02 - Aragón;ZUERA;Zaragoza;Zuera
+682808,35;4638006,22;132;02 - Aragón;ZUERAOESTE;Zaragoza;Zuera
+682808,35;4638006,22;45;02 - Aragón;ZUERAOESTE;Zaragoza;Zuera
+682808,35;4638006,22;15;02 - Aragón;ZUERAOESTE;Zaragoza;Zuera
+465066,01;4378299,46;15;04 - Illes Balears;AGUSTI;Illes Balears;Palma de Mallorca
+512351,78;4409604,59;15;04 - Illes Balears;ALCUDIA;Illes Balears;Alcúdia
+450404,03;4377362,04;15;04 - Illes Balears;ANDRATX;Illes Balears;Andratx
+480461,63;4375223,08;15;04 - Illes Balears;ARENAL;Illes Balears;Palma de Mallorca
+529431,58;4392429,49;15;04 - Illes Balears;ARTA;Illes Balears;Artà
+361213;4305701,17;15;04 - Illes Balears;BOSSA;Illes Balears;Sant Josep de sa Talaia
+474584,41;4392803,56;15;04 - Illes Balears;BUNYOLA;Illes Balears;Bunyola
+484151,25;4362265,59;15;04 - Illes Balears;CALABLAVA;Illes Balears;Llucmajor
+457685,52;4375346,05;15;04 - Illes Balears;CALVIA;Illes Balears;Calvià
+535761,67;4394303,97;15;04 - Illes Balears;CAPDEPERA;Illes Balears;Capdepera
+468666,75;4380483,43;15;04 - Illes Balears;CATALINA;Illes Balears;Palma de Mallorca
+573015,3;4428482,69;15;04 - Illes Balears;CIUDADELA;Illes Balears;Ciutadella de Menorca
+470313,86;4381637,33;15;04 - Illes Balears;COLISEO;Illes Balears;Palma de Mallorca
+520305,58;4363526,88;15;04 - Illes Balears;COLOM;Illes Balears;Felanitx
+605772,42;4416421,94;15;04 - Illes Balears;DRAGONERA;Illes Balears;Maó-Mahón
+469054,62;4381394,33;15;04 - Illes Balears;FALCA;Illes Balears;Palma de Mallorca
+366399,64;4283694,86;15;04 - Illes Balears;FORMENTE;Illes Balears;Formentera
+492942,73;4396044,4;15;04 - Illes Balears;INCA;Illes Balears;Inca
+473087,53;4379767,89;15;04 - Illes Balears;LLATZER;Illes Balears;Palma de Mallorca
+508035,87;4407123,86;15;04 - Illes Balears;LLORETA;Illes Balears;Alcúdia
+491463,95;4372060;15;04 - Illes Balears;LLUCMAJOR;Illes Balears;Llucmajor
+516352,82;4380422,56;15;04 - Illes Balears;MANACOR;Illes Balears;Manacor
+476509,37;4384694,39;15;04 - Illes Balears;MARRATXI;Illes Balears;Marratxí
+593563,05;4425798,01;15;04 - Illes Balears;MERCADAL;Illes Balears;Mercadal, Es
+531203,73;4381596,55;15;04 - Illes Balears;MILLOR;Illes Balears;Sant Llorenç des Cardassar
+472051,9;4379838,48;15;04 - Illes Balears;MOLINES;Illes Balears;Palma de Mallorca
+470654,36;4380350,47;15;04 - Illes Balears;NUREDDUNA;Illes Balears;Palma de Mallorca
+477156,76;4376461,25;15;04 - Illes Balears;OMS;Illes Balears;Palma de Mallorca
+459895,88;4374011,56;15;04 - Illes Balears;P.NOVA;Illes Balears;Calvià
+513365,94;4399735,03;15;04 - Illes Balears;PICAFORT;Illes Balears;Santa Margalida
+502715,51;4401498,29;15;04 - Illes Balears;POBLA;Illes Balears;Pobla, Sa
+470744,21;4384360,37;15;04 - Illes Balears;POLIGON;Illes Balears;Palma de Mallorca
+504810,35;4414933,36;15;04 - Illes Balears;POLLENSA;Illes Balears;Pollença
+363973,22;4308764,26;15;04 - Illes Balears;PRAT;Illes Balears;Eivissa
+468456,26;4382470;15;04 - Illes Balears;RAFAL;Illes Balears;Palma de Mallorca
+355857,02;4313357,82;15;04 - Illes Balears;S.ANTONI;Illes Balears;Sant Antoni de Portmany
+369304,06;4318575,2;15;04 - Illes Balears;S.EULALIA;Illes Balears;Sant Joan de Labritja
+359354,17;4307454,71;15;04 - Illes Balears;S.JORGE;Illes Balears;Sant Josep de sa Talaia
+474366,72;4377558,66;15;04 - Illes Balears;S.JUAN;Illes Balears;Palma de Mallorca
+483353,7;4389293,73;15;04 - Illes Balears;S.MARIA;Illes Balears;Santa María del Camí
+510144,8;4357526,72;15;04 - Illes Balears;SANTANYI;Illes Balears;Santanyí
+364166,1;4310821,72;15;04 - Illes Balears;TORRENT;Illes Balears;Santa Eulària des Riu
+473208,34;4389514,31;15;04 - Illes Balears;VELES;Illes Balears;Bunyola
+491250,07;4395473,91;15;04 - Illes Balears;VINYETA;Illes Balears;Inca
+452947,74;3080583,97;20;05 - Canarias;ALDEA_BLAN;Las Palmas;San Bartolomé de Tirajana
+456853,36;3107692,15;20;05 - Canarias;APOLINARIO;Las Palmas;Palmas de Gran Canaria, Las
+433131,95;3071637,49;20;05 - Canarias;ARGUINEGUI;Las Palmas;Mogán
+447956,61;3108243,77;20;05 - Canarias;ARUCAS;Las Palmas;Arucas
+636404,93;3207594,47;20;05 - Canarias;BARTOLOME;Las Palmas;San Bartolomé
+456744,69;3105432,51;20;05 - Canarias;BCO_SECO;Las Palmas;Palmas de Gran Canaria, Las
+457057,04;3110827,99;20;05 - Canarias;BUENAVISTA;Las Palmas;Palmas de Gran Canaria, Las
+458334,69;3087771,17;20;05 - Canarias;CARRIZAL;Las Palmas;Ingenio
+462302,1;3094847,42;20;05 - Canarias;CINSA;Las Palmas;Telde
+609642,78;3176778,14;20;05 - Canarias;CORRALEJO;Las Palmas;Oliva, La
+596184,78;3123417,94;20;05 - Canarias;G_TARAJAL;Las Palmas;Tuineje
+456547,89;3111906,81;20;05 - Canarias;GUANARTEME;Las Palmas;Palmas de Gran Canaria, Las
+439342,33;3111544,31;20;05 - Canarias;GUIA;Las Palmas;Santa María de Guía de Gran Canaria
+455446,4;3107367,7;20;05 - Canarias;LA_PATERNA;Las Palmas;Palmas de Gran Canaria, Las
+442763,74;3072099,6;20;05 - Canarias;LOMO_MASP;Las Palmas;San Bartolomé de Tirajana
+459016,72;3114233,22;20;05 - Canarias;M_GRANDE;Las Palmas;Palmas de Gran Canaria, Las
+628174,96;3203348,1;20;05 - Canarias;MACHER;Las Palmas;Tías
+458721,33;3100636,72;20;05 - Canarias;MARZAGAN;Las Palmas;Telde
+570369,53;3110923,27;20;05 - Canarias;MATAS_BLAN;Las Palmas;Pájara
+456833,23;3076178,79;20;05 - Canarias;MATORRAL;Las Palmas;San Bartolomé de Tirajana
+644431,43;3206665,51;20;05 - Canarias;P_GRANDE;Las Palmas;Arrecife
+617016,62;3194030,24;20;05 - Canarias;PLAYA_BLAN;Las Palmas;Yaiza
+445397,42;3071644,39;20;05 - Canarias;S_AGUSTIN;Las Palmas;San Bartolomé de Tirajana
+612931,79;3153525,68;20;05 - Canarias;SALINAS;Las Palmas;Puerto del Rosario
+446563;3098296,56;20;05 - Canarias;SAN_MATEO;Las Palmas;Vega de San Mateo
+440190,37;3071289,16;20;05 - Canarias;TABLERO;Las Palmas;San Bartolomé de Tirajana
+457041,26;3096005,03;20;05 - Canarias;TELDE;Las Palmas;Telde
+358085,92;3115824,31;20;05 - Canarias;ARICO_2;Santa Cruz de Tenerife;Arico
+338528,3;3103815,98;20;05 - Canarias;ARONA;Santa Cruz de Tenerife;Arona
+375782,08;3148221,97;20;05 - Canarias;B_AIRES;Santa Cruz de Tenerife;Santa Cruz de Tenerife
+366935,97;3140280,72;20;05 - Canarias;C_CANDELA_;Santa Cruz de Tenerife;Candelaria
+229450,45;3173991,44;20;05 - Canarias;C_GUINCHOS;Santa Cruz de Tenerife;Breña Alta
+333039,36;3106164,27;20;05 - Canarias;CHAYOFA;Santa Cruz de Tenerife;Arona
+353169,08;3144495,14;20;05 - Canarias;CUES_VILLA;Santa Cruz de Tenerife;Santa Úrsula
+382102,07;3153068,63;20;05 - Canarias;DIQUE_ESTE;Santa Cruz de Tenerife;Santa Cruz de Tenerife
+371298,41;3148657,07;20;05 - Canarias;GENETO;Santa Cruz de Tenerife;San Cristóbal de La Laguna
+372803,06;3149531,16;20;05 - Canarias;GUAJARA;Santa Cruz de Tenerife;San Cristóbal de La Laguna
+322966,3;3123245,8;20;05 - Canarias;GUIA_ISORA;Santa Cruz de Tenerife;Guía de Isora
+333369,64;3139146,08;20;05 - Canarias;ICOD;Santa Cruz de Tenerife;Icod de los Vinos
+328761,81;3112321,51;20;05 - Canarias;LOS_OLIVOS;Santa Cruz de Tenerife;Adeje
+375028,65;3149848,38;20;05 - Canarias;M_CRUZ;Santa Cruz de Tenerife;Santa Cruz de Tenerife
+352683,2;3107093,28;20;05 - Canarias;P_GRANAD;Santa Cruz de Tenerife;Granadilla de Abona
+365396,51;3135419,54;20;05 - Canarias;P_GUIMAR;Santa Cruz de Tenerife;Arafo
+345821,32;3140659,73;20;05 - Canarias;REALEJOS;Santa Cruz de Tenerife;Realejos, Los
+361519,14;3150603,14;20;05 - Canarias;TACORONTE;Santa Cruz de Tenerife;Tacoronte
+215008,78;3174278,32;20;05 - Canarias;VALLE;Santa Cruz de Tenerife;Llanos de Aridane, Los
+207735,91;4720066,14;132;07 - C.León;BARCENA;León;Ponferrada
+207515,95;4724144,36;132;07 - C.León;COMPOST.2;León;Cubillos del Sil
+212113,09;4730161,07;132;07 - C.León;S.MARINA;León;Toreno
+589548,81;4633360,05;45;07 - C.León;AGREDA;Soria;Ágreda
+589548,81;4633360,05;15;07 - C.León;AGREDA;Soria;Ágreda
+540839,53;4593643,26;132;07 - C.León;ALMAZAN;Soria;Almazán
+540839,53;4593643,26;45;07 - C.León;ALMAZAN;Soria;Almazán
+540839,53;4593643,26;15;07 - C.León;ALMAZAN;Soria;Almazán
+541176,12;4606676,93;45;07 - C.León;ALTOSLUBIA;Soria;Cubo de la Solana
+584275,52;4627724,56;45;07 - C.León;LA_LOMA;Soria;Ólvega
+584275,52;4627724,56;15;07 - C.León;LA_LOMA;Soria;Ólvega
+543803,46;4617422,15;45;07 - C.León;LS_RABANOS;Soria;Rábanos, Los
+543803,46;4617422,15;15;07 - C.León;LS_RABANOS;Soria;Rábanos, Los
+589477,58;4622188,88;45;07 - C.León;MONCAYO;Soria;Ólvega
+539467,34;4614451,69;45;07 - C.León;NAVALCABAL;Soria;Rábanos, Los
+539467,34;4614451,69;15;07 - C.León;NAVALCABAL;Soria;Rábanos, Los
+583177,12;4626140,05;45;07 - C.León;OLVEGA;Soria;Ólvega
+583177,12;4626140,05;15;07 - C.León;OLVEGA;Soria;Ólvega
+562412,1;4645960,52;30;07 - C.León;ONCALA;Soria;Oncala
+583968,77;4622114,63;45;07 - C.León;S_MADERO;Soria;Ólvega
+176914,75;4674157,36;50;07 - C.León;PORTO;Zamora;Porto
+407637,55;4281577,29;132;08 - C.La Mancha;E_QUIMIC;Ciudad Real;Puertollano
+406729,67;4280441,13;132;08 - C.La Mancha;EDI_RED;Ciudad Real;Puertollano
+402252,6;4278412,6;132;08 - C.La Mancha;PTOLLANO;Ciudad Real;Puertollano
+908521,03;4606693,55;25;09 - Catalunya;ABRERA;Barcelona;Abrera
+927240,9;4586287,23;25;09 - Catalunya;AEROPORT;Barcelona;Prat de Llobregat, El
+889118,85;4613349,42;25;09 - Catalunya;ANOIA;Barcelona;Vilanova del Camí
+932448,91;4604392,83;110;09 - Catalunya;ASLAND;Barcelona;Montcada i Reixac
+932448,91;4604392,83;25;09 - Catalunya;ASLAND;Barcelona;Montcada i Reixac
+937460,16;4599476,81;25;09 - Catalunya;BADALONA;Barcelona;Sant Adrià de Besòs
+937460,16;4599476,81;11;09 - Catalunya;BADALONA;Barcelona;Sant Adrià de Besòs
+929199,06;4608113,1;110;09 - Catalunya;BARBERA;Barcelona;Barberà del Vallès
+929199,06;4608113,1;25;09 - Catalunya;BARBERA;Barcelona;Barberà del Vallès
+910133,4;4589846,99;25;09 - Catalunya;BEGUES;Barcelona;Vallirana
+936975,97;4598590,83;110;09 - Catalunya;BESOS;Barcelona;Sant Adrià de Besòs
+936975,97;4598590,83;66;09 - Catalunya;BESOS;Barcelona;Sant Adrià de Besòs
+936975,97;4598590,83;25;09 - Catalunya;BESOS;Barcelona;Sant Adrià de Besòs
+936975,97;4598590,83;11;09 - Catalunya;BESOS;Barcelona;Sant Adrià de Besòs
+910253,24;4635685,26;110;09 - Catalunya;CALDERS;Barcelona;Calders
+910253,24;4635685,26;25;09 - Catalunya;CALDERS;Barcelona;Calders
+970708,47;4623773,35;110;09 - Catalunya;CALELLA;Barcelona;Calella
+970708,47;4623773,35;25;09 - Catalunya;CALELLA;Barcelona;Calella
+921713,55;4612535,45;110;09 - Catalunya;CANBARBA;Barcelona;Terrassa
+921713,55;4612535,45;25;09 - Catalunya;CANBARBA;Barcelona;Terrassa
+921713,55;4612535,45;11;09 - Catalunya;CANBARBA;Barcelona;Terrassa
+919488,18;4603650,68;110;09 - Catalunya;CANJARDI;Barcelona;Rubí
+919488,18;4603650,68;25;09 - Catalunya;CANJARDI;Barcelona;Rubí
+937574,7;4605073,46;110;09 - Catalunya;CANRUTI;Barcelona;Badalona
+937574,7;4605073,46;25;09 - Catalunya;CANRUTI;Barcelona;Badalona
+890435,65;4607736,06;110;09 - Catalunya;CAPELLADES;Barcelona;Torre de Claramunt, La
+890435,65;4607736,06;25;09 - Catalunya;CAPELLADES;Barcelona;Torre de Claramunt, La
+891103,65;4646545,58;110;09 - Catalunya;CARDONA;Barcelona;Navàs
+891103,65;4646545,58;25;09 - Catalunya;CARDONA;Barcelona;Navàs
+916566,82;4600236,47;25;09 - Catalunya;CASTELLBIS;Barcelona;Castellbisbal
+883917,81;4577324,59;25;09 - Catalunya;CASTELLET;Barcelona;Castellet i la Gornal
+933067,06;4641582,55;25;09 - Catalunya;CENTELLES;Barcelona;Centelles
+901298,43;4680501,75;110;09 - Catalunya;CERCS;Barcelona;Cercs
+901298,43;4680501,75;25;09 - Catalunya;CERCS;Barcelona;Cercs
+929957,91;4589598,99;25;09 - Catalunya;CERDA;Barcelona;Barcelona
+927129,66;4607255,9;110;09 - Catalunya;CERDANYOLA;Barcelona;Cerdanyola del Vallès
+927129,66;4607255,9;25;09 - Catalunya;CERDANYOLA;Barcelona;Cerdanyola del Vallès
+917090,43;4595931,51;25;09 - Catalunya;CERVELLO;Barcelona;Cervelló
+925794,88;4604394,12;25;09 - Catalunya;CODONYERS;Barcelona;Cerdanyola del Vallès
+927025,21;4593130,55;110;09 - Catalunya;COLLBLANC;Barcelona;Hospitalet de Llobregat, L`
+927025,21;4593130,55;25;09 - Catalunya;COLLBLANC;Barcelona;Hospitalet de Llobregat, L`
+927025,21;4593130,55;11;09 - Catalunya;COLLBLANC;Barcelona;Hospitalet de Llobregat, L`
+900017,79;4630722,65;110;09 - Catalunya;CONGOST;Barcelona;Manresa
+900017,79;4630722,65;25;09 - Catalunya;CONGOST;Barcelona;Manresa
+914009,11;4583184,62;66;09 - Catalunya;ECOGARRAF;Barcelona;Gavà
+917426,82;4615415,87;110;09 - Catalunya;EGARA;Barcelona;Terrassa
+917426,82;4615415,87;25;09 - Catalunya;EGARA;Barcelona;Terrassa
+932117,51;4597064,37;25;09 - Catalunya;EIXAMPLE;Barcelona;Barcelona
+932117,51;4597064,37;11;09 - Catalunya;EIXAMPLE;Barcelona;Barcelona
+928120,97;4594022,41;25;09 - Catalunya;FACULTATS;Barcelona;Barcelona
+890550,08;4572557,45;25;09 - Catalunya;FOIX;Barcelona;Cubelles
+939940,49;4623589,69;25;09 - Catalunya;FRANQUESES;Barcelona;Franqueses del Vallès, Les
+895479,68;4577865,28;110;09 - Catalunya;GARRAF;Barcelona;Vilanova i la Geltrú
+939347,89;4603461,65;25;09 - Catalunya;GUIXERES;Barcelona;Badalona
+926700,89;4589786,2;110;09 - Catalunya;HOSPITALET;Barcelona;Hospitalet de Llobregat, L`
+926700,89;4589786,2;25;09 - Catalunya;HOSPITALET;Barcelona;Hospitalet de Llobregat, L`
+930657,74;4592938,73;110;09 - Catalunya;HOSTAFRANC;Barcelona;Barcelona
+930657,74;4592938,73;25;09 - Catalunya;HOSTAFRANC;Barcelona;Barcelona
+930657,74;4592938,73;11;09 - Catalunya;HOSTAFRANC;Barcelona;Barcelona
+952512,37;4611551,62;110;09 - Catalunya;ILURO;Barcelona;Mataró
+952512,37;4611551,62;25;09 - Catalunya;ILURO;Barcelona;Mataró
+876373,82;4630713,12;110;09 - Catalunya;LAFORTESA;Barcelona;Calonge de Segarra
+876373,82;4630713,12;25;09 - Catalunya;LAFORTESA;Barcelona;Calonge de Segarra
+895330,73;4574889,37;110;09 - Catalunya;LAGELTRU;Barcelona;Vilanova i la Geltrú
+895330,73;4574889,37;25;09 - Catalunya;LAGELTRU;Barcelona;Vilanova i la Geltrú
+895330,73;4574889,37;11;09 - Catalunya;LAGELTRU;Barcelona;Vilanova i la Geltrú
+929638,19;4594516,39;110;09 - Catalunya;LESCORTS;Barcelona;Barcelona
+929638,19;4594516,39;11;09 - Catalunya;LESCORTS;Barcelona;Barcelona
+947429,7;4622751,74;132;09 - Catalunya;LLINARS;Barcelona;Cardedeu
+947429,7;4622751,74;25;09 - Catalunya;LLINARS;Barcelona;Cardedeu
+927079,12;4588647,96;110;09 - Catalunya;LLOBREGAT;Barcelona;Barcelona
+927079,12;4588647,96;25;09 - Catalunya;LLOBREGAT;Barcelona;Barcelona
+920998,66;4612702,12;110;09 - Catalunya;M.FIGUERES;Barcelona;Terrassa
+920998,66;4612702,12;25;09 - Catalunya;M.FIGUERES;Barcelona;Terrassa
+902510,08;4631396,58;110;09 - Catalunya;MANRESA;Barcelona;Manresa
+902510,08;4631396,58;25;09 - Catalunya;MANRESA;Barcelona;Manresa
+932957,35;4598001,57;25;09 - Catalunya;MARAGALL;Barcelona;Barcelona
+932957,35;4598001,57;11;09 - Catalunya;MARAGALL;Barcelona;Barcelona
+909781,95;4603234,99;110;09 - Catalunya;MARTORELL;Barcelona;Martorell
+909781,95;4603234,99;25;09 - Catalunya;MARTORELL;Barcelona;Martorell
+932587,08;4593208,32;110;09 - Catalunya;MATA;Barcelona;Barcelona
+932587,08;4593208,32;25;09 - Catalunya;MATA;Barcelona;Barcelona
+932587,08;4593208,32;11;09 - Catalunya;MATA;Barcelona;Barcelona
+954888,41;4614212,65;110;09 - Catalunya;MATARO;Barcelona;Mataró
+954888,41;4614212,65;25;09 - Catalunya;MATARO;Barcelona;Mataró
+954888,41;4614212,65;11;09 - Catalunya;MATARO;Barcelona;Mataró
+908334,22;4606697,06;110;09 - Catalunya;MERCADONA;Barcelona;Abrera
+937135,46;4611577,09;110;09 - Catalunya;MOGENT;Barcelona;Martorelles
+937135,46;4611577,09;25;09 - Catalunya;MOGENT;Barcelona;Martorelles
+893107,32;4586100,53;110;09 - Catalunya;MOJA;Barcelona;Olèrdola
+893107,32;4586100,53;25;09 - Catalunya;MOJA;Barcelona;Olèrdola
+932827,72;4671254,54;45;09 - Catalunya;MOLI;Barcelona;Orís
+932827,72;4671254,54;25;09 - Catalunya;MOLI;Barcelona;Orís
+904180,01;4618850,15;110;09 - Catalunya;MONISTROL;Barcelona;Monistrol de Montserrat
+904180,01;4618850,15;25;09 - Catalunya;MONISTROL;Barcelona;Monistrol de Montserrat
+938290,61;4613353,43;132;09 - Catalunya;MONTMELO;Barcelona;Montmeló
+938290,61;4613353,43;25;09 - Catalunya;MONTMELO;Barcelona;Montmeló
+929279,11;4589813,23;25;09 - Catalunya;MOTORS;Barcelona;Barcelona
+935226,49;4655954,9;110;09 - Catalunya;OSONA;Barcelona;Vic
+935226,49;4655954,9;25;09 - Catalunya;OSONA;Barcelona;Vic
+932441,1;4614807,34;25;09 - Catalunya;PALAU;Barcelona;Palau-solità i Plegamans
+893839,47;4589920,79;25;09 - Catalunya;PENEDES;Barcelona;Vilafranca del Penedès
+929399,8;4598394,88;110;09 - Catalunya;PENITENTS;Barcelona;Barcelona
+929399,8;4598394,88;11;09 - Catalunya;PENITENTS;Barcelona;Barcelona
+903011,54;4608106,52;110;09 - Catalunya;PIEROLA;Barcelona;Hostalets de Pierola, Els
+903011,54;4608106,52;25;09 - Catalunya;PIEROLA;Barcelona;Hostalets de Pierola, Els
+929244,37;4586898,98;110;09 - Catalunya;PRAT;Barcelona;Prat de Llobregat, El
+929244,37;4586898,98;25;09 - Catalunya;PRAT;Barcelona;Prat de Llobregat, El
+931481,52;4612618,8;110;09 - Catalunya;R.CALDES;Barcelona;Polinyà
+931481,52;4612618,8;25;09 - Catalunya;R.CALDES;Barcelona;Polinyà
+943507,57;4617667,42;132;09 - Catalunya;ROCA;Barcelona;Roca del Vallès, La
+943507,57;4617667,42;25;09 - Catalunya;ROCA;Barcelona;Roca del Vallès, La
+895674,84;4577601,9;110;09 - Catalunya;ROURELL;Barcelona;Vilanova i la Geltrú
+918379,31;4603442,73;66;09 - Catalunya;RUBI;Barcelona;Rubí
+918379,31;4603442,73;25;09 - Catalunya;RUBI;Barcelona;Rubí
+933567,06;4601337,95;110;09 - Catalunya;S.ANDREU;Barcelona;Barcelona
+933567,06;4601337,95;25;09 - Catalunya;S.ANDREU;Barcelona;Barcelona
+933567,06;4601337,95;11;09 - Catalunya;S.ANDREU;Barcelona;Barcelona
+921844,47;4588326,94;110;09 - Catalunya;S.BOI;Barcelona;Sant Boi de Llobregat
+921844,47;4588326,94;25;09 - Catalunya;S.BOI;Barcelona;Sant Boi de Llobregat
+922924,76;4597364,04;25;09 - Catalunya;S.C.OLORDE;Barcelona;Barcelona
+933277,44;4662491,29;132;09 - Catalunya;S.CECILIA;Barcelona;Santa Cecília de Voltregà
+933277,44;4662491,29;25;09 - Catalunya;S.CECILIA;Barcelona;Santa Cecília de Voltregà
+955240,27;4631677,78;110;09 - Catalunya;S.CELONI;Barcelona;Sant Celoni
+955240,27;4631677,78;25;09 - Catalunya;S.CELONI;Barcelona;Sant Celoni
+933612,38;4602859,12;132;09 - Catalunya;S.COLOMA;Barcelona;Santa Coloma de Gramenet
+933612,38;4602859,12;66;09 - Catalunya;S.COLOMA;Barcelona;Santa Coloma de Gramenet
+933612,38;4602859,12;25;09 - Catalunya;S.COLOMA;Barcelona;Santa Coloma de Gramenet
+923849,02;4605269,4;25;09 - Catalunya;S.CUGAT;Barcelona;Sant Cugat del Vallès
+921014,42;4594952,03;66;09 - Catalunya;S.FELIU;Barcelona;Sant Feliu de Llobregat
+921014,42;4594952,03;25;09 - Catalunya;S.FELIU;Barcelona;Sant Feliu de Llobregat
+935519,49;4608743,04;110;09 - Catalunya;S.FOST;Barcelona;Sant Fost de Campsentelles
+935519,49;4608743,04;25;09 - Catalunya;S.FOST;Barcelona;Sant Fost de Campsentelles
+923790,66;4591544,21;110;09 - Catalunya;S.JOAN.DES;Barcelona;Sant Joan Despí
+923790,66;4591544,21;25;09 - Catalunya;S.JOAN.DES;Barcelona;Sant Joan Despí
+923790,66;4591544,21;11;09 - Catalunya;S.JOAN.DES;Barcelona;Sant Joan Despí
+924720,61;4594763,4;66;09 - Catalunya;S.JUST;Barcelona;Sant Just Desvern
+924720,61;4594763,4;25;09 - Catalunya;S.JUST;Barcelona;Sant Just Desvern
+883470,8;4610560,3;110;09 - Catalunya;S.MARGARID;Barcelona;Santa Margarida de Montbui
+883470,8;4610560,3;25;09 - Catalunya;S.MARGARID;Barcelona;Santa Margarida de Montbui
+934513,04;4599242,83;66;09 - Catalunya;S.MARTI;Barcelona;Barcelona
+934513,04;4599242,83;25;09 - Catalunya;S.MARTI;Barcelona;Barcelona
+934513,04;4599242,83;11;09 - Catalunya;S.MARTI;Barcelona;Barcelona
+945212,35;4609901,35;110;09 - Catalunya;S.MATEU;Barcelona;Premià de Dalt
+945212,35;4609901,35;25;09 - Catalunya;S.MATEU;Barcelona;Premià de Dalt
+897895,86;4578509,09;110;09 - Catalunya;S.PERE.RIB;Barcelona;Sant Pere de Ribes
+897895,86;4578509,09;25;09 - Catalunya;S.PERE.RIB;Barcelona;Sant Pere de Ribes
+974468,21;4626482,21;110;09 - Catalunya;S.SUSANNA;Barcelona;Santa Susanna
+974468,21;4626482,21;25;09 - Catalunya;S.SUSANNA;Barcelona;Santa Susanna
+925354,75;4613818,09;110;09 - Catalunya;SABADELL;Barcelona;Sabadell
+925354,75;4613818,09;25;09 - Catalunya;SABADELL;Barcelona;Sabadell
+925354,75;4613818,09;11;09 - Catalunya;SABADELL;Barcelona;Sabadell
+905780,38;4641262,68;110;09 - Catalunya;SALLENT;Barcelona;Sallent
+905780,38;4641262,68;25;09 - Catalunya;SALLENT;Barcelona;Sallent
+928505,75;4592343,8;110;09 - Catalunya;SANTS;Barcelona;Hospitalet de Llobregat, L`
+928505,75;4592343,8;25;09 - Catalunya;SANTS;Barcelona;Hospitalet de Llobregat, L`
+928505,75;4592343,8;11;09 - Catalunya;SANTS;Barcelona;Hospitalet de Llobregat, L`
+948706,4;4660386,41;110;09 - Catalunya;SAU;Barcelona;Vilanova de Sau
+948706,4;4660386,41;25;09 - Catalunya;SAU;Barcelona;Vilanova de Sau
+925913,59;4620165,52;25;09 - Catalunya;SENTMENAT;Barcelona;Sentmenat
+910141,69;4605653,58;110;09 - Catalunya;SEO;Barcelona;Martorell
+902910,89;4597407,52;25;09 - Catalunya;SUBIRATS;Barcelona;Subirats
+895371,14;4641863,13;110;09 - Catalunya;SURIA;Barcelona;Súria
+934118,48;4596563,01;25;09 - Catalunya;TANGER;Barcelona;Barcelona
+934118,48;4596563,01;11;09 - Catalunya;TANGER;Barcelona;Barcelona
+918687,64;4615782,3;110;09 - Catalunya;TERRASSA;Barcelona;Terrassa
+918687,64;4615782,3;25;09 - Catalunya;TERRASSA;Barcelona;Terrassa
+918687,64;4615782,3;11;09 - Catalunya;TERRASSA;Barcelona;Terrassa
+976988,51;4632613,74;110;09 - Catalunya;TORDERA;Barcelona;Tordera
+976988,51;4632613,74;25;09 - Catalunya;TORDERA;Barcelona;Tordera
+933512,83;4601557,55;25;09 - Catalunya;TRINITAT;Barcelona;Barcelona
+930378,41;4594641,21;11;09 - Catalunya;URGELL;Barcelona;Barcelona
+907707,56;4577895,59;66;09 - Catalunya;VALLCARCA;Barcelona;Sitges
+907707,56;4577895,59;25;09 - Catalunya;VALLCARCA;Barcelona;Sitges
+937812,72;4658527,08;132;09 - Catalunya;VIC;Barcelona;Vic
+937812,72;4658527,08;25;09 - Catalunya;VIC;Barcelona;Vic
+920868;4587071,06;66;09 - Catalunya;VILADECANS;Barcelona;Viladecans
+920868;4587071,06;25;09 - Catalunya;VILADECANS;Barcelona;Viladecans
+933315,1;4595273,35;25;09 - Catalunya;VILANOVA;Barcelona;Barcelona
+933315,1;4595273,35;11;09 - Catalunya;VILANOVA;Barcelona;Barcelona
+936491,4;4689769,95;45;09 - Catalunya;ABADESSES;Girona;Sant Joan de les Abadesses
+936491,4;4689769,95;25;09 - Catalunya;ABADESSES;Girona;Sant Joan de les Abadesses
+1004571,98;4675896,44;110;09 - Catalunya;BELLCAIRE;Girona;Bellcaire d`Empordà
+1004571,98;4675896,44;25;09 - Catalunya;BELLCAIRE;Girona;Bellcaire d`Empordà
+971942,55;4662502,83;132;09 - Catalunya;BESCANO;Girona;Bescanó
+971942,55;4662502,83;25;09 - Catalunya;BESCANO;Girona;Bescanó
+963348,15;4634976,97;132;09 - Catalunya;BUIXALLEU;Girona;Sant Feliu de Buixalleu
+963348,15;4634976,97;25;09 - Catalunya;BUIXALLEU;Girona;Sant Feliu de Buixalleu
+1001384,04;4645974,28;110;09 - Catalunya;C.ARO;Girona;Castell-Platja d`Aro
+1001384,04;4645974,28;25;09 - Catalunya;C.ARO;Girona;Castell-Platja d`Aro
+941934,45;4697976,63;45;09 - Catalunya;CAMPRODON;Girona;Camprodon
+941934,45;4697976,63;25;09 - Catalunya;CAMPRODON;Girona;Camprodon
+989598,68;4651350,48;110;09 - Catalunya;CASSA;Girona;Cassà de la Selva
+989598,68;4651350,48;25;09 - Catalunya;CASSA;Girona;Cassà de la Selva
+903061,33;4703561,54;110;09 - Catalunya;CERDANYA;Girona;Fontanals de Cerdanya
+903061,33;4703561,54;25;09 - Catalunya;CERDANYA;Girona;Fontanals de Cerdanya
+972280,13;4687727,63;132;09 - Catalunya;CONFIREL;Girona;Beuda
+1010079,12;4660300,61;110;09 - Catalunya;EMPORDANET;Girona;Palafrugell
+1010079,12;4660300,61;25;09 - Catalunya;EMPORDANET;Girona;Palafrugell
+991502,99;4695515,89;132;09 - Catalunya;FIGUERES;Girona;Figueres
+991502,99;4695515,89;25;09 - Catalunya;FIGUERES;Girona;Figueres
+980429,57;4659516,24;132;09 - Catalunya;FORNELLS;Girona;Fornells de la Selva
+980429,57;4659516,24;25;09 - Catalunya;FORNELLS;Girona;Fornells de la Selva
+988598,19;4669150,98;132;09 - Catalunya;JUIA;Girona;Juià
+988598,19;4669150,98;110;09 - Catalunya;JUIA;Girona;Juià
+988598,19;4669150,98;25;09 - Catalunya;JUIA;Girona;Juià
+957177,31;4687727,37;132;09 - Catalunya;LESFONTS;Girona;Sant Joan les Fonts
+1005972,37;4708378,98;132;09 - Catalunya;LLANÇA;Girona;Llançà
+1005972,37;4708378,98;25;09 - Catalunya;LLANÇA;Girona;Llançà
+987782,88;4635503,24;110;09 - Catalunya;LLORET;Girona;Lloret de Mar
+987782,88;4635503,24;25;09 - Catalunya;LLORET;Girona;Lloret de Mar
+953466,94;4685546,45;132;09 - Catalunya;OLOT;Girona;Olot
+953466,94;4685546,45;25;09 - Catalunya;OLOT;Girona;Olot
+981921,34;4671153,51;110;09 - Catalunya;P.ESTANY;Girona;Palol de Revardit
+981921,34;4671153,51;25;09 - Catalunya;P.ESTANY;Girona;Palol de Revardit
+929517,89;4686415,56;132;09 - Catalunya;RIPOLL;Girona;Ripoll
+929517,89;4686415,56;45;09 - Catalunya;RIPOLL;Girona;Ripoll
+929517,89;4686415,56;25;09 - Catalunya;RIPOLL;Girona;Ripoll
+956077,98;4651152,14;110;09 - Catalunya;S.HILARI;Girona;Sant Hilari Sacalm
+956077,98;4651152,14;25;09 - Catalunya;S.HILARI;Girona;Sant Hilari Sacalm
+990805,67;4692506,65;132;09 - Catalunya;S.LLOGAIA;Girona;Santa Llogaia d`Àlguema
+980762,78;4662689,15;132;09 - Catalunya;SALT;Girona;Salt
+980762,78;4662689,15;25;09 - Catalunya;SALT;Girona;Salt
+973953,68;4685795,73;132;09 - Catalunya;SERINYA;Girona;Serinyà
+977937,59;4644209,87;110;09 - Catalunya;SILS;Girona;Sils
+977937,59;4644209,87;25;09 - Catalunya;SILS;Girona;Sils
+961569,91;4663185,01;110;09 - Catalunya;SUSQUEDA;Girona;Susqueda
+961569,91;4663185,01;25;09 - Catalunya;SUSQUEDA;Girona;Susqueda
+1006096,78;4699630,01;132;09 - Catalunya;TORREVENT;Girona;Palau-saverdera
+1006096,78;4699630,01;25;09 - Catalunya;TORREVENT;Girona;Palau-saverdera
+936384,08;4701331,38;45;09 - Catalunya;TREGURA;Girona;Vilallonga de Ter
+936384,08;4701331,38;25;09 - Catalunya;TREGURA;Girona;Vilallonga de Ter
+1007943,77;4654469,27;110;09 - Catalunya;V.LLOBREGA;Girona;Vall-llobrega
+1007943,77;4654469,27;25;09 - Catalunya;V.LLOBREGA;Girona;Vall-llobrega
+994538,87;4691642,03;132;09 - Catalunya;VILAMALLA;Girona;Vilamalla
+994538,87;4691642,03;25;09 - Catalunya;VILAMALLA;Girona;Vilamalla
+980991,38;4661868,34;110;09 - Catalunya;XIRGU;Girona;Girona
+980991,38;4661868,34;25;09 - Catalunya;XIRGU;Girona;Girona
+980991,38;4661868,34;11;09 - Catalunya;XIRGU;Girona;Girona
+862251,3;4695099,6;110;09 - Catalunya;ADRALL;Lleida;Ribera d`Urgellet
+862251,3;4695099,6;25;09 - Catalunya;ADRALL;Lleida;Ribera d`Urgellet
+801992,85;4609196,57;25;09 - Catalunya;ALBATARREC;Lleida;Albatàrrec
+796723,36;4639401,59;132;09 - Catalunya;ALFARRAS;Lleida;Alfarràs
+796723,36;4639401,59;25;09 - Catalunya;ALFARRAS;Lleida;Alfarràs
+781631,23;4581947,94;25;09 - Catalunya;ALMATRET;Lleida;Almatret
+839682,94;4707139,35;110;09 - Catalunya;ALTRON;Lleida;Sort
+839682,94;4707139,35;25;09 - Catalunya;ALTRON;Lleida;Sort
+817561,79;4734863,18;110;09 - Catalunya;ARTIES;Lleida;Naut Aran
+817561,79;4734863,18;25;09 - Catalunya;ARTIES;Lleida;Naut Aran
+815425,72;4629273,09;110;09 - Catalunya;BALAGUER;Lleida;Térmens
+815425,72;4629273,09;25;09 - Catalunya;BALAGUER;Lleida;Térmens
+821890,22;4734833,26;110;09 - Catalunya;BAQUEIRA;Lleida;Naut Aran
+821890,22;4734833,26;25;09 - Catalunya;BAQUEIRA;Lleida;Naut Aran
+814590,75;4617216,09;110;09 - Catalunya;BELL-LLOC;Lleida;Bell-lloc d`Urgell
+814590,75;4617216,09;25;09 - Catalunya;BELL-LLOC;Lleida;Bell-lloc d`Urgell
+805743,95;4738427,4;110;09 - Catalunya;BENOS;Lleida;Bòrdes, Es
+813141,75;4713058,98;132;09 - Catalunya;BOHI;Lleida;Vall de Boí, La
+813141,75;4713058,98;25;09 - Catalunya;BOHI;Lleida;Vall de Boí, La
+801909,54;4742603,08;110;09 - Catalunya;BOSSOST;Lleida;Bossòst
+828147,61;4709329,5;110;09 - Catalunya;CABDELLA;Lleida;Torre de Cabdella, La
+815077,19;4717326,25;132;09 - Catalunya;CALDES;Lleida;Vall de Boí, La
+822647,59;4646747,43;110;09 - Catalunya;CAMARASA;Lleida;Camarasa
+857171,03;4623213,23;110;09 - Catalunya;CERVERA;Lleida;Cervera
+857171,03;4623213,23;25;09 - Catalunya;CERVERA;Lleida;Cervera
+839877,24;4721439,25;110;09 - Catalunya;ESPOT;Lleida;Espot
+838376,24;4727640,79;25;09 - Catalunya;ESTERRI;Lleida;Esterri d`Àneu
+819392,79;4604738,99;25;09 - Catalunya;JUNEDA;Lleida;Juneda
+846212,2;4713485,64;110;09 - Catalunya;LLAVORSI;Lleida;Llavorsí
+846212,2;4713485,64;25;09 - Catalunya;LLAVORSI;Lleida;Llavorsí
+805199,81;4615397,17;110;09 - Catalunya;LLEIDA;Lleida;Lleida
+805199,81;4615397,17;25;09 - Catalunya;LLEIDA;Lleida;Lleida
+809326,26;4707364,64;132;09 - Catalunya;LLESP;Lleida;Pont de Suert, El
+805636,23;4613191,38;132;09 - Catalunya;MAGRANERS;Lleida;Lleida
+805636,23;4613191,38;66;09 - Catalunya;MAGRANERS;Lleida;Lleida
+805636,23;4613191,38;25;09 - Catalunya;MAGRANERS;Lleida;Lleida
+827085,28;4702416,24;110;09 - Catalunya;MOLINOS;Lleida;Torre de Cabdella, La
+823957,96;4616278,01;110;09 - Catalunya;MOLLERUSSA;Lleida;Mollerussa
+823957,96;4616278,01;25;09 - Catalunya;MOLLERUSSA;Lleida;Mollerussa
+806256,48;4669995,86;132;09 - Catalunya;MONTANYANA;Lleida;Sant Esteve de la Sarga
+848449,75;4630126,2;110;09 - Catalunya;MONTROIG;Lleida;Plans de Sió, Els
+848449,75;4630126,2;25;09 - Catalunya;MONTROIG;Lleida;Plans de Sió, Els
+855134,1;4668938,45;110;09 - Catalunya;OLIANA;Lleida;Peramola
+855134,1;4668938,45;25;09 - Catalunya;OLIANA;Lleida;Peramola
+827820,63;4685349,95;110;09 - Catalunya;POBLA;Lleida;Pobla de Segur, La
+827820,63;4685349,95;25;09 - Catalunya;POBLA;Lleida;Pobla de Segur, La
+807706,16;4701339,01;132;09 - Catalunya;PONT;Lleida;Pont de Suert, El
+807706,16;4701339,01;25;09 - Catalunya;PONT;Lleida;Pont de Suert, El
+848016,41;4650287,4;110;09 - Catalunya;PONTS;Lleida;Baronia de Rialb, La
+848016,41;4650287,4;25;09 - Catalunya;PONTS;Lleida;Baronia de Rialb, La
+789265,09;4620607,46;66;09 - Catalunya;RAIMAT;Lleida;Lleida
+789265,09;4620607,46;25;09 - Catalunya;RAIMAT;Lleida;Lleida
+847815,45;4651611,43;110;09 - Catalunya;RIALB;Lleida;Tiurana
+818382,5;4640642,65;110;09 - Catalunya;S.LLORENÇ;Lleida;Camarasa
+835128,33;4722201,75;110;09 - Catalunya;S.MAURICI;Lleida;Espot
+800832,82;4622239,14;110;09 - Catalunya;SEGRIA;Lleida;Benavent de Segrià
+800832,82;4622239,14;25;09 - Catalunya;SEGRIA;Lleida;Benavent de Segrià
+789059,58;4596497,14;110;09 - Catalunya;SEROS;Lleida;Aitona
+789059,58;4596497,14;25;09 - Catalunya;SEROS;Lleida;Aitona
+871456,82;4659039,69;110;09 - Catalunya;SOLSONA;Lleida;Olius
+871456,82;4659039,69;25;09 - Catalunya;SOLSONA;Lleida;Olius
+822764,11;4676542,66;110;09 - Catalunya;TALARN;Lleida;Talarn
+822764,11;4676542,66;25;09 - Catalunya;TALARN;Lleida;Talarn
+844040,59;4621553,43;110;09 - Catalunya;TARREGA;Lleida;Tàrrega
+844040,59;4621553,43;25;09 - Catalunya;TARREGA;Lleida;Tàrrega
+822360,85;4662326,76;110;09 - Catalunya;TERRADETS;Lleida;Castell de Mur
+810998,99;4735506,44;110;09 - Catalunya;VIELHA;Lleida;Vielha e Mijaran
+810998,99;4735506,44;25;09 - Catalunya;VIELHA;Lleida;Vielha e Mijaran
+804888,4;4707133,58;132;09 - Catalunya;VILALLER;Lleida;Vilaller
+797580,42;4496066,01;110;09 - Catalunya;ALCANAR;Tarragona;Alcanar
+797580,42;4496066,01;25;09 - Catalunya;ALCANAR;Tarragona;Alcanar
+867011,92;4565102,08;110;09 - Catalunya;ALTAFULLA;Tarragona;Altafulla
+867011,92;4565102,08;25;09 - Catalunya;ALTAFULLA;Tarragona;Altafulla
+809735,67;4523084,82;110;09 - Catalunya;AMPOLLA;Tarragona;Ampolla, L`
+809735,67;4523084,82;25;09 - Catalunya;AMPOLLA;Tarragona;Ampolla, L`
+800847,27;4512507,11;110;09 - Catalunya;AMPOSTA;Tarragona;Amposta
+800847,27;4512507,11;25;09 - Catalunya;AMPOSTA;Tarragona;Amposta
+798777,43;4567012,12;110;09 - Catalunya;ASCO;Tarragona;Ascó
+805752,98;4558292,05;25;09 - Catalunya;AUBALS;Tarragona;Garcia
+849585,19;4559923,09;25;09 - Catalunya;BELLISSENS;Tarragona;Reus
+839227,14;4555883,81;110;09 - Catalunya;CAMBRILS;Tarragona;Cambrils
+839227,14;4555883,81;25;09 - Catalunya;CAMBRILS;Tarragona;Cambrils
+798474,93;4519108,26;110;09 - Catalunya;CAMPREDO;Tarragona;Tortosa
+804409,34;4524853,32;110;09 - Catalunya;COLLDALBA;Tarragona;Tortosa
+854604,76;4562387,55;25;09 - Catalunya;CONSTANTI;Tarragona;Tarragona
+796274,44;4570183,38;110;09 - Catalunya;ERKIMIA;Tarragona;Flix
+797435,51;4570204,11;110;09 - Catalunya;FLIX;Tarragona;Flix
+797435,51;4570204,11;25;09 - Catalunya;FLIX;Tarragona;Flix
+808255,79;4567012,26;110;09 - Catalunya;GARGANTA;Tarragona;Torre de l`Espanyol, La
+847952,55;4570269,53;25;09 - Catalunya;LASELVA;Tarragona;Selva del Camp, La
+845666,77;4590961,15;25;09 - Catalunya;MONTBLANC;Tarragona;Montblanc
+785079,7;4502234,64;110;09 - Catalunya;MONTSIA;Tarragona;Ulldecona
+785079,7;4502234,64;25;09 - Catalunya;MONTSIA;Tarragona;Ulldecona
+856294,67;4569059,03;66;09 - Catalunya;PERAFORT;Tarragona;Perafort
+856294,67;4569059,03;25;09 - Catalunya;PERAFORT;Tarragona;Perafort
+810122,05;4533800,27;110;09 - Catalunya;PERELLO;Tarragona;Perelló, El
+826339,6;4561833,64;110;09 - Catalunya;PRADELL;Tarragona;Pradell de la Teixeta
+826339,6;4561833,64;25;09 - Catalunya;PRADELL;Tarragona;Pradell de la Teixeta
+859388,2;4579102,55;25;09 - Catalunya;PUIGPELAT;Tarragona;Puigpelat
+854718,17;4566885,91;66;09 - Catalunya;REPSOL;Tarragona;Pobla de Mafumet, La
+844524,35;4565530,86;110;09 - Catalunya;REUS;Tarragona;Reus
+844524,35;4565530,86;25;09 - Catalunya;REUS;Tarragona;Reus
+844524,35;4565530,86;11;09 - Catalunya;REUS;Tarragona;Reus
+787516,31;4571334,62;25;09 - Catalunya;RIBARROJA;Tarragona;Riba-roja d`Ebre
+851339,87;4565032,73;110;09 - Catalunya;TARRACO;Tarragona;Constantí
+851339,87;4565032,73;25;09 - Catalunya;TARRACO;Tarragona;Constantí
+852501,74;4559902,05;110;09 - Catalunya;TARRAGONA;Tarragona;Tarragona
+852501,74;4559902,05;25;09 - Catalunya;TARRAGONA;Tarragona;Tarragona
+797436,45;4522417,96;110;09 - Catalunya;TORTOSA;Tarragona;Tortosa
+797436,45;4522417,96;25;09 - Catalunya;TORTOSA;Tarragona;Tortosa
+856403,54;4580148,65;110;09 - Catalunya;VALLS;Tarragona;Valls
+856403,54;4580148,65;25;09 - Catalunya;VALLS;Tarragona;Valls
+826248,98;4542966,82;110;09 - Catalunya;VANDELLOS;Tarragona;Vandellòs i l`Hospitalet de l`Infant
+826248,98;4542966,82;25;09 - Catalunya;VANDELLOS;Tarragona;Vandellòs i l`Hospitalet de l`Infant
+877927,57;4571223,6;110;09 - Catalunya;VENDRELL;Tarragona;Vendrell, El
+877927,57;4571223,6;25;09 - Catalunya;VENDRELL;Tarragona;Vendrell, El
+793556,29;4536162,88;110;09 - Catalunya;XERTA;Tarragona;Xerta
+793556,29;4536162,88;25;09 - Catalunya;XERTA;Tarragona;Xerta
+145818,29;4270996,83;66;11 - Extremadura;ALCONCHE;Badajoz;Alconchel
+145818,29;4270996,83;20;11 - Extremadura;ALCONCHE;Badajoz;Alconchel
+195369,68;4253775,14;66;11 - Extremadura;ALCONERA;Badajoz;Alconera
+204395,68;4288519,28;66;11 - Extremadura;ALMENDRA;Badajoz;Almendralejo
+204395,68;4288519,28;15;11 - Extremadura;ALMENDRA;Badajoz;Almendralejo
+169916,31;4300018,95;66;11 - Extremadura;ALVARADO;Badajoz;Badajoz
+169916,31;4300018,95;20;11 - Extremadura;ALVARADO;Badajoz;Badajoz
+199380,57;4307489,14;66;11 - Extremadura;ARROYO;Badajoz;Arroyo de San Serván
+199380,57;4307489,14;15;11 - Extremadura;ARROYO;Badajoz;Arroyo de San Serván
+265506,7;4238588,79;66;11 - Extremadura;AZUAGA;Badajoz;Azuaga
+265506,7;4238588,79;15;11 - Extremadura;AZUAGA;Badajoz;Azuaga
+159335,88;4311454,45;66;11 - Extremadura;BADAJOZ;Badajoz;Badajoz
+159335,88;4311454,45;20;11 - Extremadura;BADAJOZ;Badajoz;Badajoz
+175429,41;4248439,22;66;11 - Extremadura;BALBOA;Badajoz;Jerez de los Caballeros
+175429,41;4248439,22;20;11 - Extremadura;BALBOA;Badajoz;Jerez de los Caballeros
+207315,9;4273894,3;66;11 - Extremadura;BARBOSA;Badajoz;Villafranca de los Barros
+162164,61;4270637,44;66;11 - Extremadura;BARCAROT;Badajoz;Barcarrota
+162164,61;4270637,44;20;11 - Extremadura;BARCAROT;Badajoz;Barcarrota
+186463,73;4252912,7;66;11 - Extremadura;BURGUILL;Badajoz;Burguillos del Cerro
+186463,73;4252912,7;15;11 - Extremadura;BURGUILL;Badajoz;Burguillos del Cerro
+181124,23;4310901,71;66;11 - Extremadura;CALZADAR;Badajoz;Valdelacalzada
+181124,23;4310901,71;20;11 - Extremadura;CALZADAR;Badajoz;Valdelacalzada
+161072,71;4311106,46;66;11 - Extremadura;CERROGOR;Badajoz;Badajoz
+161072,71;4311106,46;20;11 - Extremadura;CERROGOR;Badajoz;Badajoz
+326278,38;4359900,01;132;11 - Extremadura;CIJARA;Badajoz;Herrera del Duque
+181342,8;4231125,65;66;11 - Extremadura;FREGENAL;Badajoz;Fregenal de la Sierra
+181342,8;4231125,65;15;11 - Extremadura;FREGENAL;Badajoz;Fregenal de la Sierra
+211346,29;4239331,24;66;11 - Extremadura;FUENTEDE;Badajoz;Fuente de Cantos
+211346,29;4239331,24;15;11 - Extremadura;FUENTEDE;Badajoz;Fuente de Cantos
+217918,12;4263550,26;66;11 - Extremadura;HI_VALLE;Badajoz;Hinojosa del Valle
+217918,12;4263550,26;15;11 - Extremadura;HI_VALLE;Badajoz;Hinojosa del Valle
+231538,81;4272709,81;66;11 - Extremadura;HORNACHO;Badajoz;Hornachos
+231538,81;4272709,81;15;11 - Extremadura;HORNACHO;Badajoz;Hornachos
+170808,6;4247437,22;66;11 - Extremadura;JEREZCAB;Badajoz;Jerez de los Caballeros
+170808,6;4247437,22;15;11 - Extremadura;JEREZCAB;Badajoz;Jerez de los Caballeros
+214975,43;4310498,73;132;11 - Extremadura;JUDIO;Badajoz;Mérida
+214975,43;4310498,73;15;11 - Extremadura;JUDIO;Badajoz;Mérida
+237170,3;4236935,96;66;11 - Extremadura;LLERENA;Badajoz;Llerena
+237170,3;4236935,96;15;11 - Extremadura;LLERENA;Badajoz;Llerena
+186107,6;4305774,7;66;11 - Extremadura;LOBON;Badajoz;Lobón
+186107,6;4305774,7;20;11 - Extremadura;LOBON;Badajoz;Lobón
+210185,21;4310609,96;132;11 - Extremadura;MERIDA;Badajoz;Mérida
+210185,21;4310609,96;66;11 - Extremadura;MERIDA;Badajoz;Mérida
+210185,21;4310609,96;15;11 - Extremadura;MERIDA;Badajoz;Mérida
+153724,48;4312055,85;66;11 - Extremadura;NEVERO;Badajoz;Badajoz
+153724,48;4312055,85;20;11 - Extremadura;NEVERO;Badajoz;Badajoz
+143306,11;4290618,72;66;11 - Extremadura;OLIVENZA;Badajoz;Olivenza
+143306,11;4290618,72;20;11 - Extremadura;OLIVENZA;Badajoz;Olivenza
+280036,01;4318245,45;132;11 - Extremadura;ORELLANA;Badajoz;Orellana la Vieja
+208249,18;4304713,29;66;11 - Extremadura;PARQ_SUR;Badajoz;Mérida
+208249,18;4304713,29;15;11 - Extremadura;PARQ_SUR;Badajoz;Mérida
+206315,15;4312779,21;66;11 - Extremadura;PRADO;Badajoz;Mérida
+206315,15;4312779,21;15;11 - Extremadura;PRADO;Badajoz;Mérida
+209889,98;4315069,31;66;11 - Extremadura;PROSERPI;Badajoz;Mérida
+209889,98;4315069,31;15;11 - Extremadura;PROSERPI;Badajoz;Mérida
+311338,75;4334918,95;132;11 - Extremadura;PTO_PENA;Badajoz;Talarrubias
+198113,33;4251756,7;66;11 - Extremadura;PUEBLA;Badajoz;Alconera
+198113,33;4251756,7;15;11 - Extremadura;PUEBLA;Badajoz;Alconera
+152857,74;4315202,12;66;11 - Extremadura;RIOCAYA;Badajoz;Badajoz
+152857,74;4315202,12;20;11 - Extremadura;RIOCAYA;Badajoz;Badajoz
+220582,56;4206927,33;66;11 - Extremadura;RIONARCE;Badajoz;Monesterio
+153543,19;4310197,35;66;11 - Extremadura;S_MARINA;Badajoz;Badajoz
+153543,19;4310197,35;20;11 - Extremadura;S_MARINA;Badajoz;Badajoz
+203991,09;4265824;66;11 - Extremadura;SANJORGE;Badajoz;Fuente del Maestre
+290503,86;4309720,73;132;11 - Extremadura;SERENA;Badajoz;Castuera
+174536,88;4285431,08;66;11 - Extremadura;T_MIGUEL;Badajoz;Torre de Miguel Sesmero
+174536,88;4285431,08;20;11 - Extremadura;T_MIGUEL;Badajoz;Torre de Miguel Sesmero
+204159,76;4258958,18;66;11 - Extremadura;TALIA;Badajoz;Puebla de Sancho Pérez
+207546,16;4300509,17;66;11 - Extremadura;TORREMEJ;Badajoz;Torremejía
+207546,16;4300509,17;15;11 - Extremadura;TORREMEJ;Badajoz;Torremejía
+154611,65;4306321,15;66;11 - Extremadura;VAGUADAS;Badajoz;Badajoz
+154611,65;4306321,15;20;11 - Extremadura;VAGUADAS;Badajoz;Badajoz
+165419,52;4310872,25;66;11 - Extremadura;VEGASBAJ;Badajoz;Badajoz
+165419,52;4310872,25;20;11 - Extremadura;VEGASBAJ;Badajoz;Badajoz
+208130;4273120,27;66;11 - Extremadura;VILLFRAB;Badajoz;Villafranca de los Barros
+208130;4273120,27;15;11 - Extremadura;VILLFRAB;Badajoz;Villafranca de los Barros
+201612,26;4259213,93;66;11 - Extremadura;ZAFRA;Badajoz;Zafra
+201612,26;4259213,93;15;11 - Extremadura;ZAFRA;Badajoz;Zafra
+215432,11;4300153,9;66;11 - Extremadura;ZARZA;Badajoz;Zarza, La
+285121,69;4310403,05;132;11 - Extremadura;ZUJAR;Badajoz;Castuera
+104131,63;4822690,07;132;12 - Galicia;TESOURO;A Coruña;Pontes de García Rodríguez, As
+104131,63;4822690,07;20;12 - Galicia;TESOURO;A Coruña;Pontes de García Rodríguez, As
+164304,38;4674813,93;50;12 - Galicia;S.AGUSTIN;Ourense;Viana do Bolo
+164304,38;4674813,93;15;12 - Galicia;S.AGUSTIN;Ourense;Viana do Bolo
+170592,02;4671467,72;50;12 - Galicia;S.SEBAS;Ourense;Viana do Bolo
+170592,02;4671467,72;15;12 - Galicia;S.SEBAS;Ourense;Viana do Bolo
+666875,66;4739971,36;45;15 - Navarra;RONCAL;Navarra;Roncal/Erronkari
+666875,66;4739971,36;15;15 - Navarra;RONCAL;Navarra;Roncal/Erronkari
