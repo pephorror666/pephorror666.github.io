@@ -37,9 +37,9 @@
                 <div class="bg-blue-600 p-2 rounded-xl shadow-lg shadow-blue-200">
                     <i data-lucide="zap" class="text-white w-6 h-6"></i>
                 </div>
-                <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">
                     Meteo <span class="text-blue-600 italic">Subestaciones</span>
-                </h1>
+                </h2>
             </div>
             <p class="text-slate-500 font-medium ml-1">
                 Monitorización técnica y climática profesional.
