@@ -11,6 +11,7 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
         h1 {display: none;}
         
         body {
@@ -37,12 +38,12 @@
                 <div class="bg-blue-600 p-2 rounded-xl shadow-lg shadow-blue-200">
                     <i data-lucide="zap" class="text-white w-6 h-6"></i>
                 </div>
-                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">
-                    e <span class="text-blue-600 italic">Subestaciones</span>
-                </h2>
+                <h1 class="text-3xl font-extrabold text-slate-900 tracking-tight">
+                    Meteo <span class="text-blue-600 italic">Subestaciones</span>
+                </h1>
             </div>
             <p class="text-slate-500 font-medium ml-1">
-                Información geográfica y metereológica.
+                Monitorización técnica y climática profesional.
             </p>
         </div>
 
@@ -211,6 +212,15 @@
 
                         <div id="forecastRow"
                              class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                        </div>
+                        <div class="mt-10">
+                            <h4 class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-6">
+                                Previsión Semanal
+                            </h4>
+
+                            <div id="weeklyForecast"
+                                class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-3">
+                            </div>
                         </div>
                     </div>
 
@@ -415,8 +425,8 @@
     // ---------- WEATHER ----------
     async function fetchWeather(lat, lon) {
 
-    const url =
-        `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=temperature_2m,weathercode&forecast_hours=6`;
+    // const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=temperature_2m,weathercode&forecast_hours=6`;
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=temperature_2m,weathercode&forecast_hours=6&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=auto`;
 
     try {
         const resp = await fetch(url);
@@ -455,6 +465,40 @@
                 </div>
             `;
         }
+
+        // -------- WEEKLY FORECAST --------
+        const weeklyContainer = document.getElementById('weeklyForecast');
+        weeklyContainer.innerHTML = '';
+
+        for (let i = 0; i < 7; i++) {
+
+            const date = new Date(data.daily.time[i]);
+
+            const dayName = date.toLocaleDateString('es-ES', {
+                weekday: 'short'
+            });
+
+            const max = Math.round(data.daily.temperature_2m_max[i]);
+            const min = Math.round(data.daily.temperature_2m_min[i]);
+
+            const [_, icon] =
+                WMO_CODES[data.daily.weathercode[i]] || ["-", "❓"];
+
+            weeklyContainer.innerHTML += `
+                <div class="flex flex-col items-center justify-center p-4 rounded-3xl bg-white border border-slate-100 shadow-sm">
+                    <span class="text-[11px] font-black text-slate-400 uppercase mb-2">
+                        ${dayName}
+                    </span>
+                    <span class="text-2xl mb-2">
+                        ${icon}
+                    </span>
+                    <div class="text-sm font-bold text-slate-800">
+                        ${max}° / ${min}°
+                    </div>
+                </div>
+            `;
+        }
+
 
     } catch (e) {
         console.error("Weather error:", e);
