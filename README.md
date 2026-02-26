@@ -1,580 +1,532 @@
-<html lang="es">
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#0f172a">
-    <title>Subestaciones e-distribución | Pro v2.1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Surf Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #87CEEB;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+    }
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
+    #game-container {
+      width: 800px;
+      height: 400px;
+      position: relative;
+      overflow: hidden;
+      background: linear-gradient(to bottom, #4169E1 0%, #4169E1 70%, #00BFFF 80%, #00BFFF 100%);
+    }
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+    #player {
+      position: absolute;
+      bottom: 20px;
+      left: 50px;
+      font-size: 40px;
+      z-index: 2;
+    }
 
-        h1 {display: none;}
-        
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #f1f5f9;
-        }
+    .enemy {
+      position: absolute;
+      bottom: 20px;
+      font-size: 30px;
+      z-index: 1;
+    }
 
-        .glass-card {
-            background: rgba(255, 255, 255, 0.9);
-            backdrop-filter: blur(12px);
-            border: 1px solid rgba(255, 255, 255, 0.4);
-        }
-    </style>
+    #score {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      color: white;
+    }
+
+    #message {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      font-size: 24px;
+    }
+
+    #sun {
+      position: absolute;
+      font-size: 40px;
+    }
+
+    #waves {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 200%;
+      height: 40%;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%2300BFFF" fill-opacity="1" d="M0,128L48,138.7C96,149,192,171,288,181.3C384,192,480,192,576,181.3C672,171,768,149,864,149.3C960,149,1056,171,1152,176C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>');
+      background-repeat: repeat-x;
+      animation: wave 10s linear infinite;
+    }
+
+    @keyframes wave {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+    .poo {
+      position: absolute;
+      font-size: 20px;
+      z-index: 1;
+    }
+
+    .coin {
+      position: absolute;
+      font-size: 30px;
+      z-index: 1;
+      animation: blink 0.5s infinite;
+    }
+
+    @keyframes blink {
+      0%,
+      100% {
+        opacity: 1;
+      }
+
+      50% {
+        opacity: 0;
+      }
+    }
+  </style>
 </head>
 
-<body class="p-4 md:p-8">
-
-<div class="max-w-7xl mx-auto">
-
-    <!-- HEADER -->
-    <header class="mb-8 flex flex-col gap-6">
-        <div>
-            <div class="flex items-center gap-3 mb-2">
-                <div class="bg-blue-600 p-2 rounded-xl shadow-lg shadow-blue-200">
-                    <i data-lucide="zap" class="text-white w-6 h-6"></i>
-                </div>
-                <h2 class="text-3xl font-extrabold italic text-slate-900 tracking-tight">
-                    e <span class="text-blue-600 italic">Subestaciones</span>
-                </h2>
-            </div>
-            <p class="text-slate-500 font-medium ml-1">
-                Monitorización técnica y climática profesional.
-            </p>
-        </div>
-
-        <div class="flex items-center gap-4 bg-white p-2 rounded-2xl shadow-sm border border-slate-200 w-fit">
-            <div id="statusIndicator" class="flex items-center gap-2 px-3">
-                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-                <span class="text-xs font-bold text-slate-500 uppercase tracking-widest">
-                    Sincronizando...
-                </span>
-            </div>
-
-            <label class="cursor-pointer bg-slate-900 hover:bg-black text-white px-5 py-2.5 rounded-xl text-sm font-semibold transition-all flex items-center gap-2 active:scale-95 shadow-md">
-                <i data-lucide="upload" class="w-4 h-4"></i>
-                Actualizar CSV
-                <input type="file" id="csvInput" class="hidden" accept=".csv">
-            </label>
-        </div>
-    </header>
-
-    <!-- GRID -->
-    <div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
-
-        <!-- LEFT PANEL (FILTERS ONLY) -->
-        <div class="xl:col-span-4 space-y-6">
-
-            <div class="glass-card p-5 md:p-8 rounded-3xl shadow-xl shadow-slate-200/50">
-                <div class="space-y-6">
-
-                    <div>
-                        <label class="block text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3 ml-1">
-                            Región
-                        </label>
-                        <select id="caSelect"
-                                class="w-full bg-slate-50 ring-1 ring-slate-200 rounded-2xl px-4 py-3.5 text-slate-700 focus:ring-2 focus:ring-blue-500 outline-none font-medium">
-                            <option value="">Esperando datos...</option>
-                        </select>
-                    </div>
-
-                    <div>
-                        <label class="block text-[10px] font-black text-slate-400 uppercase tracking-[0.2em] mb-3 ml-1">
-                            Buscador
-                        </label>
-                        <div class="relative">
-                            <input type="text" id="subSearch"
-                                   placeholder="Nombre de la instalación..."
-                                   list="subList"
-                                   class="w-full bg-slate-50 ring-1 ring-slate-200 rounded-2xl pl-12 pr-4 py-3.5 text-slate-700 focus:ring-2 focus:ring-blue-500 outline-none font-medium">
-                            <i data-lucide="search"
-                               class="w-5 h-5 absolute left-4 top-3.5 text-slate-400"></i>
-                            <datalist id="subList"></datalist>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <!-- RIGHT PANEL -->
-        <div class="xl:col-span-8 space-y-8">
-
-            <!-- INFO CARD -->
-            <div id="infoCard" class="hidden">
-                <div class="glass-card rounded-3xl p-5 md:p-8 shadow-2xl shadow-blue-900/5">
-
-                    <div class="flex flex-col md:flex-row justify-between gap-8">
-
-                        <div class="flex-1">
-                            <span class="inline-block bg-blue-100 text-blue-700 text-[10px] font-black uppercase tracking-widest px-3 py-1 rounded-lg mb-4">
-                                Detalles Técnicos
-                            </span>
-
-                            <h2 id="displaySubName"
-                                class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-2">
-                                ---
-                            </h2>
-
-                            <p id="displayLoc"
-                               class="text-slate-500 font-medium mb-8">
-                                ---
-                            </p>
-
-                            <div class="grid grid-cols-2 sm:grid-cols-3 gap-6">
-
-                                <div>
-                                    <span class="text-[10px] font-bold text-slate-400 uppercase">
-                                        Tensión
-                                    </span>
-                                    <p id="displayVolt"
-                                       class="text-lg font-bold text-blue-600">
-                                        ---
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <span class="text-[10px] font-bold text-slate-400 uppercase">
-                                        Coord X
-                                    </span>
-                                    <p id="displayX"
-                                       class="font-mono font-semibold text-slate-700">
-                                        ---
-                                    </p>
-                                </div>
-
-                                <div>
-                                    <span class="text-[10px] font-bold text-slate-400 uppercase">
-                                        Coord Y
-                                    </span>
-                                    <p id="displayY"
-                                       class="font-mono font-semibold text-slate-700">
-                                        ---
-                                    </p>
-                                </div>
-
-                            </div>
-                        </div>
-
-                        <div class="flex flex-row md:flex-col gap-3">
-                            <button onclick="openMap('gmaps')"
-                                    class="flex-1 bg-slate-900 hover:bg-black text-white px-6 py-4 rounded-2xl font-bold">
-                                Maps
-                            </button>
-                            <button onclick="openMap('osm')"
-                                    class="flex-1 bg-white border-2 border-slate-100 text-slate-700 px-6 py-4 rounded-2xl font-bold">
-                                OSM
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- WEATHER CARD -->
-            <div id="weatherCard" class="hidden">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                    <div class="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-3xl p-6 md:p-8 text-white">
-                        <p class="text-[10px] uppercase tracking-[0.2em] mb-6">
-                            Tiempo Actual
-                        </p>
-
-                        <div class="flex items-center gap-4 mb-8">
-                            <span id="weatherIcon" class="text-5xl md:text-6xl">☀️</span>
-                            <h3 id="weatherTemp" class="text-4xl md:text-5xl font-black">
-                                --
-                            </h3>
-                        </div>
-
-                        <p id="weatherDesc" class="text-lg font-bold mb-2">
-                            ---
-                        </p>
-
-                        <p id="weatherWind" class="text-sm">
-                            ---
-                        </p>
-
-                        <p id="weatherTime" class="text-[10px] uppercase opacity-70 mt-4">
-                            ---
-                        </p>
-                    </div>
-
-                    <div class="md:col-span-2 glass-card rounded-3xl p-5 md:p-8">
-                        <h4 class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-6">
-                            Previsión Horaria
-                        </h4>
-
-                        <div id="forecastRow"
-                             class="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                        </div>
-                        <div class="mt-10">
-                            <h4 class="text-slate-400 text-[10px] font-black uppercase tracking-[0.2em] mb-6">
-                                Previsión Semanal
-                            </h4>
-
-                            <div id="weeklyForecast"
-                                class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-3">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-            <!-- EMPTY STATE -->
-            <div id="emptyState"
-                 class="flex flex-col items-center justify-center py-24 text-slate-300">
-                <p class="font-bold text-lg">
-                    Selecciona una instalación
-                </p>
-                <p class="text-sm opacity-60">
-                    Usa la región y el buscador superior
-                </p>
-            </div>
-
-        </div>
-
+<body>
+  <div id="game-container" class="nes-container is-rounded">
+    <div id="waves"></div>
+    <div id="player">🏄</div>
+    <div id="score">SCORE: 0</div>
+    <div id="message">
+      <span style="color: #AB47BC; margin-right: 5px;">S</span>
+      <span style="color: #FFEB3B; margin-right: 5px;">U</span>
+      <span style="color: #FFA726; margin-right: 5px;">R</span>
+      <span style="color: #D32F2F; margin-right: 5px;">F</span>
+      <span style="color: #BA68C8; margin-right: 5px;">E</span>
+      <span style="color: #E57373; margin-right: 5px;">R</span>
+      <br>
+      <span style="color: #ffffff; margin-right: 5px;">press any key</span>
     </div>
-</div>
+    <div id="sun">🌙</div>
+  </div>
 
-<script>
-    lucide.createIcons();
+  <!-- Audio elements for sounds -->
+  <audio id="killSound" src="https://cdn.freesound.org/previews/735/735804_15950203-lq.mp3"></audio>
+  <audio id="coinSound" src="https://cdn.freesound.org/previews/350/350875_5450487-hq.mp3"></audio>
+  <audio id="gameOverSound" src="https://cdn.freesound.org/previews/475/475347_7724198-lq.mp3"></audio>
+  <audio id="jumpSound" src="https://assets.mixkit.co/sfx/preview/mixkit-retro-game-emergency-alarm-1000.mp3"></audio>
+  <audio id="gameMusic" src="https://midis101.com/play-midi/23413-beach-boys-surfin-usa.mp3"></audio>
 
-    const DEFAULT_CSV_URL = "./subestaciones_edist.csv";
+  <script>
+    const player = document.getElementById('player');
+    const gameContainer = document.getElementById('game-container');
+    const scoreElement = document.getElementById('score');
+    const messageElement = document.getElementById('message');
+    const sunElement = document.getElementById('sun');
+    const killSound = document.getElementById('killSound');
+    const coinSound = document.getElementById('coinSound');
+    const gameOverSound = document.getElementById('gameOverSound');
+    const jumpSound = document.getElementById('jumpSound');
+    const gameMusic = document.getElementById('gameMusic');
+    let playerX = 50;
+    let playerY = gameContainer.offsetHeight - 60;
+    let playerVelocityY = 0;
+    let playerVelocityX = 0;
+    let isJumping = false;
+    let score = 0;
+    let highScore = localStorage.getItem('highScore') || 0;
+    let gravity = 0.5;
+    let jumpStrength = 10.8;
+    let gameIsOver = false;
+    let gameStarted = false;
+    let sunX = gameContainer.offsetWidth;
+    let enemyInterval;
+    let coinInterval;
 
-    const UTM_ZONE_BY_CA = {
-        "01 - Andalucía": 30,
-        "02 - Aragón": 30,
-        "04 - Illes Balears": 31,
-        "05 - Canarias": 28,
-        "07 - C.León": 30,
-        "08 - C.La Mancha": 30,
-        "09 - Catalunya": 31,
-    };
+    function updatePlayerPosition() {
+      playerX += playerVelocityX;
+      playerY -= playerVelocityY;
+      playerVelocityY -= gravity;
 
-    const WMO_CODES = {
-        0: ["Despejado", "☀️"],
-        1: ["Casi despejado", "🌤️"],
-        2: ["Parcialmente nuboso", "⛅"],
-        3: ["Nublado", "☁️"],
-        45: ["Niebla", "🌫️"],
-        61: ["Lluvia", "🌧️"],
-        71: ["Nieve", "❄️"],
-        95: ["Tormenta", "⛈️"]
-    };
+      if (playerY > gameContainer.offsetHeight - 60) {
+        playerY = gameContainer.offsetHeight - 60;
+        playerVelocityY = 0;
+        isJumping = false;
+      }
 
-    let rawData = [];
-    let groupedData = {};
-    let currentStation = null;
+      if (playerX < 0) playerX = 0;
+      if (playerX > gameContainer.offsetWidth - 50) playerX = gameContainer.offsetWidth - 50;
 
-    // ---------- AUTO LOAD ----------
-    window.addEventListener('DOMContentLoaded', fetchAutoCSV);
-
-    async function fetchAutoCSV() {
-        setLoadingStatus(true, "Cargando CSV local...");
-
-        try {
-            const response = await fetch(DEFAULT_CSV_URL + "?t=" + Date.now());
-
-            if (!response.ok) throw new Error("No se pudo cargar el CSV");
-
-            const text = await response.text();
-
-            Papa.parse(text, {
-                header: false,
-                delimiter: ";",
-                skipEmptyLines: true,
-                complete: results => {
-                    processData(results.data);
-                    setLoadingStatus(false, "Datos cargados", "bg-green-500");
-                },
-                error: () => {
-                    setLoadingStatus(false, "Error CSV", "bg-red-500");
-                }
-            });
-
-        } catch (err) {
-            console.warn("Auto load failed:", err);
-            setLoadingStatus(false, "Carga manual requerida", "bg-amber-500");
-        }
+      player.style.left = playerX + 'px';
+      player.style.bottom = (gameContainer.offsetHeight - playerY - 40) + 'px';
     }
 
-    // ---------- MANUAL LOAD ----------
-    document.getElementById('csvInput').addEventListener('change', function(e) {
-        const file = e.target.files[0];
-        if (!file) return;
+    function updateSunPosition() {
+      sunX -= 0.5;
+      if (sunX < -40) {
+        sunX = gameContainer.offsetWidth;
+      }
+      sunElement.style.left = sunX + 'px';
+      sunElement.style.top = (gameContainer.offsetHeight * 0.2) + 'px';
+    }
 
-        Papa.parse(file, {
-            header: false,
-            delimiter: ";",
-            skipEmptyLines: true,
-            complete: results => {
-                processData(results.data);
-                setLoadingStatus(false, "Archivo cargado", "bg-green-500");
+    function jump() {
+      if (!isJumping) {
+        isJumping = true;
+        playerVelocityY = jumpStrength;
+        jumpSound.play(); // Play jump sound
+      }
+    }
+
+    function createEnemy() {
+      let type;
+      if (score >= 120 && Math.random() < 0.05) {
+        type = 'eagle'; //New enemy
+      } else if (score >= 80 && Math.random() < 0.05) {
+        type = 'dolphin';
+      } else if (score >= 40 && Math.random() < 0.1) {
+        type = 'shark';
+      } else if (score >= 20 && Math.random() < 0.3) {
+        type = 'crab';
+      } else {
+        type = 'lobster';
+      }
+
+      const enemy = document.createElement('div');
+      enemy.className = 'enemy';
+      enemy.textContent = type === 'shark' ? '🦈' : type === 'crab' ? '🦀' : type === 'dolphin' ? '🐬' : type === 'lobster' ? '🦞' : type === 'eagle' ? '🦅' : '';
+      const startFromLeft = Math.random() < 0.5;
+      enemy.style.left = startFromLeft ? '-30px' : gameContainer.offsetWidth + 'px';
+
+      // Eagle specific properties
+      let eagleY = 50 + Math.random() * (gameContainer.offsetHeight * 0.3); //random height
+      if (type === 'eagle') {
+        enemy.style.top = eagleY + 'px';
+      } else {
+        enemy.style.bottom = '20px'; // other enemies stay on the bottom
+      }
+
+      gameContainer.appendChild(enemy);
+
+      let enemyX = startFromLeft ? -30 : gameContainer.offsetWidth;
+      let direction = startFromLeft ? 1 : -1;
+      let speed = type === 'shark' ? 4 : type === 'dolphin' ? 3 : type === 'crab' ? 3.5 : type === 'eagle' ? 2.5 : 2;
+      let isJumping = false;
+      let jumpTimer = 0;
+      let dolphinVelocityY = 0; // Vertical velocity for dolphin jump
+      const dolphinJumpStrength = 8; // Initial jump strength
+      const dolphinGravity = 0.4; // Gravity for dolphin jump
+      let dolphinY = 20; // Initial bottom position
+
+      const moveInterval = setInterval(() => {
+        if (gameIsOver) {
+          clearInterval(moveInterval);
+          return;
+        }
+
+        if (type === 'crab') {
+          // Define a turning point for the crab, before it reaches the edge
+          const turnMargin = 50; // Adjust this value to control how far from the edge the crab turns
+
+          if (direction === 1 && enemyX >= (gameContainer.offsetWidth - turnMargin)) {
+            // If crab is moving right and close to the right edge, turn around
+            direction = -1;
+          } else if (direction === -1 && enemyX <= turnMargin) {
+            // If crab is moving left and close to the left edge, turn around
+            direction = 1;
+          }
+        }
+
+        if (type === 'dolphin') {
+          jumpTimer++;
+
+          // Dolphin jump logic
+          if (jumpTimer >= 100 && !isJumping) {
+            isJumping = true;
+            dolphinVelocityY = dolphinJumpStrength;
+          }
+
+          if (isJumping) {
+            dolphinY += dolphinVelocityY;
+            dolphinVelocityY -= dolphinGravity; // Apply gravity
+
+            if (dolphinY <= 20) {
+              dolphinY = 20;
+              dolphinVelocityY = 0;
+              isJumping = false;
+              jumpTimer = 0;
             }
-        });
+
+            enemy.style.bottom = dolphinY + 'px';
+          }
+        }
+
+        if (type === 'eagle') {
+          //Poo dropping logic
+          if (Math.random() < 0.015) { //adjust the value
+            dropPoo(enemyX, eagleY);
+          }
+        }
+
+        enemyX += direction * speed;
+        enemy.style.left = enemyX + 'px';
+
+        // Añade esta sección para invertir el emoji
+        if (direction === 1) {
+          enemy.style.transform = 'scaleX(-1)'; // Normal cuando va hacia la derecha
+        } else {
+          enemy.style.transform = 'scaleX(1)'; // Invertido cuando va hacia la izquierda
+        }
+
+        if ((startFromLeft && enemyX > gameContainer.offsetWidth) || (!startFromLeft && enemyX < -30)) {
+          clearInterval(moveInterval);
+          enemy.remove();
+        }
+
+        checkCollision(enemy, enemyX, moveInterval, type, isJumping);
+      }, 20);
+    }
+
+    function checkCollision(enemy, enemyX, moveInterval, type, isJumping) {
+      const playerRect = player.getBoundingClientRect();
+      const enemyRect = enemy.getBoundingClientRect();
+      const playerCenterX = playerRect.left + playerRect.width / 2;
+      const playerCenterY = playerRect.top + playerRect.height / 2;
+      const enemyCenterX = enemyRect.left + enemyRect.width / 2;
+      const enemyCenterY = enemyRect.top + enemyRect.height / 2;
+
+      const distance = Math.sqrt(
+        Math.pow(playerCenterX - enemyCenterX, 2) +
+        Math.pow(playerCenterY - enemyCenterY, 2)
+      );
+
+      const collisionThreshold = (playerRect.width + enemyRect.width) * 0.325; // 35% closer...
+      if (distance < collisionThreshold) {
+        if (type === 'shark' || (type === 'dolphin' && isJumping) || (playerVelocityY >= 0 || playerRect.bottom >= enemyRect.bottom)) {
+          // Player collided with shark, jumping dolphin, or from the side/below
+          gameOver();
+          clearInterval(moveInterval);
+        } else {
+          // Player is falling and hits the enemy from above
+          killEnemy(enemy, enemyX, type);
+          let points = 0;
+          if (type === 'lobster') points = 5;
+          if (type === 'crab') points = 7;
+          if (type === 'dolphin') points = 10;
+          score += points;
+          clearInterval(moveInterval);
+          playerVelocityY = jumpStrength * 0.7; // Bounce effect
+          killSound.play(); // Play kill sound
+        }
+        updateScore();
+      }
+    }
+
+    function killEnemy(enemy, enemyX, type) {
+      enemy.textContent = '🔥';
+      setTimeout(() => {
+        enemy.textContent = '💀';
+        let skullY = 20;
+        const floatInterval = setInterval(() => {
+          skullY += 2;
+          enemy.style.bottom = skullY + 'px';
+          if (skullY > gameContainer.offsetHeight) {
+            clearInterval(floatInterval);
+            enemy.remove();
+          }
+        }, 50);
+      }, 500);
+    }
+
+    function updateScore() {
+      scoreElement.textContent = `SCORE: ${score}`;
+    }
+
+    function gameOver() {
+      if (!gameIsOver) {
+        gameIsOver = true;
+        if (score > highScore) {
+          highScore = score;
+          localStorage.setItem('highScore', highScore);
+          messageElement.textContent = "GAME OVER. Congrats! You got the high score!";
+        } else {
+          messageElement.textContent = `GAME OVER. High Score: ${highScore}`;
+        }
+        messageElement.style.display = 'block';
+        gameOverSound.play(); // Play game over sound
+        gameMusic.pause(); //Añade esta línea
+        gameMusic.currentTime = 0;
+      }
+    }
+
+    function startGame() {
+      gameStarted = true;
+      messageElement.style.display = 'none';
+      gameMusic.play();
+      enemyInterval = setInterval(createEnemy, 1500);
+      coinInterval = setInterval(createCoin, 15000); // Create a coin every 15 seconds
+      gameLoop();
+    }
+
+    function resetGame() {
+      clearInterval(enemyInterval);
+      clearInterval(coinInterval);
+      gameIsOver = false;
+      gameStarted = false;
+      score = 0;
+      playerX = 50;
+      playerY = gameContainer.offsetHeight - 60;
+      playerVelocityY = 0;
+      playerVelocityX = 0;
+      isJumping = false;
+      updateScore();
+      messageElement.style.display = 'none';
+      document.querySelectorAll('.enemy').forEach(enemy => enemy.remove());
+      document.querySelectorAll('.poo').forEach(poo => poo.remove());
+      document.querySelectorAll('.coin').forEach(coin => coin.remove());
+    }
+
+
+    document.addEventListener('keydown', (e) => {
+      if (gameIsOver) {
+        resetGame();
+        startGame();
+      } else if (!gameStarted) {
+        startGame();
+      } else {
+        if (e.key === 'ArrowLeft') {
+          playerVelocityX = -5;
+          player.style.transform = 'scaleX(-1)';
+        }
+        if (e.key === 'ArrowRight') {
+          playerVelocityX = 5;
+          player.style.transform = 'scaleX(1)';
+        }
+        if (e.key === 'ArrowUp') jump();
+      }
     });
 
-    // ---------- DATA PROCESSING ----------
-    function processData(rows) {
+    document.addEventListener('keyup', (e) => {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') playerVelocityX = 0;
+    });
 
-        if (!rows || rows.length === 0) return;
-
-        const firstRowIsHeader =
-            isNaN(parseFloat(rows[0][0]?.toString().replace(',', '.')));
-
-        const data = firstRowIsHeader ? rows.slice(1) : rows;
-
-        rawData = data.map(row => ({
-            x: parseFloat(row[0]?.toString().replace(',', '.')),
-            y: parseFloat(row[1]?.toString().replace(',', '.')),
-            volt: row[2],
-            ca: row[3],
-            sub: row[4],
-            prov: row[5],
-            mun: row[6]
-        })).filter(r => r.sub && !isNaN(r.x));
-
-        groupedData = {};
-
-        rawData.forEach(r => {
-            const key = `${r.ca}|${r.sub}`;
-            if (!groupedData[key]) {
-                groupedData[key] = { ...r, volts: new Set() };
-            }
-            groupedData[key].volts.add(parseInt(r.volt));
-        });
-
-        const cas = [...new Set(rawData.map(r => r.ca))].sort();
-
-        const select = document.getElementById('caSelect');
-        select.innerHTML = '<option value="">Elige región...</option>';
-
-        cas.forEach(ca => {
-            const opt = document.createElement('option');
-            opt.value = ca;
-            opt.innerText = ca;
-            select.appendChild(opt);
-        });
-
-        updateRegionalList();
+    function gameLoop() {
+      if (!gameIsOver) {
+        updatePlayerPosition();
+        updateSunPosition();
+        requestAnimationFrame(gameLoop);
+      }
     }
 
-    function updateRegionalList() {
-        const ca = document.getElementById('caSelect').value;
-        const dataList = document.getElementById('subList');
-        dataList.innerHTML = '';
+    //Eagle Poo
+    function dropPoo(eagleX, eagleY) {
+      const poo = document.createElement('div');
+      poo.className = 'poo';
+      poo.textContent = '💩';
+      poo.style.left = eagleX + 'px';
+      poo.style.top = eagleY + 30 + 'px'; // Adjusted position
+      gameContainer.appendChild(poo);
 
-        Object.values(groupedData)
-            .filter(s => s.ca === ca)
-            .sort((a,b) => a.sub.localeCompare(b.sub))
-            .forEach(s => {
-                const opt = document.createElement('option');
-                opt.value = s.sub;
-                dataList.appendChild(opt);
-            });
-    }
+      let pooY = eagleY + 30;
+      const pooSpeed = 3;
 
-    document.getElementById('caSelect')
-        .addEventListener('change', updateRegionalList);
-
-    document.getElementById('subSearch')
-        .addEventListener('input', function(e) {
-            const ca = document.getElementById('caSelect').value;
-            const key = `${ca}|${e.target.value}`;
-            if (groupedData[key]) showStation(groupedData[key]);
-        });
-
-    // ---------- SHOW STATION ----------
-    async function showStation(station) {
-
-        currentStation = station;
-
-        document.getElementById('emptyState').classList.add('hidden');
-        document.getElementById('infoCard').classList.remove('hidden');
-        document.getElementById('weatherCard').classList.remove('hidden');
-
-        document.getElementById('displaySubName').innerText = station.sub;
-        document.getElementById('displayLoc').innerText =
-            `${station.mun} (${station.prov})`;
-
-        document.getElementById('displayVolt').innerText =
-            Array.from(station.volts).sort((a,b)=>a-b).join(" / ") + " kV";
-
-        document.getElementById('displayX').innerText =
-            station.x.toLocaleString('es-ES', { minimumFractionDigits: 2 });
-
-        document.getElementById('displayY').innerText =
-            station.y.toLocaleString('es-ES', { minimumFractionDigits: 2 });
-
-        const zone = UTM_ZONE_BY_CA[station.ca] || 30;
-        const [lat, lon] = utmToLatLon(station.x, station.y, zone);
-
-        currentStation.lat = lat;
-        currentStation.lon = lon;
-
-        fetchWeather(lat, lon);
-    }
-
-    // ---------- WEATHER ----------
-    async function fetchWeather(lat, lon) {
-
-    // const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=temperature_2m,weathercode&forecast_hours=6`;
-    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current_weather=true&hourly=temperature_2m,weathercode&forecast_hours=6&daily=weathercode,temperature_2m_max,temperature_2m_min&timezone=auto`;
-
-    try {
-        const resp = await fetch(url);
-        const data = await resp.json();
-
-        const cw = data.current_weather;
-        const [desc, icon] =
-            WMO_CODES[cw.weathercode] || ["Desconocido", "🌡️"];
-
-        document.getElementById('weatherTemp').innerText =
-            Math.round(cw.temperature) + "°";
-
-        document.getElementById('weatherDesc').innerText = desc;
-        document.getElementById('weatherIcon').innerText = icon;
-        document.getElementById('weatherWind').innerText =
-            cw.windspeed + " km/h";
-
-        document.getElementById('weatherTime').innerText =
-            "Reporte: " + cw.time.split("T")[1] + "h";
-
-        // HOURLY FORECAST
-        const forecastRow = document.getElementById('forecastRow');
-        forecastRow.innerHTML = '';
-
-        for (let i = 1; i <= 4; i++) {
-            const time = data.hourly.time[i].split("T")[1];
-            const temp = Math.round(data.hourly.temperature_2m[i]);
-            const [_, fIcon] =
-                WMO_CODES[data.hourly.weathercode[i]] || ["-", "❓"];
-
-            forecastRow.innerHTML += `
-                <div class="flex flex-col items-center justify-center p-3 rounded-3xl bg-slate-50 border border-slate-100 shadow-sm">
-                    <span class="text-[10px] text-slate-400 font-black mb-2">${time}h</span>
-                    <span class="text-2xl mb-2">${fIcon}</span>
-                    <span class="text-sm font-black text-slate-800">${temp}°</span>
-                </div>
-            `;
+      const pooInterval = setInterval(() => {
+        if (gameIsOver) {
+          clearInterval(pooInterval);
+          poo.remove();
+          return;
         }
 
-        // -------- WEEKLY FORECAST --------
-        const weeklyContainer = document.getElementById('weeklyForecast');
-        weeklyContainer.innerHTML = '';
+        pooY += pooSpeed; //Falling down
+        poo.style.top = pooY + 'px';
 
-        for (let i = 0; i < 7; i++) {
+        //Collision
+        const playerRect = player.getBoundingClientRect();
+        const pooRect = poo.getBoundingClientRect();
 
-            const date = new Date(data.daily.time[i]);
-
-            const dayName = date.toLocaleDateString('es-ES', {
-                weekday: 'short'
-            });
-
-            const max = Math.round(data.daily.temperature_2m_max[i]);
-            const min = Math.round(data.daily.temperature_2m_min[i]);
-
-            const [_, icon] =
-                WMO_CODES[data.daily.weathercode[i]] || ["-", "❓"];
-
-            weeklyContainer.innerHTML += `
-                <div class="flex flex-col items-center justify-center p-4 rounded-3xl bg-white border border-slate-100 shadow-sm">
-                    <span class="text-[11px] font-black text-slate-400 uppercase mb-2">
-                        ${dayName}
-                    </span>
-                    <span class="text-2xl mb-2">
-                        ${icon}
-                    </span>
-                    <div class="text-sm font-bold text-slate-800">
-                        ${max}° / ${min}°
-                    </div>
-                </div>
-            `;
+        if (
+          pooRect.left < playerRect.right &&
+          pooRect.right > playerRect.left &&
+          pooRect.top < playerRect.bottom &&
+          pooRect.bottom > playerRect.top
+        ) {
+          //Collision detected
+          gameOver();
+          clearInterval(pooInterval);
+          poo.remove();
         }
 
-
-    } catch (e) {
-        console.error("Weather error:", e);
-    }
-}
-
-    // ---------- MAP ----------
-    function openMap(type) {
-        if (!currentStation) return;
-
-        const { lat, lon } = currentStation;
-
-        const url = type === 'gmaps'
-            ? `https://www.google.com/maps/search/?api=1&query=${lat},${lon}`
-            : `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}`;
-
-        window.open(url, '_blank');
+        if (pooY > gameContainer.offsetHeight) {
+          clearInterval(pooInterval);
+          poo.remove();
+        }
+      }, 20);
     }
 
-    // ---------- STATUS ----------
-    function setLoadingStatus(isLoading, text, color = "bg-amber-400") {
-        document.getElementById('statusIndicator').innerHTML = `
-            <span class="w-2 h-2 rounded-full ${color} ${isLoading ? 'animate-pulse' : ''}"></span>
-            <span class="text-xs font-black uppercase">${text}</span>
-        `;
+    // Coin functionality
+    function createCoin() {
+      if (gameIsOver) return;
+
+      const coin = document.createElement('div');
+      coin.className = 'coin';
+      coin.textContent = '🪙';
+      const coinX = Math.random() * (gameContainer.offsetWidth - 30);
+      const coinY = gameContainer.offsetHeight - 60; // Same height as the player
+      coin.style.left = coinX + 'px';
+      coin.style.bottom = '20px';
+      gameContainer.appendChild(coin);
+
+      // Remove the coin after 3 seconds
+      setTimeout(() => {
+        if (coin.parentElement) {
+          coin.remove();
+        }
+      }, 3000);
+
+      // Check for collision with the player
+      const coinInterval = setInterval(() => {
+        if (gameIsOver) {
+          clearInterval(coinInterval);
+          coin.remove();
+          return;
+        }
+
+        const playerRect = player.getBoundingClientRect();
+        const coinRect = coin.getBoundingClientRect();
+
+        if (
+          coinRect.left < playerRect.right &&
+          coinRect.right > playerRect.left &&
+          coinRect.top < playerRect.bottom &&
+          coinRect.bottom > playerRect.top
+        ) {
+          // Collision detected
+          score += 25;
+          updateScore();
+          clearInterval(coinInterval);
+          coin.remove();
+          coinSound.play(); // Play coin sound
+        }
+      }, 20);
     }
-
-    // ---------- UTM ----------
-    function utmToLatLon(easting, northing, zone) {
-        const a = 6378137.0;
-        const e = 0.081819191;
-        const e1sq = 0.006739497;
-        const k0 = 0.9996;
-
-        const x = easting - 500000.0;
-        const y = northing;
-
-        const zone_cm = 6 * zone - 183.0;
-
-        const m = y / k0;
-        const mu = m / (a * (1 - e**2/4 - 3*e**4/64 - 5*e**6/256));
-
-        const e1 = (1 - Math.sqrt(1 - e**2)) / (1 + Math.sqrt(1 - e**2));
-
-        const j1 = 3*e1/2 - 27*e1**3/32;
-        const j2 = 21*e1**2/16 - 55*e1**4/32;
-        const j3 = 151*e1**3/96;
-        const j4 = 1097*e1**4/512;
-
-        const fp = mu +
-            j1*Math.sin(2*mu) +
-            j2*Math.sin(4*mu) +
-            j3*Math.sin(6*mu) +
-            j4*Math.sin(8*mu);
-
-        const c1 = e1sq * Math.pow(Math.cos(fp), 2);
-        const t1 = Math.pow(Math.tan(fp), 2);
-        const n1 = a / Math.sqrt(1 - Math.pow(e*Math.sin(fp), 2));
-        const r1 = a*(1-e**2)/Math.pow(1 - Math.pow(e*Math.sin(fp),2), 1.5);
-        const d = x/(n1*k0);
-
-        const lat = fp - (n1*Math.tan(fp)/r1) *
-            (d**2/2 -
-            (5 + 3*t1 + 10*c1 - 4*c1**2 - 9*e1sq)*d**4/24);
-
-        const lon = (d -
-            (1 + 2*t1 + c1)*d**3/6 +
-            (5 - 2*c1 + 28*t1 - 3*c1**2 + 8*e1sq + 24*t1**2)*d**5/120)
-            / Math.cos(fp);
-
-        return [
-            lat * 180/Math.PI,
-            zone_cm + lon * 180/Math.PI
-        ];
-    }
-</script>
-
+  </script>
 </body>
+
 </html>
