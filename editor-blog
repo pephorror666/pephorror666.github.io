@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IARANN | Blog Editor V3</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        :root {
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #1e293b;
+            --muted: #64748b;
+            --accent: #2563eb;
+            --border: #e2e8f0;
+            --radius: 12px;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            --toolbar-bg: #f8fafc;
+        }
+
+        [data-theme="dark"] {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --text: #f1f5f9;
+            --muted: #94a3b8;
+            --accent: #3b82f6;
+            --border: #334155;
+            --shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            --toolbar-bg: #1e293b;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem;
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: var(--surface);
+            padding: 2.5rem;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            position: relative;
+        }
+
+        header {
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+        }
+
+        .theme-toggle {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.5rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+
+        .theme-toggle:hover {
+            background: var(--bg);
+        }
+
+        .status-badge {
+            font-size: 0.8rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 50px;
+            background: #fee2e2;
+            color: #991b1b;
+            font-weight: 500;
+        }
+
+        .status-badge.loaded {
+            background: #dcfce7;
+            color: #166534;
+        }
+
+        /* Botones de acción principal */
+        .btn {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 500;
+            padding: 0.65rem 1.25rem;
+            border-radius: 8px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary {
+            background-color: var(--accent);
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #1d4ed8;
+            transform: translateY(-1px);
+        }
+
+        .btn-secondary {
+            background-color: var(--bg);
+            color: var(--text);
+            border-color: var(--border);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--border);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none !important;
+        }
+
+        /* Formulario del post */
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--muted);
+            margin-bottom: 0.5rem;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.85rem;
+            font-family: inherit;
+            font-size: 1rem;
+            border: 2px solid var(--border);
+            border-radius: 8px;
+            outline: none;
+            transition: all 0.2s;
+            background: var(--surface);
+            color: var(--text);
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        /* Barra de herramientas WYSIWYG */
+        .toolbar {
+            display: flex;
+            gap: 0.25rem;
+            background: var(--toolbar-bg);
+            padding: 0.6rem;
+            border: 2px solid var(--border);
+            border-bottom: none;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .tool-group {
+            display: flex;
+            gap: 2px;
+            padding: 0 0.4rem;
+            border-right: 2px solid var(--border);
+        }
+
+        .tool-group:last-child {
+            border-right: none;
+        }
+
+        .tool-btn {
+            background: transparent;
+            border: 1px solid transparent;
+            padding: 0.4rem 0.6rem;
+            border-radius: 6px;
+            font-weight: bold;
+            font-family: inherit;
+            cursor: pointer;
+            color: var(--text);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px;
+            transition: all 0.1s;
+        }
+
+        .tool-btn:hover {
+            background: var(--border);
+        }
+
+        .tool-btn.active {
+            background: var(--accent);
+            color: white;
+        }
+
+        select.tool-select {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 0.85rem;
+            outline: none;
+            cursor: pointer;
+        }
+
+        /* Área de escritura */
+        .editor-container {
+            position: relative;
+        }
+
+        .editor-box {
+            min-height: 400px;
+            padding: 1.5rem;
+            border: 2px solid var(--border);
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background: var(--surface);
+            outline: none;
+            overflow-y: auto;
+            color: var(--text);
+            font-size: 1.05rem;
+        }
+
+        .editor-box:focus {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+        }
+
+        .editor-box p {
+            margin-bottom: 1.2rem;
+        }
+
+        .editor-box blockquote {
+            border-left: 4px solid var(--accent);
+            padding-left: 1rem;
+            color: var(--muted);
+            font-style: italic;
+            margin: 1rem 0;
+        }
+
+        .editor-box pre {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 1rem;
+            border-radius: 6px;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+            overflow-x: auto;
+        }
+
+        /* Footer del editor */
+        .editor-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 1rem;
+            padding: 0 0.5rem;
+        }
+
+        .word-count {
+            font-size: 0.8rem;
+            color: var(--muted);
+            font-weight: 500;
+        }
+
+        .actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 1rem;
+            margin-top: 2rem;
+            border-top: 2px solid var(--border);
+            padding-top: 1.5rem;
+        }
+
+        /* Gestión de Entradas */
+        .management-section {
+            margin-top: 4rem;
+            border-top: 2px solid var(--border);
+            padding-top: 2.5rem;
+        }
+
+        .management-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .posts-list {
+            display: grid;
+            gap: 1rem;
+        }
+
+        .post-item {
+            background: var(--bg);
+            padding: 1.25rem;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid var(--border);
+            transition: all 0.2s;
+        }
+
+        .post-item:hover {
+            border-color: var(--accent);
+            transform: translateX(4px);
+        }
+
+        .post-item-info {
+            flex-grow: 1;
+        }
+
+        .post-item-title {
+            font-weight: 600;
+            font-size: 1rem;
+            display: block;
+            margin-bottom: 0.25rem;
+        }
+
+        .post-item-date {
+            font-size: 0.8rem;
+            color: var(--muted);
+            font-family: monospace;
+        }
+
+        .post-item-tags {
+            font-size: 0.75rem;
+            color: var(--accent);
+            display: block;
+            margin-top: 4px;
+            font-weight: 600;
+        }
+
+        .post-item-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn-sm {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.75rem;
+            border-radius: 6px;
+        }
+
+        .btn-danger {
+            background-color: #ef4444;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background-color: #dc2626;
+        }
+
+        .edit-mode-badge {
+            display: none;
+            background: #fef9c3;
+            color: #854d0e;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+            border: 1px solid #fef08a;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        [data-theme="dark"] .edit-mode-badge {
+            background: #422006;
+            color: #fef9c3;
+            border-color: #713f12;
+        }
+
+        /* Color Pickers */
+        .color-picker-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        input[type="color"] {
+            opacity: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        /* Responsividad */
+        @media (max-width: 600px) {
+            body { padding: 1rem; }
+            .container { padding: 1.5rem; }
+            .toolbar { gap: 0.1rem; }
+            .tool-group { padding: 0 0.2rem; }
+            .tool-btn { padding: 0.4rem 0.5rem; min-width: 28px; }
+            .header-actions { flex-direction: column; align-items: flex-end; }
+        }
+    </style>
+</head>
+
+<body data-theme="light">
+
+    <div class="container">
+        <header>
+            <h1>IARANN | Blog Editor V3</h1>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" title="Cambiar tema">🌓</button>
+                <span id="status" class="status-badge">Sin archivo cargado</span>
+            </div>
+        </header>
+
+        <main>
+            <div style="margin-bottom: 2.5rem; text-align: center;">
+                <button id="btnLoad" class="btn btn-secondary">
+                    📂 Seleccionar index.html
+                </button>
+                <p style="margin-top: 0.75rem; color: var(--muted); font-size: 0.85rem;">
+                    Selecciona el archivo de tu blog para gestionarlo directamente.
+                </p>
+            </div>
+
+            <section id="editorSection" style="opacity: 0.5; pointer-events: none; transition: opacity 0.3s;">
+                <div id="editModeBadge" class="edit-mode-badge">
+                    <span>📝 <b>Modo Edición:</b> Estás editando una entrada existente.</span>
+                    <button class="btn btn-secondary btn-sm" onclick="cancelEdit()">Cancelar</button>
+                </div>
+
+                <div class="form-group">
+                    <label for="postTitle">Título de la entrada</label>
+                    <input type="text" id="postTitle" placeholder="Ej. El futuro del desarrollo web con IA">
+                </div>
+
+                <div class="form-group">
+                    <label for="postTags">Etiquetas (separadas por comas)</label>
+                    <input type="text" id="postTags" placeholder="Ej. tecnologia, diseño, personal">
+                </div>
+
+                <div class="form-group">
+                    <label>Contenido del Post</label>
+                    <div class="toolbar" id="toolbar">
+                        <!-- Historial -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="execCmd('undo')" title="Deshacer">↶</button>
+                            <button type="button" class="tool-btn" onclick="execCmd('redo')" title="Rehacer">↷</button>
+                        </div>
+                        
+                        <!-- Texto -->
+                        <div class="tool-group">
+                            <select class="tool-select" onchange="execCmd('formatBlock', this.value); this.selectedIndex=0;">
+                                <option value="">Estilo</option>
+                                <option value="p">Párrafo</option>
+                                <option value="h2">Título 2</option>
+                                <option value="h3">Título 3</option>
+                                <option value="blockquote">Cita</option>
+                                <option value="pre">Código</option>
+                            </select>
+                        </div>
+
+                        <!-- Formato -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="execCmd('bold')" title="Negrita"><b>B</b></button>
+                            <button type="button" class="tool-btn" onclick="execCmd('italic')" title="Cursiva"><i>I</i></button>
+                            <button type="button" class="tool-btn" onclick="execCmd('underline')" title="Subrayado"><u>U</u></button>
+                            <button type="button" class="tool-btn" onclick="execCmd('strikeThrough')" title="Tachado"><s>S</s></button>
+                        </div>
+
+                        <!-- Alineación -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="execCmd('justifyLeft')" title="Alinear izquierda">⬅️</button>
+                            <button type="button" class="tool-btn" onclick="execCmd('justifyCenter')" title="Centrar">↔️</button>
+                            <button type="button" class="tool-btn" onclick="execCmd('justifyRight')" title="Alinear derecha">➡️</button>
+                            <button type="button" class="tool-btn" onclick="execCmd('justifyFull')" title="Justificar">↕️</button>
+                        </div>
+
+                        <!-- Listas -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="execCmd('insertUnorderedList')" title="Lista">UL</button>
+                            <button type="button" class="tool-btn" onclick="execCmd('insertOrderedList')" title="Lista Ordenada">OL</button>
+                        </div>
+
+                        <!-- Inserción -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="insertLink()" title="Enlace">🔗</button>
+                            <button type="button" class="tool-btn" onclick="insertImage()" title="Imagen">🖼️</button>
+                        </div>
+
+                        <!-- Colores -->
+                        <div class="tool-group">
+                            <div class="color-picker-container" title="Color de texto">
+                                <span class="tool-btn">A</span>
+                                <input type="color" oninput="execCmd('foreColor', this.value)">
+                            </div>
+                            <div class="color-picker-container" title="Resaltado">
+                                <span class="tool-btn" style="background: yellow; color: black;">H</span>
+                                <input type="color" oninput="execCmd('hiliteColor', this.value)">
+                            </div>
+                        </div>
+
+                        <!-- Limpiar -->
+                        <div class="tool-group">
+                            <button type="button" class="tool-btn" onclick="execCmd('removeFormat')" title="Limpiar formato">🧹</button>
+                        </div>
+                    </div>
+                    <div class="editor-container">
+                        <div id="editorContent" class="editor-box" contenteditable="true">
+                            <p>Escribe aquí tu próxima gran idea...</p>
+                        </div>
+                    </div>
+                    <div class="editor-footer">
+                        <div class="word-count" id="wordCount">0 palabras | 0 caracteres</div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button id="btnSave" class="btn btn-primary" disabled>
+                        🚀 Guardar y Publicar
+                    </button>
+                </div>
+            </section>
+
+            <section id="managementSection" class="management-section" style="display: none;">
+                <div class="management-header">
+                    <h2>Tus Entradas</h2>
+                </div>
+                <div id="postsList" class="posts-list">
+                    <!-- Se cargará dinámicamente -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        let fileHandle = null;
+        let fileContent = "";
+        let postsData = []; 
+        let editingIndex = -1;
+
+        const btnLoad = document.getElementById('btnLoad');
+        const btnSave = document.getElementById('btnSave');
+        const status = document.getElementById('status');
+        const editorSection = document.getElementById('editorSection');
+        const managementSection = document.getElementById('managementSection');
+        const editModeBadge = document.getElementById('editModeBadge');
+        const postsList = document.getElementById('postsList');
+        const postTitle = document.getElementById('postTitle');
+        const postTags = document.getElementById('postTags');
+        const editorContent = document.getElementById('editorContent');
+        const wordCount = document.getElementById('wordCount');
+        const themeToggle = document.getElementById('themeToggle');
+
+        // --- TEMA ---
+        themeToggle.addEventListener('click', () => {
+            const current = document.body.getAttribute('data-theme');
+            const next = current === 'light' ? 'dark' : 'light';
+            document.body.setAttribute('data-theme', next);
+            localStorage.setItem('iarann-editor-theme', next);
+        });
+
+        // Cargar tema guardado
+        const savedTheme = localStorage.getItem('iarann-editor-theme') || 'light';
+        document.body.setAttribute('data-theme', savedTheme);
+
+        // --- UTILIDADES ---
+        function execCmd(command, value = null) {
+            document.execCommand(command, false, value);
+            editorContent.focus();
+            updateCount();
+        }
+
+        function insertLink() {
+            const url = prompt("Introduce la URL completa (ej: https://google.com):");
+            if (url) execCmd('createLink', url);
+        }
+
+        async function insertImage() {
+            const mode = confirm("¿Quieres usar una URL de internet (Aceptar) o subir una imagen local (Cancelar)?");
+            
+            if (mode) {
+                const url = prompt("Introduce la URL de la imagen:");
+                if (url) execCmd('insertImage', url);
+            } else {
+                const input = document.createElement('input');
+                input.type = 'file';
+                input.accept = 'image/*';
+                input.onchange = async (e) => {
+                    const file = e.target.files[0];
+                    if (file) {
+                        const reader = new FileReader();
+                        reader.onload = (event) => {
+                            execCmd('insertImage', event.target.result);
+                        };
+                        reader.readAsDataURL(file);
+                    }
+                };
+                input.click();
+            }
+        }
+
+        function updateCount() {
+            const text = editorContent.innerText.trim();
+            const words = text ? text.split(/\s+/).length : 0;
+            const chars = text.length;
+            wordCount.innerText = `${words} palabras | ${chars} caracteres`;
+        }
+
+        editorContent.addEventListener('input', updateCount);
+
+        // --- LÓGICA DE CARGA Y PARSEO ---
+        btnLoad.addEventListener('click', async () => {
+            try {
+                [fileHandle] = await window.showOpenFilePicker({
+                    types: [{ description: 'HTML Files', accept: { 'text/html': ['.html'] } }],
+                    multiple: false
+                });
+
+                await loadFile();
+            } catch (err) {
+                console.error("Error al cargar:", err);
+            }
+        });
+
+        async function loadFile() {
+            const file = await fileHandle.getFile();
+            fileContent = await file.text();
+
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(fileContent, 'text/html');
+            const blogPostsSection = doc.getElementById('blog-posts');
+
+            if (!blogPostsSection) {
+                alert("Error: No se encontró la sección con ID 'blog-posts' en el archivo seleccionado.");
+                return;
+            }
+
+            // Extraer entradas existentes
+            const articles = blogPostsSection.querySelectorAll('article.post');
+            postsData = Array.from(articles).map(art => ({
+                title: art.querySelector('.post-title')?.innerText || "Sin título",
+                date: art.querySelector('.post-date')?.innerText || "Sin fecha",
+                content: art.querySelector('.post-content')?.innerHTML || "",
+                tags: art.getAttribute('data-tags') || "",
+                id: art.id
+            }));
+
+            // Activar UI
+            status.innerText = `Cargado: ${file.name}`;
+            status.className = "status-badge loaded";
+            editorSection.style.opacity = "1";
+            editorSection.style.pointerEvents = "auto";
+            managementSection.style.display = "block";
+            btnSave.disabled = false;
+            btnLoad.innerText = `📂 Cambiar (${file.name})`;
+
+            renderPostsList();
+            cancelEdit();
+        }
+
+        function renderPostsList() {
+            postsList.innerHTML = "";
+            if (postsData.length === 0) {
+                postsList.innerHTML = "<p style='color:var(--muted); text-align:center; padding: 2rem;'>No hay entradas publicadas todavía.</p>";
+                return;
+            }
+
+            postsData.forEach((post, index) => {
+                const item = document.createElement('div');
+                item.className = 'post-item';
+                item.innerHTML = `
+                    <div class="post-item-info">
+                        <span class="post-item-title">${post.title}</span>
+                        <span class="post-item-date">📅 ${post.date}</span>
+                        ${post.tags ? `<span class="post-item-tags">🏷️ ${post.tags}</span>` : ''}
+                    </div>
+                    <div class="post-item-actions">
+                        <button class="btn btn-secondary btn-sm" onclick="editPost(${index})">✏️ Editar</button>
+                        <button class="btn btn-danger btn-sm" onclick="deletePost(${index})">🗑️ Borrar</button>
+                    </div>
+                `;
+                postsList.appendChild(item);
+            });
+        }
+
+        // --- ACCIONES DE EDICIÓN ---
+        function editPost(index) {
+            const post = postsData[index];
+            postTitle.value = post.title;
+            postTags.value = post.tags;
+            editorContent.innerHTML = post.content;
+            editingIndex = index;
+
+            btnSave.innerText = "🚀 Actualizar Entrada";
+            editModeBadge.style.display = "flex";
+            updateCount();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function cancelEdit() {
+            editingIndex = -1;
+            postTitle.value = "";
+            postTags.value = "";
+            editorContent.innerHTML = "<p>Escribe aquí tu próxima gran idea...</p>";
+            btnSave.innerText = "🚀 Guardar y Publicar";
+            editModeBadge.style.display = "none";
+            updateCount();
+        }
+
+        async function deletePost(index) {
+            if (!confirm(`¿Estás seguro de que quieres borrar "${postsData[index].title}"? Esta acción no se puede deshacer.`)) return;
+            
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(fileContent, 'text/html');
+            const blogPostsSection = doc.getElementById('blog-posts');
+            const articles = blogPostsSection.querySelectorAll('article.post');
+            
+            if (articles[index]) {
+                articles[index].remove();
+                await saveChanges(doc);
+            }
+        }
+
+        // --- GUARDADO ---
+        btnSave.addEventListener('click', async () => {
+            const title = postTitle.value.trim();
+            const tags = postTags.value.trim();
+            const content = editorContent.innerHTML.trim();
+
+            if (!title || content === "" || content === "<p><br></p>" || content === "<p>Escribe aquí tu próxima gran idea...</p>") {
+                alert("Por favor, introduce al menos un título y algo de contenido.");
+                return;
+            }
+
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(fileContent, 'text/html');
+            const blogPostsSection = doc.getElementById('blog-posts');
+
+            if (editingIndex === -1) {
+                // NUEVA ENTRADA
+                const today = new Date();
+                const months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+                const formattedDate = `${String(today.getDate()).padStart(2, '0')} ${months[today.getMonth()]} ${today.getFullYear()}`;
+
+                const newArticle = doc.createElement('article');
+                newArticle.className = 'post';
+                newArticle.id = `post-${Date.now()}`;
+                if (tags) newArticle.setAttribute('data-tags', tags);
+                
+                let tagsHTML = "";
+                if (tags) {
+                    tagsHTML = `<div class="post-tags">` + 
+                        tags.split(',').map(t => `<span class="tag">#${t.trim()}</span>`).join(' ') + 
+                        `</div>`;
+                }
+
+                newArticle.innerHTML = `
+                    <h3 class="post-title">${title}</h3>
+                    <div class="post-meta">
+                        <time class="post-date">${formattedDate}</time>
+                        ${tagsHTML}
+                        <button class="share-btn" onclick="sharePost(this)" title="Compartir entrada">🔗 Compartir</button>
+                    </div>
+                    <div class="post-content">
+                        ${content}
+                    </div>`;
+
+                // Insertar después del H2 si existe, si no al principio
+                const header = blogPostsSection.querySelector('h2');
+                if (header) {
+                    header.after(newArticle);
+                } else {
+                    blogPostsSection.prepend(newArticle);
+                }
+            } else {
+                // ACTUALIZAR EXISTENTE
+                const articles = blogPostsSection.querySelectorAll('article.post');
+                if (articles[editingIndex]) {
+                    const art = articles[editingIndex];
+                    art.setAttribute('data-tags', tags);
+                    
+                    const titleNode = art.querySelector('.post-title');
+                    const contentNode = art.querySelector('.post-content');
+                    if (titleNode) titleNode.innerText = title;
+                    if (contentNode) contentNode.innerHTML = content;
+                    
+                    // Actualizar meta (tags y share button)
+                    let metaNode = art.querySelector('.post-meta');
+                    if (!metaNode) {
+                        const dateNode = art.querySelector('.post-date');
+                        const dateText = dateNode ? dateNode.innerText : "Sin fecha";
+                        if (dateNode) dateNode.remove();
+                        
+                        metaNode = doc.createElement('div');
+                        metaNode.className = 'post-meta';
+                        art.insertBefore(metaNode, art.querySelector('.post-content'));
+                        metaNode.innerHTML = `<time class="post-date">${dateText}</time>`;
+                    }
+                    
+                    // Actualizar tags
+                    let tagsNode = metaNode.querySelector('.post-tags');
+                    if (tags) {
+                        if (!tagsNode) {
+                            tagsNode = doc.createElement('div');
+                            tagsNode.className = 'post-tags';
+                            metaNode.appendChild(tagsNode);
+                        }
+                        tagsNode.innerHTML = tags.split(',').map(t => `<span class="tag">#${t.trim()}</span>`).join(' ');
+                    } else if (tagsNode) {
+                        tagsNode.remove();
+                    }
+                    
+                    // Botón compartir
+                    if (!metaNode.querySelector('.share-btn')) {
+                        const sBtn = doc.createElement('button');
+                        sBtn.className = 'share-btn';
+                        sBtn.setAttribute('onclick', 'sharePost(this)');
+                        sBtn.setAttribute('title', 'Compartir entrada');
+                        sBtn.innerText = '🔗 Compartir';
+                        metaNode.appendChild(sBtn);
+                    }
+                }
+            }
+
+            await saveChanges(doc);
+            alert(editingIndex === -1 ? "¡Entrada publicada con éxito! 🚀" : "¡Entrada actualizada correctamente! ✨");
+            cancelEdit();
+        });
+
+        async function saveChanges(doc) {
+            try {
+                // Limpiar posibles IDs duplicados o basura de edición si fuera necesario
+                let newHTML = "<!DOCTYPE html>\n" + doc.documentElement.outerHTML;
+                
+                const writable = await fileHandle.createWritable();
+                await writable.write(newHTML);
+                await writable.close();
+
+                await loadFile(); // Sincronizar
+            } catch (err) {
+                alert("Error crítico al intentar guardar el archivo. Asegúrate de haber dado permisos de escritura.");
+                console.error(err);
+            }
+        }
+
+        // Prevenir pérdida de datos accidental
+        window.onbeforeunload = function() {
+            if (editingIndex !== -1 || (postTitle.value && postTitle.value !== "") || (editorContent.innerText.trim() !== "" && editorContent.innerText.trim() !== "Escribe aquí tu próxima gran idea...")) {
+                return "¿Estás seguro de que quieres salir? Los cambios no guardados se perderán.";
+            }
+        };
+    </script>
+</body>
+
+</html>
