@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pephorror | personal space v3</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&amp;family=Outfit:wght@300;600&amp;family=Silkscreen&amp;display=swap" rel="stylesheet">
+
+    <style>
+        /* --- CONFIGURACIÓN DE TEMAS --- */
+        :root {
+            --bg: #ededed;
+            --text-main: #1a1a1a;
+            --text-muted: #64748b;
+            --accent: #2563eb;
+            --border: rgba(0, 0, 0, 0.1);
+            --card-bg: transparent;
+            --font-header: 'Outfit', sans-serif;
+            --font-body: 'Inter', sans-serif;
+            --emoji-filter: none;
+            --radius: 8px;
+        }
+
+        [data-theme="dark"] {
+            --bg: #121212;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #60a5fa;
+            --border: rgba(255, 255, 255, 0.1);
+            --emoji-filter: grayscale(1) brightness(2);
+        }
+
+        [data-theme="macos"] {
+            --bg: #f5f5f7;
+            --text-main: #1d1d1f;
+            --accent: #0071e3;
+            --card-bg: rgba(255, 255, 255, 0.7);
+            --border: rgba(0, 0, 0, 0.05);
+            --radius: 12px;
+            background-image: radial-gradient(circle at 20% 20%, #e3e3e3 0%, transparent 40%),
+                radial-gradient(circle at 80% 80%, #d2d2d2 0%, transparent 40%);
+        }
+
+        [data-theme="pixel"] {
+            --bg: #000000;
+            --text-main: #00ff00;
+            --text-muted: #008f11;
+            --accent: #ffff00;
+            --border: 4px solid #00ff00;
+            --font-header: 'Silkscreen', cursive;
+            --font-body: 'Silkscreen', cursive;
+            --radius: 0px;
+        }
+
+        [data-theme="nature"] {
+            --bg: #f1f8e9;
+            --text-main: #2e7d32;
+            --text-muted: #689f38;
+            --accent: #1b5e20;
+            --border: rgba(46, 125, 50, 0.2);
+        }
+
+        [data-theme="lgbti"] {
+            --bg: #ffffff;
+            --text-main: #2d3436;
+            --accent: #d63031;
+            --border: linear-gradient(90deg, #FF0018, #FFA52C, #FFFF41, #008018, #0000F9, #86007D);
+        }
+
+        /* --- ESTILOS BASE --- */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            font-family: var(--font-body);
+            transition: all 0.3s ease;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 2rem;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1300px;
+            position: relative;
+        }
+
+        .theme-switcher {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            padding: 5px 10px;
+            border-radius: var(--radius);
+            font-size: 0.8rem;
+            color: var(--text-main);
+            outline: none;
+            cursor: pointer;
+            z-index: 10;
+        }
+
+        header {
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        [data-theme="lgbti"] header {
+            border-bottom: 4px solid;
+            border-image: var(--border) 1;
+        }
+
+        h1 {
+            font-family: var(--font-header);
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        h1 span {
+            font-weight: 300;
+            color: var(--text-muted);
+        }
+
+        .grid-layout {
+            display: grid;
+            grid-template-columns: 220px 1fr 280px;
+            gap: 3.5rem;
+            align-items: start;
+        }
+
+        .left-col,
+        .right-col {
+            position: sticky;
+            top: 2rem;
+            max-height: calc(100vh - 4rem);
+            overflow-y: auto;
+        }
+
+        .left-col::-webkit-scrollbar,
+        .right-col::-webkit-scrollbar {
+            width: 0px;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-family: var(--font-header);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: var(--border);
+            margin-left: 1rem;
+        }
+
+        /* --- ESTILOS DEL ÍNDICE --- */
+        #toc-list,
+        #tags-list {
+            list-style: none;
+        }
+
+        .index-link,
+        .tag-link {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: var(--text-main);
+            padding: 0.6rem;
+            margin: 0 -0.6rem 0.2rem -0.6rem;
+            border-radius: var(--radius);
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+
+        .index-link:hover,
+        .tag-link:hover {
+            background: rgba(0, 0, 0, 0.04);
+            color: var(--accent);
+        }
+
+        [data-theme="dark"] .index-link:hover,
+        [data-theme="dark"] .tag-link:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .tag-link.active {
+            background: var(--accent);
+            color: #fff !important;
+        }
+
+        .index-link .title,
+        .tag-link .tag-name {
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+
+        .index-link .date {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-family: monospace;
+            margin-top: 0.2rem;
+        }
+
+        /* --- ESTILOS DEL BLOG --- */
+        article.post {
+            margin-bottom: 5rem;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        article.post.hidden {
+            display: none;
+        }
+
+        article.post h3 {
+            font-family: var(--font-header);
+            font-size: 1.8rem;
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+            line-height: 1.2;
+        }
+
+        .post-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        article.post time {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-family: monospace;
+        }
+
+        .post-tags {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            font-size: 0.7rem;
+            background: rgba(0, 0, 0, 0.05);
+            padding: 2px 8px;
+            border-radius: 4px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        [data-theme="dark"] .tag {
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .share-btn {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            padding: 2px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-family: inherit;
+        }
+
+        .share-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: rgba(37, 99, 235, 0.05);
+        }
+
+        article.post .post-content {
+            font-size: 1.05rem;
+        }
+
+        article.post .post-content p {
+            margin-bottom: 1.2rem;
+        }
+
+        article.post a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        article.post a:hover {
+            border-bottom-color: var(--accent);
+        }
+
+        /* --- ESTILOS ITEMS / LINKS (Columna Derecha) --- */
+        .items-list {
+            list-style: none;
+        }
+
+        .item-link {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            padding: 0.8rem;
+            margin: 0 -0.8rem 0.5rem -0.8rem;
+            border-radius: var(--radius);
+            transition: background 0.2s;
+            color: inherit;
+        }
+
+        .item-link:hover {
+            background: rgba(0, 0, 0, 0.04);
+        }
+
+        .item-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.3rem;
+        }
+
+        .emoji {
+            margin-right: 0.6rem;
+            filter: var(--emoji-filter);
+            font-size: 1.1rem;
+        }
+
+        .item-link .title {
+            font-weight: 500;
+            color: var(--accent);
+        }
+
+        .description {
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            line-height: 1.4;
+        }
+
+        /* --- FOOTER --- */
+        footer {
+            margin-top: 5rem;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            border-top: 1px solid var(--border);
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            opacity: 0.7;
+        }
+
+        /* --- RESPONSIVIDAD --- */
+        @media (max-width: 1024px) {
+            .grid-layout {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .left-col,
+            .right-col {
+                position: static;
+                max-height: none;
+            }
+
+            .left-col {
+                order: 1;
+            }
+
+            .center-col {
+                order: 2;
+            }
+
+            .right-col {
+                order: 3;
+            }
+
+            .theme-switcher {
+                position: relative;
+                margin-bottom: 2rem;
+                width: 100%;
+            }
+        }
+
+        /* Notificación de copiado */
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: #10b981;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: var(--radius);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(100px);
+            transition: transform 0.3s ease;
+            z-index: 100;
+            font-weight: 500;
+        }
+
+        .toast.show {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+
+<body data-theme="light">
+
+    <div class="container">
+        <select class="theme-switcher" id="themeSelector">
+            <option value="light">Light Soft</option>
+            <option value="dark">Dark Mode</option>
+            <option value="macos">macOS Glass</option>
+            <option value="pixel">Pixel Art</option>
+            <option value="nature">Nature Love</option>
+            <option value="lgbti">LGBTI+ Pride</option>
+        </select>
+
+        <header>
+            <h1>pephorror <span>| thoughts &amp; code</span></h1>
+        </header>
+
+        <main class="grid-layout">
+
+            <aside class="left-col">
+                <section id="index-section">
+                    <h2>Índice</h2>
+                    <ul id="toc-list">
+                    </ul>
+                </section>
+
+                <section id="tags-section">
+                    <h2>Etiquetas</h2>
+                    <ul id="tags-list">
+                        <!-- Se generará dinámicamente -->
+                    </ul>
+                </section>
+            </aside>
+
+            <div class="center-col">
+                <section id="blog-posts">
+                    <h2>Últimas entradas</h2>
+
+                    <!-- Ejemplo de post con tags (puedes añadir más manualmente o usar el editor) -->
+
+
+                    <article class="post" data-tags="personal" id="post-1">
+                        <h3 class="post-title">Bienvenidos a mi nuevo espacio</h3>
+                        <div class="post-meta">
+                            <time class="post-date">04 Mayo 2026</time>
+                            <div class="post-tags"><span class="tag">#personal</span></div>
+                            <button class="share-btn" onclick="sharePost(this)" title="Compartir entrada">🔗
+                                Compartir</button>
+                        </div>
+                        <div class="post-content"><p></p><div style="text-align: justify;"><span style="color: var(--text); font-size: 1.05rem;">He decidido crear este pequeño rincón en internet utilizando </span><i style="color: var(--text); font-size: 1.05rem;">GitHub Pages</i><span style="color: var(--text); font-size: 1.05rem;">. Mi
+                                objetivo es
+                                documentar mis aprendizajes, compartir mis herramientas y aplicaciones y recomendar
+                                música. Y, sobre todo, tener un lugar
+                                propio fuera del ruido de las redes sociales. Hecho de menos la red de hace un par de
+                                décadas: las páginas <i>web</i> personales, los <i>blogs</i>, los foros, las herramientas sin <i>agentes
+                                IA</i> integrados... Por lo tanto, este es mi <i>cyber</i> refugio pero también mi intento de
+                                aportar algo positivo, por pequeño que sea, a la </span><i style="color: var(--text); font-size: 1.05rem;">World Wide Web</i><span style="color: var(--text); font-size: 1.05rem;">.</span></div><div style="text-align: justify;"><br></div><div style="text-align: justify;"><span style="color: var(--text); font-size: 1.05rem;">Espero
+                                que, si has llegado hasta este rincón, encuentres algo que te guste. Salud!</span></div><div style="text-align: justify;"><br></div><div style="text-align: justify;"><br><span style="color: var(--text); font-size: 1.05rem;">Pep</span></div><p></p></div>
+                    </article>
+                </section>
+            </div>
+
+            <aside class="right-col">
+                <!-- <section id="projects">
+                    <h2>Desktop Apps</h2>
+                    <ul class="items-list">
+                        <li>
+                            <a href="#" class="item-link">
+                                <div class="item-header">
+                                    <span class="emoji">💻</span>
+                                    <span class="title">App En Desarrollo</span>
+                                </div>
+                                <span class="description">próximamente enlace de descarga a mi nueva
+                                    herramienta...</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section> 
+
+                <section id="music">
+                    <h2>Música &amp; Audio</h2>
+                    <ul class="items-list">
+                        <li>
+                            <a href="#" class="item-link">
+                                <div class="item-header">
+                                    <span class="emoji">🎧</span>
+                                    <span class="title">Mi Setup de Audio</span>
+                                </div>
+                                <span class="description">lista de hardware, software y plugins que utilizo a
+                                    diario</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section> -->
+
+                <section id="links">
+                    <h2>Enlaces</h2>
+                    <ul class="items-list">
+                        <li>
+                            <a href="https://pephorror666.github.io/webapps/" class="item-link" target="_blank">
+                                <div class="item-header">
+                                    <span class="emoji">🧰</span>
+                                    <span class="title">IARANN Suite</span>
+                                </div>
+                                <span class="description">colección de herramientas online</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://metaller.sota.io/" class="item-link" target="_blank">
+                                <div class="item-header">
+                                    <span class="emoji">🤘</span>
+                                    <span class="title">Metaller</span>
+                                </div>
+                                <span class="description">red asocial privada para compartir música metal</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/pephorror666" class="item-link" target="_blank">
+                                <div class="item-header">
+                                    <span class="emoji">🐙</span>
+                                    <span class="title">GitHub Personal</span>
+                                </div>
+                                <span class="description">repositorios, código fuente y contribuciones</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="links">
+                    <h2>Contacto</h2>
+                    <ul class="items-list">
+                        <li>
+                            <a href="mailto:jpulidoc@proton.me" class="item-link" target="_blank">
+                                <div class="item-header">
+                                    <span class="emoji">📧</span>
+                                    <span class="title">Email</span>
+                                </div>
+                                <span class="description">jpulidoc@proton.me</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://metalhead.club/@pephorror" class="item-link" target="_blank">
+                                <div class="item-header">
+                                    <span class="emoji">🐘</span>
+                                    <span class="title">Mastodon</span>
+                                </div>
+                                <span class="description">@pephorror@metalhead.club</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+
+        </main>
+
+        <footer>
+            <p>© pephorror | made of pure metal 2026</p>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast">¡URL copiada al portapapeles!</div>
+
+    <script>
+        // --- 1. LÓGICA DE TEMAS ---
+        const themeSelector = document.getElementById('themeSelector');
+        const body = document.body;
+
+        function changeTheme(theme) {
+            body.setAttribute('data-theme', theme);
+            localStorage.setItem('pep-portfolio-theme', theme);
+            themeSelector.value = theme;
+        }
+
+        themeSelector.addEventListener('change', (e) => {
+            changeTheme(e.target.value);
+        });
+
+        // --- 2. LÓGICA DEL BLOG (Índice, Tags, Filtros) ---
+        let currentTag = null;
+
+        function generateBlogUI() {
+            const posts = document.querySelectorAll('article.post');
+            const tocList = document.getElementById('toc-list');
+            const tagsList = document.getElementById('tags-list');
+
+            tocList.innerHTML = "";
+            tagsList.innerHTML = "";
+
+            if (posts.length === 0) {
+                document.getElementById('index-section').style.display = 'none';
+                document.getElementById('tags-section').style.display = 'none';
+                return;
+            }
+
+            const allTags = new Set();
+
+            posts.forEach((post, index) => {
+                // Asegurar ID único
+                const postId = post.id || `post-${index}`;
+                post.id = postId;
+
+                const titleNode = post.querySelector('.post-title');
+                const dateNode = post.querySelector('.post-date');
+                const titleText = titleNode ? titleNode.innerText : `Entrada ${index + 1}`;
+                const dateText = dateNode ? dateNode.innerText : '';
+
+                // Añadir al Índice
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <a href="#${postId}" class="index-link" onclick="highlightPost('${postId}')">
+                        <span class="title">${titleText}</span>
+                        <span class="date">${dateText}</span>
+                    </a>
+                `;
+                tocList.appendChild(li);
+
+                // Recolectar Tags
+                const tagsAttr = post.getAttribute('data-tags');
+                if (tagsAttr) {
+                    tagsAttr.split(',').forEach(tag => {
+                        allTags.add(tag.trim());
+                    });
+                }
+
+                // Asegurar botón de compartir
+                const meta = post.querySelector('.post-meta');
+                if (meta && !meta.querySelector('.share-btn')) {
+                    const sBtn = document.createElement('button');
+                    sBtn.className = 'share-btn';
+                    sBtn.innerHTML = '🔗 Compartir';
+                    sBtn.title = 'Compartir entrada';
+                    sBtn.onclick = function () { sharePost(this); };
+                    meta.appendChild(sBtn);
+                }
+            });
+
+            // Generar lista de Tags
+            if (allTags.size > 0) {
+                // Opción "Todas"
+                const liAll = document.createElement('li');
+                liAll.innerHTML = `<span class="tag-link ${!currentTag ? 'active' : ''}" onclick="filterByTag(null)">Todas las entradas</span>`;
+                tagsList.appendChild(liAll);
+
+                Array.from(allTags).sort().forEach(tag => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<span class="tag-link ${currentTag === tag ? 'active' : ''}" onclick="filterByTag('${tag}')">#${tag}</span>`;
+                    tagsList.appendChild(li);
+                });
+            } else {
+                document.getElementById('tags-section').style.display = 'none';
+            }
+        }
+
+        function filterByTag(tag) {
+            currentTag = tag;
+            const posts = document.querySelectorAll('article.post');
+
+            posts.forEach(post => {
+                if (!tag) {
+                    post.classList.remove('hidden');
+                } else {
+                    const tags = post.getAttribute('data-tags') || "";
+                    if (tags.split(',').map(t => t.trim()).includes(tag)) {
+                        post.classList.remove('hidden');
+                    } else {
+                        post.classList.add('hidden');
+                    }
+                }
+            });
+
+            // Actualizar UI de tags
+            document.querySelectorAll('.tag-link').forEach(link => {
+                if ((!tag && link.innerText.includes('Todas')) || (tag && link.innerText === `#${tag}`)) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+
+        function sharePost(btn) {
+            const post = btn.closest('article.post');
+            if (!post) return;
+
+            const url = window.location.origin + window.location.pathname + "#" + post.id;
+
+            navigator.clipboard.writeText(url).then(() => {
+                showToast();
+            }).catch(err => {
+                console.error('Error al copiar: ', err);
+                // Fallback si no funciona el portapapeles
+                prompt("Copia este enlace:", url);
+            });
+        }
+
+        function showToast() {
+            const toast = document.getElementById('toast');
+            toast.classList.add('show');
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        function highlightPost(id) {
+            const post = document.getElementById(id);
+            if (!post) return;
+
+            // Si estaba filtrado, quitar filtro
+            if (post.classList.contains('hidden')) {
+                filterByTag(null);
+            }
+
+            // Efecto visual
+            post.style.transition = "background 0.5s";
+            const originalBg = post.style.background;
+            post.style.background = "rgba(37, 99, 235, 0.1)";
+            setTimeout(() => {
+                post.style.background = originalBg;
+            }, 1000);
+        }
+
+        // --- INICIALIZACIÓN ---
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedTheme = localStorage.getItem('pep-portfolio-theme') || 'light';
+            changeTheme(savedTheme);
+            generateBlogUI();
+
+            // Si hay un hash en la URL, ir a ese post
+            if (window.location.hash) {
+                const id = window.location.hash.substring(1);
+                setTimeout(() => highlightPost(id), 500);
+            }
+        });
+    </script>
+
+
+
+
+
+</body></html>
